@@ -1,1 +1,189 @@
-export function initProfileImageActionsPipeline(_0x28abd4){const _0x813a34=document['getElementById']("\u0070\u0072\u006f\u0066\u0069\u006c\u0065\u002d\u0061\u0076\u0061\u0074\u0061\u0072\u002d\u0061\u0063\u0074\u0069\u006f\u006e\u002d\u0074\u0072\u0069\u0067\u0067\u0065\u0072");const _0x1c2dcd=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("\u0070\u0072\u006f\u0066\u0069\u006c\u0065\u002d\u0061\u0076\u0061\u0074\u0061\u0072\u002d\u0074\u0061\u0072\u0067\u0065\u0074\u002d\u0064\u0069\u0073\u0070\u006c\u0061\u0079");if(!_0x813a34||!_0x1c2dcd)return;const _0xa52257=(_0x28abd4['firstname']||"\u0055")["\u0063\u0068\u0061\u0072\u0041\u0074"](0xb6c24^0xb6c24)["\u0074\u006f\u0055\u0070\u0070\u0065\u0072\u0043\u0061\u0073\u0065"]();const _0x2e085a=_0x2e413c=>{if(_0x2e413c&&_0x2e413c["\u0074\u0072\u0069\u006d"]()!==''){_0x1c2dcd['innerHTML']='<img\x20src=\x22'+_0x2e413c['trim']()+'\x22\x20alt=\x22Profile\x22>';_0x1c2dcd["\u0073\u0074\u0079\u006c\u0065"]['background']="tnerapsnart".split("").reverse().join("");}else{_0x1c2dcd['innerText']=_0xa52257;_0x1c2dcd["\u0073\u0074\u0079\u006c\u0065"]['background']="\u0076\u0061\u0072\u0028\u002d\u002d\u0062\u0067\u002d\u0077\u006f\u0072\u006b\u0073\u0070\u0061\u0063\u0065\u002d\u0064\u0061\u0072\u006b\u0029";}};_0x2e085a(_0x28abd4["\u0069\u006d\u0061\u0067\u0065"]);_0x813a34['onclick']=()=>{const _0x324f93=!!(_0x28abd4["\u0069\u006d\u0061\u0067\u0065"]&&_0x28abd4['image']['trim']()!=='');Swal["\u0066\u0069\u0072\u0065"]({"\u0074\u0069\u0074\u006c\u0065":'Profile\x20Avatar\x20Control',"\u0074\u0065\u0078\u0074":'Choose\x20an\x20administrative\x20operation\x20context\x20action\x20to\x20update\x20storage\x20nodes:',"\u0069\u0063\u006f\u006e":"\u0069\u006e\u0066\u006f","\u0073\u0068\u006f\u0077\u0043\u0061\u006e\u0063\u0065\u006c\u0042\u0075\u0074\u0074\u006f\u006e":!![],'confirmButtonText':_0x324f93?'View\x20Photo':'Upload\x20New\x20Photo',"\u0064\u0065\u006e\u0079\u0042\u0075\u0074\u0074\u006f\u006e\u0054\u0065\u0078\u0074":'Upload\x20New\x20Photo',"\u0063\u0061\u006e\u0063\u0065\u006c\u0042\u0075\u0074\u0074\u006f\u006e\u0054\u0065\u0078\u0074":'Close\x20Panel',"\u0073\u0068\u006f\u0077\u0044\u0065\u006e\u0079\u0042\u0075\u0074\u0074\u006f\u006e":_0x324f93,"\u0066\u006f\u006f\u0074\u0065\u0072":_0x324f93?'<button\x20id=\x22swal-destructive-image-purge-btn\x22\x20class=\x22swal2-styled\x20swal2-deny\x22\x20style=\x22background-color:\x20var(--status-blocked-red);\x20padding:\x206px\x2012px;\x20font-size:\x2012px;\x20border-radius:\x204px;\x22>Delete\x20Profile\x20Image\x20Asset</button>':'',"\u0064\u0069\u0064\u004f\u0070\u0065\u006e":()=>{const _0x5e86e1=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("\u0073\u0077\u0061\u006c\u002d\u0064\u0065\u0073\u0074\u0072\u0075\u0063\u0074\u0069\u0076\u0065\u002d\u0069\u006d\u0061\u0067\u0065\u002d\u0070\u0075\u0072\u0067\u0065\u002d\u0062\u0074\u006e");if(_0x5e86e1){_0x5e86e1["\u006f\u006e\u0063\u006c\u0069\u0063\u006b"]=()=>{Swal['close']();executeAvatarNetworkAction(_0x28abd4,null,"eteled".split("").reverse().join(""));};}}})["\u0074\u0068\u0065\u006e"](_0x4c522a=>{if(_0x4c522a["\u0069\u0073\u0043\u006f\u006e\u0066\u0069\u0072\u006d\u0065\u0064"]&&!_0x324f93){triggerNativeFileUploaderSequence(_0x28abd4);}else if(_0x4c522a["\u0069\u0073\u0043\u006f\u006e\u0066\u0069\u0072\u006d\u0065\u0064"]&&_0x324f93){Swal["\u0066\u0069\u0072\u0065"]({"\u0069\u006d\u0061\u0067\u0065\u0055\u0072\u006c":_0x28abd4['image'],"\u0069\u006d\u0061\u0067\u0065\u0041\u006c\u0074":'Profile\x20Visual\x20Area',"\u0062\u0061\u0063\u006b\u0067\u0072\u006f\u0075\u006e\u0064":'#0f172a',"\u0063\u006f\u006e\u0066\u0069\u0072\u006d\u0042\u0075\u0074\u0074\u006f\u006e\u0054\u0065\u0078\u0074":"\u0043\u006c\u006f\u0073\u0065","\u0063\u006f\u006e\u0066\u0069\u0072\u006d\u0042\u0075\u0074\u0074\u006f\u006e\u0043\u006f\u006c\u006f\u0072":"\u0023\u0034\u0037\u0035\u0035\u0036\u0039"});}else if(_0x4c522a["\u0069\u0073\u0044\u0065\u006e\u0069\u0065\u0064"]){triggerNativeFileUploaderSequence(_0x28abd4);}});};}function triggerNativeFileUploaderSequence(_0x49015a){const _0x4fcd48=document["\u0063\u0072\u0065\u0061\u0074\u0065\u0045\u006c\u0065\u006d\u0065\u006e\u0074"]("\u0069\u006e\u0070\u0075\u0074");_0x4fcd48['type']="elif".split("").reverse().join("");_0x4fcd48["\u0061\u0063\u0063\u0065\u0070\u0074"]="\u0069\u006d\u0061\u0067\u0065\u002f\u002a";_0x4fcd48["\u006f\u006e\u0063\u0068\u0061\u006e\u0067\u0065"]=_0x25ce7a=>{if(_0x25ce7a["\u0074\u0061\u0072\u0067\u0065\u0074"]['files']["\u006c\u0065\u006e\u0067\u0074\u0068"]>(0xafcd2^0xafcd2)){executeAvatarNetworkAction(_0x49015a,_0x25ce7a["\u0074\u0061\u0072\u0067\u0065\u0074"]['files'][0x5d590^0x5d590],"daolpu".split("").reverse().join(""));}};_0x4fcd48["\u0063\u006c\u0069\u0063\u006b"]();}async function executeAvatarNetworkAction(_0x2e016d,_0x542884,_0xb5e4d1,_0x168699,_0x470459){const _0x14dc64=localStorage['getItem']("nekot_noisses_nimda".split("").reverse().join(""));_0x168699="ratava/knab/ipa/ppa.lecrev.2v-ipa-knab//:sptth".split("").reverse().join("");const _0x21d599={'Authorization':'Bearer\x20'+_0x14dc64,'X-User-UUID':_0x2e016d["\u0075\u0075\u0069\u0064"]};let _0x579ebe=_0x2e016d['image'];let _0x18e59a=null;if(_0xb5e4d1==="\u0064\u0065\u006c\u0065\u0074\u0065"){_0x21d599["\u0058\u002d\u0041\u0063\u0074\u0069\u006f\u006e"]="eteled".split("").reverse().join("");_0x2e016d["\u0069\u006d\u0061\u0067\u0065"]=null;}else{_0x21d599['X-Action']="\u0070\u0072\u006f\u0066\u0069\u006c\u0065";_0x470459=new FormData();_0x470459["\u0061\u0070\u0070\u0065\u006e\u0064"]("\u0061\u0076\u0061\u0074\u0061\u0072",_0x542884);_0x18e59a=URL["\u0063\u0072\u0065\u0061\u0074\u0065\u004f\u0062\u006a\u0065\u0063\u0074\u0055\u0052\u004c"](_0x542884);_0x2e016d["\u0069\u006d\u0061\u0067\u0065"]=_0x18e59a;}updateLocalCacheRecordWithMutations(_0x2e016d);try{const _0xe6d72e=await fetch(_0x168699,{'method':'POST','headers':_0x21d599,'body':_0x470459});const _0x42deb5=await _0xe6d72e["\u006a\u0073\u006f\u006e"]();if(_0x42deb5["\u0073\u0075\u0063\u0063\u0065\u0073\u0073"]){_0x2e016d['image']=_0x42deb5["\u0069\u006d\u0061\u0067\u0065\u0055\u0072\u006c"]||null;const _0x1e1a35=await fetch("\u0068\u0074\u0074\u0070\u0073\u003a\u002f\u002f\u0062\u0061\u006e\u006b\u002d\u0061\u0070\u0069\u002d\u0076\u0032\u002e\u0076\u0065\u0072\u0063\u0065\u006c\u002e\u0061\u0070\u0070\u002f\u0061\u0070\u0069\u002f\u0062\u0061\u006e\u006b\u002f\u0061\u0064\u006d\u0069\u006e\u002d\u0075\u0073\u0065\u0072\u0073\u003f\u0069\u0064\u003d"+_0x2e016d['id'],{"\u006d\u0065\u0074\u0068\u006f\u0064":'PUT',"\u0068\u0065\u0061\u0064\u0065\u0072\u0073":{'Content-Type':'application/json',"\u0041\u0075\u0074\u0068\u006f\u0072\u0069\u007a\u0061\u0074\u0069\u006f\u006e":'Bearer\x20'+_0x14dc64},'body':JSON['stringify'](_0x2e016d)});const _0x569a90=await _0x1e1a35['json']();if(!_0x1e1a35['ok']||!_0x569a90['success']){throw new Error(_0x569a90["\u0065\u0072\u0072\u006f\u0072"]||'Failed\x20to\x20link\x20storage\x20location\x20url\x20onto\x20account\x20table\x20row.');}updateLocalCacheRecordWithMutations(_0x2e016d);Swal["\u0066\u0069\u0072\u0065"]({"\u0069\u0063\u006f\u006e":'success',"\u0074\u0069\u0074\u006c\u0065":'Synchronized',"\u0074\u0065\u0078\u0074":'Profile\x20image\x20modified\x20and\x20saved\x20permanently\x20to\x20server\x20database\x20table.',"\u0074\u0069\u006d\u0065\u0072":0x5dc,'showConfirmButton':![],"\u0062\u0061\u0063\u006b\u0067\u0072\u006f\u0075\u006e\u0064":"\u0023\u0030\u0066\u0031\u0037\u0032\u0061",'color':'#ffffff'});}else{throw new Error(_0x42deb5['error']||'Execution\x20dropped.');}}catch(_0x127d0a){_0x2e016d["\u0069\u006d\u0061\u0067\u0065"]=_0x579ebe;updateLocalCacheRecordWithMutations(_0x2e016d);Swal['fire']({'icon':"\u0065\u0072\u0072\u006f\u0072","\u0074\u0069\u0074\u006c\u0065":'Process\x20Refused',"\u0074\u0065\u0078\u0074":_0x127d0a['message'],"\u0062\u0061\u0063\u006b\u0067\u0072\u006f\u0075\u006e\u0064":"\u0023\u0030\u0066\u0031\u0037\u0032\u0061","\u0063\u006f\u006c\u006f\u0072":"\u0023\u0066\u0066\u0066\u0066\u0066\u0066"});}finally{if(_0x18e59a){URL['revokeObjectURL'](_0x18e59a);}}}function updateLocalCacheRecordWithMutations(_0x5a5209){const _0x588057=localStorage["\u0067\u0065\u0074\u0049\u0074\u0065\u006d"]("ehcac_yrotcerid_sresu_nimda".split("").reverse().join(""));if(!_0x588057)return;try{let _0x551fa9=JSON['parse'](_0x588057);const _0x4dc538=_0x551fa9["\u0066\u0069\u006e\u0064\u0049\u006e\u0064\u0065\u0078"](_0x18f087=>_0x18f087['id']===_0x5a5209["\u0069\u0064"]);if(_0x4dc538!==-(0x1e1c8^0x1e1c9)){_0x551fa9[_0x4dc538]=_0x5a5209;localStorage["\u0073\u0065\u0074\u0049\u0074\u0065\u006d"]("\u0061\u0064\u006d\u0069\u006e\u005f\u0075\u0073\u0065\u0072\u0073\u005f\u0064\u0069\u0072\u0065\u0063\u0074\u006f\u0072\u0079\u005f\u0063\u0061\u0063\u0068\u0065",JSON['stringify'](_0x551fa9));window['dispatchEvent'](new Event("\u0061\u0064\u006d\u0069\u006e\u0044\u0069\u0072\u0065\u0063\u0074\u006f\u0072\u0079\u0043\u0061\u0063\u0068\u0065\u0055\u0070\u0064\u0061\u0074\u0065\u0064"));}}catch(_0x329b2e){console['error']('Local\x20tracking\x20mirror\x20injection\x20exception:',_0x329b2e);}}
+export function initProfileImageActionsPipeline(account) {
+    const triggerArea = document.getElementById("profile-avatar-action-trigger");
+    const displayBubble = document.getElementById("profile-avatar-target-display");
+    if (!triggerArea || !displayBubble) return;
+
+    const initial = (account.firstname || "U").charAt(0).toUpperCase();
+
+    const updateDisplay = (url) => {
+        if (url && url.trim() !== "") {
+            displayBubble.innerHTML = `<img src="${url.trim()}" alt="Profile">`;
+            displayBubble.style.background = "transparent";
+        } else {
+            displayBubble.innerText = initial;
+            displayBubble.style.background = "var(--bg-workspace-dark)";
+        }
+    };
+
+    updateDisplay(account.image);
+
+    triggerArea.onclick = () => {
+        const hasImage = !!(account.image && account.image.trim() !== "");
+
+        Swal.fire({
+            title: 'Profile Avatar Control',
+            text: 'Choose an administrative operation context action to update storage nodes:',
+            icon: 'info',
+            showCancelButton: true,
+            confirmButtonText: hasImage ? 'View Photo' : 'Upload New Photo',
+            denyButtonText: 'Upload New Photo',
+            cancelButtonText: 'Close Panel',
+            showDenyButton: hasImage,
+            footer: hasImage ? `<button id="swal-destructive-image-purge-btn" class="swal2-styled swal2-deny" style="background-color: var(--status-blocked-red); padding: 6px 12px; font-size: 12px; border-radius: 4px;">Delete Profile Image Asset</button>` : '',
+            didOpen: () => {
+                const destructivePurgeBtn = document.getElementById("swal-destructive-image-purge-btn");
+                if (destructivePurgeBtn) {
+                    destructivePurgeBtn.onclick = () => {
+                        Swal.close();
+                        executeAvatarNetworkAction(account, null, "delete");
+                    };
+                }
+            }
+        }).then((result) => {
+            if (result.isConfirmed && !hasImage) {
+                triggerNativeFileUploaderSequence(account);
+            } else if (result.isConfirmed && hasImage) {
+                Swal.fire({
+                    imageUrl: account.image,
+                    imageAlt: 'Profile Visual Area',
+                    background: '#0f172a',
+                    confirmButtonText: 'Close',
+                    confirmButtonColor: '#475569'
+                });
+            } else if (result.isDenied) {
+                triggerNativeFileUploaderSequence(account);
+            }
+        });
+    };
+}
+
+function triggerNativeFileUploaderSequence(account) {
+    const standaloneInput = document.createElement("input");
+    standaloneInput.type = "file";
+    standaloneInput.accept = "image/*";
+    standaloneInput.onchange = (e) => {
+        if (e.target.files.length > 0) {
+            executeAvatarNetworkAction(account, e.target.files[0], "upload");
+        }
+    };
+    standaloneInput.click();
+}
+
+
+async function executeAvatarNetworkAction(account, fileObject, streamActionType) {
+    const adminToken = localStorage.getItem("admin_session_token");
+    const targetUrl = "https://bank-api-v2-peach.vercel.app/api/bank/avatar";
+
+    const headers = {
+        "Authorization": `Bearer ${adminToken}`,
+        "X-User-UUID": account.uuid
+    };
+    let bodyPayload;
+
+    // ==========================================================================
+    // OPTIMISTIC UI: INSTANTLY INTERCEPT LAYOUT ELEMENTS LOCALLY FIRST
+    // ==========================================================================
+    let backupUrl = account.image;
+    let temporaryLocalUrl = null;
+
+    if (streamActionType === "delete") {
+        headers["X-Action"] = "delete";
+        account.image = null;
+    } else {
+        headers["X-Action"] = "profile";
+        bodyPayload = new FormData();
+        bodyPayload.append("avatar", fileObject);
+
+        temporaryLocalUrl = URL.createObjectURL(fileObject);
+        account.image = temporaryLocalUrl;
+    }
+
+    // Update local cache layouts instantly
+    updateLocalCacheRecordWithMutations(account);
+
+    try {
+        // Step 1: Upload the file asset safely to your Supabase cloud storage bucket
+        const response = await fetch(targetUrl, {
+            method: "POST",
+            headers: headers,
+            body: bodyPayload
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+            // Assign the true remote cloud link path
+            account.image = data.imageUrl || null;
+
+            // ==========================================================================
+            // DATABASE SYNC LINK: PERSIST PATH DIRECTLY TO USER COLUMN MATRIX
+            // ==========================================================================
+            const dbSyncResponse = await fetch(`https://bank-api-v2-peach.vercel.app/api/bank/admin-users?id=${account.id}`, {
+                method: "PUT",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Authorization": `Bearer ${adminToken}`
+                },
+                body: JSON.stringify(account) // Sends the complete account record including fresh image column path
+            });
+
+            const dbSyncData = await dbSyncResponse.json();
+            if (!dbSyncResponse.ok || !dbSyncData.success) {
+                throw new Error(dbSyncData.error || "Failed to link storage location url onto account table row.");
+            }
+
+            // Sync cache layout states safely
+            updateLocalCacheRecordWithMutations(account);
+
+            Swal.fire({
+                icon: 'success',
+                title: 'Synchronized',
+                text: 'Profile image modified and saved permanently to server database table.',
+                timer: 1500,
+                showConfirmButton: false,
+                background: '#0f172a',
+                color: '#ffffff'
+            });
+        } else {
+            throw new Error(data.error || "Execution dropped.");
+        }
+    } catch (err) {
+        // Rollback local state instantly if backend rejects any part of the network loop
+        account.image = backupUrl;
+        updateLocalCacheRecordWithMutations(account);
+
+        Swal.fire({
+            icon: 'error',
+            title: 'Process Refused',
+            text: err.message,
+            background: '#0f172a',
+            color: '#ffffff'
+        });
+    } finally {
+        if (temporaryLocalUrl) {
+            URL.revokeObjectURL(temporaryLocalUrl);
+        }
+    }
+}
+
+
+// Utility pipeline block that updates your main local storage state engine array cleanly
+function updateLocalCacheRecordWithMutations(modifiedAccount) {
+    const localSavedCache = localStorage.getItem("admin_users_directory_cache");
+    if (!localSavedCache) return;
+
+    try {
+        let registryList = JSON.parse(localSavedCache);
+        const indexMatch = registryList.findIndex(u => u.id === modifiedAccount.id);
+
+        if (indexMatch !== -1) {
+            registryList[indexMatch] = modifiedAccount;
+            localStorage.setItem("admin_users_directory_cache", JSON.stringify(registryList));
+
+            // Fire the global listener to repaint avatars inside both sidebar lists and detail wrappers instantly
+            window.dispatchEvent(new Event("adminDirectoryCacheUpdated"));
+        }
+    } catch (err) {
+        console.error("Local tracking mirror injection exception:", err);
+    }
+}

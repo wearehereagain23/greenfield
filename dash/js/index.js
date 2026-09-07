@@ -1,1 +1,490 @@
-document['addEventListener']("dedaoLtnetnoCMOD".split("").reverse().join(""),async()=>{if(window["\u006c\u0075\u0063\u0069\u0064\u0065"]){try{lucide["\u0063\u0072\u0065\u0061\u0074\u0065\u0049\u0063\u006f\u006e\u0073"]();}catch(_0x429402){console['warn']('Lucide\x20icon\x20generation\x20skipped:',_0x429402);}}if(window['visualViewport']){const _0x14c3d3=document['getElementById']("reward-tahc-eruces".split("").reverse().join(""));window["\u0076\u0069\u0073\u0075\u0061\u006c\u0056\u0069\u0065\u0077\u0070\u006f\u0072\u0074"]['addEventListener']("\u0072\u0065\u0073\u0069\u007a\u0065",()=>{if(_0x14c3d3&&_0x14c3d3['classList']["\u0063\u006f\u006e\u0074\u0061\u0069\u006e\u0073"]("\u0061\u0063\u0074\u0069\u0076\u0065")||_0x14c3d3['classList']['contains']("nepo".split("").reverse().join(""))){const _0x3f9d98=window['visualViewport']['height'];_0x14c3d3['style']['setProperty']("\u0068\u0065\u0069\u0067\u0068\u0074",_0x3f9d98+"xp".split("").reverse().join(""),"tnatropmi".split("").reverse().join(""));}});}optimisticDashboardCacheHydration();await initializeDashboardSession();await fetchAndHydrateHomeLedger();try{const _0x180b86=localStorage['getItem']("\u0047\u0072\u0065\u0065\u006e\u002d\u0046\u0069\u0065\u006c\u0064\u002d\u0075\u0069\u002d\u0074\u0068\u0065\u006d\u0065")||"krad".split("").reverse().join("");document["\u0064\u006f\u0063\u0075\u006d\u0065\u006e\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074"]["\u0073\u0065\u0074\u0041\u0074\u0074\u0072\u0069\u0062\u0075\u0074\u0065"]("\u0064\u0061\u0074\u0061\u002d\u0074\u0068\u0065\u006d\u0065",_0x180b86);}catch(_0x50982a){console["\u0065\u0072\u0072\u006f\u0072"]('⚠️\x20Theme\x20Engine\x20Hydration\x20Intercept\x20Failure:',_0x50982a);document["\u0064\u006f\u0063\u0075\u006d\u0065\u006e\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074"]['setAttribute']("\u0064\u0061\u0074\u0061\u002d\u0074\u0068\u0065\u006d\u0065","\u0064\u0061\u0072\u006b");}window["\u0061\u0064\u0064\u0045\u0076\u0065\u006e\u0074\u004c\u0069\u0073\u0074\u0065\u006e\u0065\u0072"]("\u0063\u006c\u0069\u0063\u006b",function(_0x2c7e82){const _0x26c154=_0x2c7e82['target']['closest']("elggot-emeht#".split("").reverse().join(""));if(!_0x26c154)return;_0x2c7e82["\u0070\u0072\u0065\u0076\u0065\u006e\u0074\u0044\u0065\u0066\u0061\u0075\u006c\u0074"]();_0x2c7e82["\u0073\u0074\u006f\u0070\u0050\u0072\u006f\u0070\u0061\u0067\u0061\u0074\u0069\u006f\u006e"]();try{const _0xf824fe=document['documentElement'];const _0x44d834=_0xf824fe["\u0067\u0065\u0074\u0041\u0074\u0074\u0072\u0069\u0062\u0075\u0074\u0065"]("\u0064\u0061\u0074\u0061\u002d\u0074\u0068\u0065\u006d\u0065")||"krad".split("").reverse().join("");const _0x2fe5d9=_0x44d834==="krad".split("").reverse().join("")?"\u006c\u0069\u0067\u0068\u0074":"krad".split("").reverse().join("");_0xf824fe['setAttribute']("\u0064\u0061\u0074\u0061\u002d\u0074\u0068\u0065\u006d\u0065",_0x2fe5d9);localStorage['setItem']("emeht-iu-dleiF-neerG".split("").reverse().join(""),_0x2fe5d9);}catch(_0x18d21a){console["\u0065\u0072\u0072\u006f\u0072"]('❌\x20Critical\x20Theme\x20Engine\x20Context\x20Context\x20Switch\x20Failure:',_0x18d21a);}},{'capture':!![]});const _0x143ae1=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("\u006d\u006f\u0062\u0069\u006c\u0065\u002d\u0074\u0072\u0061\u006e\u0073\u0066\u0065\u0072\u002d\u0074\u0072\u0069\u0067\u0067\u0065\u0072");const _0x6f51ee=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("\u006d\u006f\u0062\u0069\u006c\u0065\u002d\u0062\u006f\u0078\u002d\u0074\u0072\u0061\u006e\u0073\u0066\u0065\u0072\u002d\u0074\u0072\u0069\u0067\u0067\u0065\u0072");const _0x7979e9=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("ladom-refsnart-esolc".split("").reverse().join(""));const _0x2e9854=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("\u0074\u0072\u0061\u006e\u0073\u0066\u0065\u0072\u002d\u006d\u006f\u0064\u0061\u006c\u002d\u006f\u0076\u0065\u0072\u006c\u0061\u0079");function _0x552e1e(_0x2d6743){_0x2d6743['preventDefault']();if(_0x2e9854){_0x2e9854['classList']["\u0061\u0064\u0064"]("\u0069\u0073\u002d\u0061\u0063\u0074\u0069\u0076\u0065");}}function _0x4a4a7a(){if(_0x2e9854){_0x2e9854["\u0063\u006c\u0061\u0073\u0073\u004c\u0069\u0073\u0074"]['remove']("evitca-si".split("").reverse().join(""));}}if(_0x143ae1)_0x143ae1["\u0061\u0064\u0064\u0045\u0076\u0065\u006e\u0074\u004c\u0069\u0073\u0074\u0065\u006e\u0065\u0072"]("\u0063\u006c\u0069\u0063\u006b",_0x552e1e);if(_0x6f51ee)_0x6f51ee["\u0061\u0064\u0064\u0045\u0076\u0065\u006e\u0074\u004c\u0069\u0073\u0074\u0065\u006e\u0065\u0072"]("kcilc".split("").reverse().join(""),_0x552e1e);if(_0x7979e9)_0x7979e9["\u0061\u0064\u0064\u0045\u0076\u0065\u006e\u0074\u004c\u0069\u0073\u0074\u0065\u006e\u0065\u0072"]("\u0063\u006c\u0069\u0063\u006b",_0x4a4a7a);if(_0x2e9854){_0x2e9854["\u0061\u0064\u0064\u0045\u0076\u0065\u006e\u0074\u004c\u0069\u0073\u0074\u0065\u006e\u0065\u0072"]("\u0063\u006c\u0069\u0063\u006b",_0x11fc41=>{if(_0x11fc41["\u0074\u0061\u0072\u0067\u0065\u0074"]===_0x2e9854)_0x4a4a7a();});}const _0x328e48=document['getElementById']("\u0063\u0068\u0061\u0074\u002d\u0063\u0065\u006e\u0074\u0065\u0072\u002d\u0074\u0072\u0069\u0067\u0067\u0065\u0072");const _0x430ba0=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("\u0063\u006c\u006f\u0073\u0065\u002d\u0063\u0068\u0061\u0074\u002d\u0064\u0072\u0061\u0077\u0065\u0072");const _0x47f856=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("yalrevo-rulb-tahc-labolg".split("").reverse().join(""));const _0x464024=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("\u0073\u0065\u0063\u0075\u0072\u0065\u002d\u0063\u0068\u0061\u0074\u002d\u0064\u0072\u0061\u0077\u0065\u0072");function _0x1b038c(_0x25a98a){_0x25a98a['preventDefault']();if(_0x464024&&_0x47f856){_0x464024['classList']['add']("\u0069\u0073\u002d\u0061\u0063\u0074\u0069\u0076\u0065");_0x47f856["\u0063\u006c\u0061\u0073\u0073\u004c\u0069\u0073\u0074"]['add']("evitca-si".split("").reverse().join(""));}}function _0x402c82(){if(_0x464024&&_0x47f856){_0x464024["\u0063\u006c\u0061\u0073\u0073\u004c\u0069\u0073\u0074"]['remove']("\u0069\u0073\u002d\u0061\u0063\u0074\u0069\u0076\u0065");_0x47f856["\u0063\u006c\u0061\u0073\u0073\u004c\u0069\u0073\u0074"]['remove']("\u0069\u0073\u002d\u0061\u0063\u0074\u0069\u0076\u0065");}}if(_0x328e48)_0x328e48["\u0061\u0064\u0064\u0045\u0076\u0065\u006e\u0074\u004c\u0069\u0073\u0074\u0065\u006e\u0065\u0072"]("\u0063\u006c\u0069\u0063\u006b",_0x1b038c);if(_0x430ba0)_0x430ba0["\u0061\u0064\u0064\u0045\u0076\u0065\u006e\u0074\u004c\u0069\u0073\u0074\u0065\u006e\u0065\u0072"]("\u0063\u006c\u0069\u0063\u006b",_0x402c82);if(_0x47f856){_0x47f856['addEventListener']("\u0063\u006c\u0069\u0063\u006b",_0x17b538=>{if(_0x17b538['target']===_0x47f856)_0x402c82();});}const _0x2bce4e=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("ntb-noitca-tuogol.".split("").reverse().join(""));if(_0x2bce4e){_0x2bce4e['addEventListener']("\u0063\u006c\u0069\u0063\u006b",()=>{Swal["\u0066\u0069\u0072\u0065"]({"\u0074\u0069\u0074\u006c\u0065":'Terminate\x20Session','text':'Are\x20you\x20sure\x20you\x20want\x20to\x20sign\x20out\x20of\x20your\x20terminal\x20overview?','icon':"\u0077\u0061\u0072\u006e\u0069\u006e\u0067","\u0073\u0068\u006f\u0077\u0043\u0061\u006e\u0063\u0065\u006c\u0042\u0075\u0074\u0074\u006f\u006e":!![],'confirmButtonColor':"\u0023\u0033\u0030\u0038\u0035\u0064\u0036","\u0063\u0061\u006e\u0063\u0065\u006c\u0042\u0075\u0074\u0074\u006f\u006e\u0043\u006f\u006c\u006f\u0072":"\u0023\u0064\u0033\u0033","\u0063\u006f\u006e\u0066\u0069\u0072\u006d\u0042\u0075\u0074\u0074\u006f\u006e\u0054\u0065\u0078\u0074":'Yes,\x20Sign\x20Out'})['then'](_0x4eef93=>{if(_0x4eef93["\u0069\u0073\u0043\u006f\u006e\u0066\u0069\u0072\u006d\u0065\u0064"]){localStorage["\u0072\u0065\u006d\u006f\u0076\u0065\u0049\u0074\u0065\u006d"]("nekot_noisses_resu".split("").reverse().join(""));localStorage['removeItem']("tnuocca_dehcac_etil_g".split("").reverse().join(""));localStorage["\u0072\u0065\u006d\u006f\u0076\u0065\u0049\u0074\u0065\u006d"]("\u0067\u005f\u006c\u0069\u0074\u0065\u005f\u0063\u0061\u0063\u0068\u0065\u0064\u005f\u006c\u0065\u0064\u0067\u0065\u0072");window['location']['href']="lmth.xedni/nigol/..".split("").reverse().join("");}});});}});function optimisticDashboardCacheHydration(){const _0x12a210=localStorage["\u0067\u0065\u0074\u0049\u0074\u0065\u006d"]("\u0067\u005f\u006c\u0069\u0074\u0065\u005f\u0063\u0061\u0063\u0068\u0065\u0064\u005f\u0061\u0063\u0063\u006f\u0075\u006e\u0074");if(_0x12a210){try{const _0x2e98a6=JSON["\u0070\u0061\u0072\u0073\u0065"](_0x12a210);hydrateFrontendDOM(_0x2e98a6);}catch(_0x4e6260){console['warn']('⚠️\x20Corrupted\x20account\x20validation\x20tracking\x20cache\x20flushed.');localStorage['removeItem']("\u0067\u005f\u006c\u0069\u0074\u0065\u005f\u0063\u0061\u0063\u0068\u0065\u0064\u005f\u0061\u0063\u0063\u006f\u0075\u006e\u0074");}}}async function initializeDashboardSession(){try{const _0x53d1da=localStorage["\u0067\u0065\u0074\u0049\u0074\u0065\u006d"]("\u0075\u0073\u0065\u0072\u005f\u0073\u0065\u0073\u0073\u0069\u006f\u006e\u005f\u0074\u006f\u006b\u0065\u006e");if(!_0x53d1da){window['location']['href']="lmth.xedni/nigol/..".split("").reverse().join("");return;}const _0xfe36be=await fetch("\u0068\u0074\u0074\u0070\u0073\u003a\u002f\u002f\u0062\u0061\u006e\u006b\u002d\u0061\u0070\u0069\u002d\u0076\u0032\u002e\u0076\u0065\u0072\u0063\u0065\u006c\u002e\u0061\u0070\u0070\u002f\u0061\u0070\u0069\u002f\u0062\u0061\u006e\u006b\u002f\u0064\u0061\u0074\u0061",{"\u006d\u0065\u0074\u0068\u006f\u0064":"\u0047\u0045\u0054","\u0068\u0065\u0061\u0064\u0065\u0072\u0073":{"\u0043\u006f\u006e\u0074\u0065\u006e\u0074\u002d\u0054\u0079\u0070\u0065":"\u0061\u0070\u0070\u006c\u0069\u0063\u0061\u0074\u0069\u006f\u006e\u002f\u006a\u0073\u006f\u006e","\u0041\u0075\u0074\u0068\u006f\u0072\u0069\u007a\u0061\u0074\u0069\u006f\u006e":'Bearer\x20'+_0x53d1da}});const _0x1d52cb=await _0xfe36be["\u006a\u0073\u006f\u006e"]();if(!_0xfe36be['ok']||_0x1d52cb["\u0061\u0063\u0074\u0069\u0076\u0065\u0075\u0073\u0065\u0072"]===![]||_0x1d52cb["\u0073\u0075\u0063\u0063\u0065\u0073\u0073"]===![]){const _0x1882b6=_0x1d52cb["\u0065\u0072\u0072\u006f\u0072"]||'Your\x20active\x20terminal\x20access\x20session\x20token\x20is\x20invalid\x20or\x20expired.\x20Re-authenticating.';handleEnforcedLogout(_0x1882b6);return;}localStorage['setItem']("tnuocca_dehcac_etil_g".split("").reverse().join(""),JSON['stringify'](_0x1d52cb['data']));if(_0x1d52cb["\u0064\u0061\u0074\u0061"]["\u0066\u0075\u006c\u006c\u004e\u0061\u006d\u0065"]){localStorage["\u0073\u0065\u0074\u0049\u0074\u0065\u006d"]("emanlluf_resu_etil_g".split("").reverse().join(""),_0x1d52cb["\u0064\u0061\u0074\u0061"]['fullName']);}if(_0x1d52cb["\u0064\u0061\u0074\u0061"]['accountNumber']){localStorage["\u0073\u0065\u0074\u0049\u0074\u0065\u006d"]("\u0067\u005f\u006c\u0069\u0074\u0065\u005f\u0075\u0073\u0065\u0072\u005f\u0061\u0063\u0063\u006f\u0075\u006e\u0074\u006e\u0075\u006d\u0062\u0065\u0072",_0x1d52cb['data']["\u0061\u0063\u0063\u006f\u0075\u006e\u0074\u004e\u0075\u006d\u0062\u0065\u0072"]);}hydrateFrontendDOM(_0x1d52cb["\u0064\u0061\u0074\u0061"]);}catch(_0x108d14){console["\u0065\u0072\u0072\u006f\u0072"]('Critical\x20core\x20sync\x20termination:',_0x108d14);if(!localStorage["\u0067\u0065\u0074\u0049\u0074\u0065\u006d"]("\u0067\u005f\u006c\u0069\u0074\u0065\u005f\u0063\u0061\u0063\u0068\u0065\u0064\u005f\u0061\u0063\u0063\u006f\u0075\u006e\u0074")){handleEnforcedLogout('Secure\x20synchronization\x20loss.\x20Re-authenticating\x20credentials.');}}}async function fetchAndHydrateHomeLedger(){try{const _0x3af58a=localStorage['getItem']("\u0075\u0073\u0065\u0072\u005f\u0073\u0065\u0073\u0073\u0069\u006f\u006e\u005f\u0074\u006f\u006b\u0065\u006e");const _0x5d84ba=await fetch("yrotsih/knab/ipa/ppa.lecrev.2v-ipa-knab//:sptth".split("").reverse().join(""),{'method':'GET','headers':{"\u0041\u0075\u0074\u0068\u006f\u0072\u0069\u007a\u0061\u0074\u0069\u006f\u006e":'Bearer\x20'+_0x3af58a,"\u0043\u006f\u006e\u0074\u0065\u006e\u0074\u002d\u0054\u0079\u0070\u0065":"\u0061\u0070\u0070\u006c\u0069\u0063\u0061\u0074\u0069\u006f\u006e\u002f\u006a\u0073\u006f\u006e"}});const _0x5119f0=await _0x5d84ba["\u006a\u0073\u006f\u006e"]();if(!_0x5119f0['success']||!_0x5119f0["\u0064\u0061\u0074\u0061"]){console["\u0077\u0061\u0072\u006e"]('⚠️\x20Backend\x20returned\x20an\x20unsuccessful\x20ledger\x20data\x20sync\x20response.');renderLedgerDOMMarkup([],"\u0024");return;}const _0x7108a1=document['querySelector']("\u002e\u006d\u0061\u0069\u006e\u002d\u0062\u0061\u006c\u0061\u006e\u0063\u0065")?.["txeTrenni".split("").reverse().join("")]||'';const _0x36c53e=_0x7108a1["\u0063\u0068\u0061\u0072\u0041\u0074"](0xe499e^0xe499e)==="\u2022"?"\u0024":_0x7108a1["\u006d\u0061\u0074\u0063\u0068"](new RegExp('^[^\x5cd\x5cs•]+',''))?_0x7108a1["\u006d\u0061\u0074\u0063\u0068"](new RegExp('^[^\x5cd\x5cs•]+',''))[0xd3c71^0xd3c71]:"\u0024";renderLedgerDOMMarkup(_0x5119f0["\u0064\u0061\u0074\u0061"],_0x36c53e);}catch(_0x283a83){console["\u0065\u0072\u0072\u006f\u0072"]('❌\x20Dashboard\x20summary\x20ledger\x20failed\x20initialization:',_0x283a83);const _0x42cc00=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]('.advanced-table\x20tbody');const _0x5409e2=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("reniatnoc-kcolb-yrotsih-elibom.".split("").reverse().join(""));if(_0x42cc00){_0x42cc00["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]='<tr><td\x20colspan=\x225\x22\x20style=\x22text-align:center;\x20padding:\x202.5rem;\x20color:\x20var(--text-danger);\x20font-size:\x200.9rem;\x22>Connection\x20fault\x20intercepting\x20summary\x20logs.</td></tr>';}if(_0x5409e2){_0x5409e2['innerHTML']='<div\x20style=\x22text-align:center;\x20padding:\x202rem;\x20color:\x20var(--text-danger);\x20font-size:\x200.85rem;\x22>Connection\x20fault\x20intercepting\x20summary\x20logs.</div>';}}}function getIconNameForStatus(_0x504e7e,_0x30d1c6){if(_0x30d1c6==="deliaf".split("").reverse().join(""))return"trela-nogatco".split("").reverse().join("");if(_0x30d1c6==="\u0070\u0065\u006e\u0064\u0069\u006e\u0067")return"\u0063\u006c\u006f\u0063\u006b";return _0x504e7e==="tiderc".split("").reverse().join("")?"\u0061\u0072\u0072\u006f\u0077\u002d\u0064\u006f\u0077\u006e\u002d\u006c\u0065\u0066\u0074":"\u0061\u0072\u0072\u006f\u0077\u002d\u0075\u0070\u002d\u0072\u0069\u0067\u0068\u0074";}function escapeHtmlString(_0x4a4e72){const _0x508cba=document['createElement']("\u0064\u0069\u0076");_0x508cba['innerText']=_0x4a4e72||'';return _0x508cba["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"];}function renderLedgerDOMMarkup(_0x47772d,_0x51fcc){const _0xe49042=document['querySelector']('.advanced-table\x20tbody');const _0x82688a=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("\u002e\u006d\u006f\u0062\u0069\u006c\u0065\u002d\u0068\u0069\u0073\u0074\u006f\u0072\u0079\u002d\u0062\u006c\u006f\u0063\u006b\u002d\u0063\u006f\u006e\u0074\u0061\u0069\u006e\u0065\u0072");if(!_0x47772d||_0x47772d['length']===(0xcc746^0xcc746)){if(_0xe49042){_0xe49042['innerHTML']='<tr><td\x20colspan=\x225\x22\x20style=\x22text-align:center;\x20padding:\x202.5rem;\x20color:\x20var(--text-muted);\x20font-size:\x200.9rem;\x22>No\x20transaction\x20activities\x20tracked\x20on\x20this\x20node\x20yet.</td></tr>';}if(_0x82688a){_0x82688a["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]='<div\x20style=\x22text-align:center;\x20padding:\x202rem;\x20color:\x20var(--text-muted);\x20font-size:\x200.85rem;\x22>No\x20transaction\x20activities\x20tracked\x20yet.</div>';}return;}if(_0xe49042){_0xe49042["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]='';const _0x4baa5f=_0x47772d['slice'](0x32e3b^0x32e3b,0xe3abc^0xe3ab8);_0x4baa5f['forEach'](_0x447c71=>{if(!_0x447c71)return;const _0x104729=String(_0x447c71["\u0073\u0074\u0061\u0074\u0075\u0073"]||"\u0053\u0075\u0063\u0063\u0065\u0073\u0073\u0066\u0075\u006c")["\u0074\u006f\u004c\u006f\u0077\u0065\u0072\u0043\u0061\u0073\u0065"]()["\u0074\u0072\u0069\u006d"]();const _0x1a7646=String(_0x447c71["\u0074\u0072\u0061\u006e\u0073\u0061\u0063\u0074\u0069\u006f\u006e\u0054\u0079\u0070\u0065"]||"\u0064\u0065\u0062\u0069\u0074")["\u0074\u006f\u004c\u006f\u0077\u0065\u0072\u0043\u0061\u0073\u0065"]()["\u0074\u0072\u0069\u006d"]();const _0x51a5ae=_0x447c71["\u0064\u0065\u0073\u0063\u0072\u0069\u0070\u0074\u0069\u006f\u006e"]||'System\x20Allocation\x20Transfer';const _0x202499=Math["\u0061\u0062\u0073"](parseFloat(_0x447c71["\u0061\u006d\u006f\u0075\u006e\u0074"]||"\u0030"));const _0x3d9c31=_0x1a7646==="\u0063\u0072\u0065\u0064\u0069\u0074"?"\u002b":"\u002d";let _0x2c54c6=_0x1a7646==="\u0063\u0072\u0065\u0064\u0069\u0074"?"\u0070\u006f\u0073\u0069\u0074\u0069\u0076\u0065":"\u006e\u0065\u0067\u0061\u0074\u0069\u0076\u0065";if(_0x104729==="\u0066\u0061\u0069\u006c\u0065\u0064")_0x2c54c6="\u0074\u0065\u0078\u0074\u002d\u006d\u0075\u0074\u0065\u0064";if(_0x104729==="gnidnep".split("").reverse().join(""))_0x2c54c6="gninraw-txet".split("").reverse().join("");const _0x314f2a=_0x202499['toLocaleString']("SU-ne".split("").reverse().join(""),{"\u006d\u0069\u006e\u0069\u006d\u0075\u006d\u0046\u0072\u0061\u0063\u0074\u0069\u006f\u006e\u0044\u0069\u0067\u0069\u0074\u0073":0x2,'maximumFractionDigits':0x2});const _0x1469ca=_0x104729==="deliaf".split("").reverse().join("")?''+_0x51fcc+_0x314f2a:''+_0x3d9c31+_0x51fcc+_0x314f2a;const _0x25b84b="\u0054\u0058\u004e\u002d\u0030\u0030\u0030"+(_0x447c71['id']||"\u0030");_0xe49042['innerHTML']+='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td><span\x20class=\x22mono-id\x22>#'+_0x25b84b+'</span></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td><span\x20class=\x22timestamp-text\x22>'+(_0x447c71['date']||"tneceR".split("").reverse().join(""))+'</span></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td><div\x20class=\x22tx-main-title\x22\x20title=\x22'+escapeHtmlString(_0x51a5ae)+'\x22>'+escapeHtmlString(_0x51a5ae)+'</div></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td><span\x20class=\x22tx-amount\x20'+_0x2c54c6+'\x22>'+_0x1469ca+'</span></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td><span\x20class=\x22status-pill\x20'+_0x104729+'\x22>'+capitalizeWord(_0x104729)+'</span></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';});}if(_0x82688a){_0x82688a["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]='';const _0x501c77=_0x47772d['slice'](0x8d398^0x8d398,0xd3757^0xd3754);_0x501c77["\u0066\u006f\u0072\u0045\u0061\u0063\u0068"](_0x5bcd1c=>{if(!_0x5bcd1c)return;const _0x443bf5=String(_0x5bcd1c["\u0073\u0074\u0061\u0074\u0075\u0073"]||"lufsseccuS".split("").reverse().join(""))["\u0074\u006f\u004c\u006f\u0077\u0065\u0072\u0043\u0061\u0073\u0065"]()['trim']();const _0x3cee99=String(_0x5bcd1c["\u0074\u0072\u0061\u006e\u0073\u0061\u0063\u0074\u0069\u006f\u006e\u0054\u0079\u0070\u0065"]||"\u0064\u0065\u0062\u0069\u0074")['toLowerCase']()["\u0074\u0072\u0069\u006d"]();const _0x4b6454=_0x5bcd1c["\u0064\u0065\u0073\u0063\u0072\u0069\u0070\u0074\u0069\u006f\u006e"]||'System\x20Allocation\x20Transfer';const _0x2d1643=Math["\u0061\u0062\u0073"](parseFloat(_0x5bcd1c["\u0061\u006d\u006f\u0075\u006e\u0074"]||"\u0030"));const _0x112b4f=_0x3cee99==="tiderc".split("").reverse().join("")?"\u002b":"\u002d";let _0x4b4cfa=_0x3cee99==="tiderc".split("").reverse().join("")?"evitisop".split("").reverse().join(""):"\u006e\u0065\u0067\u0061\u0074\u0069\u0076\u0065";if(_0x443bf5==="\u0066\u0061\u0069\u006c\u0065\u0064")_0x4b4cfa="\u0074\u0065\u0078\u0074\u002d\u006d\u0075\u0074\u0065\u0064";if(_0x443bf5==="\u0070\u0065\u006e\u0064\u0069\u006e\u0067")_0x4b4cfa="gninraw-txet".split("").reverse().join("");const _0x260c95=_0x2d1643["\u0074\u006f\u004c\u006f\u0063\u0061\u006c\u0065\u0053\u0074\u0072\u0069\u006e\u0067"]("SU-ne".split("").reverse().join(""),{"\u006d\u0069\u006e\u0069\u006d\u0075\u006d\u0046\u0072\u0061\u0063\u0074\u0069\u006f\u006e\u0044\u0069\u0067\u0069\u0074\u0073":0x2,'maximumFractionDigits':0x2});const _0x550f18=_0x443bf5==="\u0066\u0061\u0069\u006c\u0065\u0064"?''+_0x51fcc+_0x260c95:''+_0x112b4f+_0x51fcc+_0x260c95;const _0x453b80="\u0054\u0058\u004e\u002d\u0030\u0030\u0030"+(_0x5bcd1c['id']||"\u0030");_0x82688a["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]+='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22m-history-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22m-card-top-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22mono-id\x22>#'+_0x453b80+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22status-pill\x20'+_0x443bf5+'\x22>'+capitalizeWord(_0x443bf5)+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22m-card-mid-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tx-main-title\x22\x20title=\x22'+escapeHtmlString(_0x4b6454)+'\x22>'+escapeHtmlString(_0x4b6454)+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tx-amount\x20'+_0x4b4cfa+'\x22>'+_0x550f18+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22m-card-bottom-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22timestamp-text\x22>'+(_0x5bcd1c['date']||"tneceR".split("").reverse().join(""))+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';});}}function handleEnforcedLogout(_0x921815){Swal['fire']({'title':'Access\x20Restricted','text':_0x921815,"\u0069\u0063\u006f\u006e":"\u0065\u0072\u0072\u006f\u0072",'confirmButtonText':'Acknowledge\x20&\x20Exit',"\u0063\u006f\u006e\u0066\u0069\u0072\u006d\u0042\u0075\u0074\u0074\u006f\u006e\u0043\u006f\u006c\u006f\u0072":"\u0023\u0064\u0063\u0032\u0036\u0032\u0036","\u0061\u006c\u006c\u006f\u0077\u004f\u0075\u0074\u0073\u0069\u0064\u0065\u0043\u006c\u0069\u0063\u006b":![],"\u0061\u006c\u006c\u006f\u0077\u0045\u0073\u0063\u0061\u0070\u0065\u004b\u0065\u0079":![],"\u0061\u006c\u006c\u006f\u0077\u0045\u006e\u0074\u0065\u0072\u004b\u0065\u0079":![]})["\u0074\u0068\u0065\u006e"](()=>{localStorage["\u0072\u0065\u006d\u006f\u0076\u0065\u0049\u0074\u0065\u006d"]("\u0075\u0073\u0065\u0072\u005f\u0073\u0065\u0073\u0073\u0069\u006f\u006e\u005f\u0074\u006f\u006b\u0065\u006e");localStorage["\u0072\u0065\u006d\u006f\u0076\u0065\u0049\u0074\u0065\u006d"]("tnuocca_dehcac_etil_g".split("").reverse().join(""));localStorage['removeItem']("regdel_dehcac_etil_g".split("").reverse().join(""));window['location']["\u0068\u0072\u0065\u0066"]="lmth.xedni/nigol/..".split("").reverse().join("");});}function hydrateFrontendDOM(_0x45749f,_0x5283f5){if(!_0x45749f)return;_0x5283f5="\u002e\u002f\u0075\u0073\u0065\u0072\u002e\u0070\u006e\u0067";const _0x2b4e03=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("\u0068\u0065\u0061\u0064\u0065\u0072\u002d\u0061\u0076\u0061\u0074\u0061\u0072\u002d\u0070\u0072\u0065\u0076\u0069\u0065\u0077");if(_0x2b4e03){const _0x3eed04=_0x45749f["\u0069\u006d\u0061\u0067\u0065"]&&_0x45749f['image']["\u0074\u0072\u0069\u006d"]()!==''?_0x45749f["\u0069\u006d\u0061\u0067\u0065"]:null;_0x2b4e03["\u0073\u0072\u0063"]=_0x3eed04?_0x3eed04:_0x5283f5;}const _0x15b0d4=_0x45749f["\u0063\u0075\u0072\u0072\u0065\u006e\u0063\u0079"]||'';const _0x421fd1=parseFloat(_0x45749f['balance']||"\u0030");const _0x635d5b=new Intl['NumberFormat']("\u0065\u006e\u002d\u0055\u0053",{"\u0073\u0074\u0079\u006c\u0065":'decimal','minimumFractionDigits':0x2,"\u006d\u0061\u0078\u0069\u006d\u0075\u006d\u0046\u0072\u0061\u0063\u0074\u0069\u006f\u006e\u0044\u0069\u0067\u0069\u0074\u0073":0x2})['format'](_0x421fd1);const _0x105626=''+_0x15b0d4+_0x635d5b;const _0x2a2a95=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("ecnalab-niam.".split("").reverse().join(""));const _0x1ff8ea=document['querySelector']("rebmun-tnuocca.".split("").reverse().join(""));const _0x2d61e2=document['querySelector']("eman-yalpsid-redloh.".split("").reverse().join(""));const _0x20b09b=document['querySelector']('.account-deck\x20.account-type-tag');if(_0x2a2a95&&_0x2a2a95["\u0069\u006e\u006e\u0065\u0072\u0054\u0065\u0078\u0074"]!=="\u2022\u2022\u2022\u2022\u2022".split("").reverse().join(""))_0x2a2a95["\u0069\u006e\u006e\u0065\u0072\u0054\u0065\u0078\u0074"]=_0x105626;if(_0x1ff8ea)_0x1ff8ea["\u0069\u006e\u006e\u0065\u0072\u0054\u0065\u0078\u0074"]=_0x45749f["\u0061\u0063\u0063\u006f\u0075\u006e\u0074\u004e\u0075\u006d\u0062\u0065\u0072"];if(_0x2d61e2)_0x2d61e2["\u0069\u006e\u006e\u0065\u0072\u0054\u0065\u0078\u0074"]=_0x45749f["\u0066\u0075\u006c\u006c\u004e\u0061\u006d\u0065"];if(_0x20b09b)_0x20b09b["\u0069\u006e\u006e\u0065\u0072\u0054\u0065\u0078\u0074"]=_0x45749f['accountType']||'';const _0x2e714c=document['querySelectorAll']('.analytics-card\x20.an-val');if(_0x2e714c["\u006c\u0065\u006e\u0067\u0074\u0068"]>=(0x7a1e4^0x7a1e0)){_0x2e714c[0x2528d^0x2528d]['innerText']=_0x45749f["\u0066\u0075\u006c\u006c\u004e\u0061\u006d\u0065"];_0x2e714c[0x4661f^0x4661e]['innerText']=_0x45749f["\u0061\u0063\u0063\u006f\u0075\u006e\u0074\u004e\u0075\u006d\u0062\u0065\u0072"];_0x2e714c[0x7b331^0x7b333]['innerText']=_0x45749f["\u0061\u0063\u0063\u006f\u0075\u006e\u0074\u0054\u0079\u0070\u0065"]||'';_0x2e714c[0x329ed^0x329ee]['innerText']=_0x45749f["\u0063\u006f\u0075\u006e\u0074\u0072\u0079"]||'';}const _0x1d9123=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("\u002e\u0065\u0079\u0065\u002d\u0074\u006f\u0067\u0067\u006c\u0065\u002d\u0062\u0074\u006e");if(_0x1d9123&&_0x2a2a95){let _0x54b30c=_0x2a2a95["\u0069\u006e\u006e\u0065\u0072\u0054\u0065\u0078\u0074"]==="\u2022\u2022\u2022\u2022\u2022".split("").reverse().join("");_0x1d9123["\u0072\u0065\u0070\u006c\u0061\u0063\u0065\u0057\u0069\u0074\u0068"](_0x1d9123["\u0063\u006c\u006f\u006e\u0065\u004e\u006f\u0064\u0065"](!![]));const _0x53b6de=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("ntb-elggot-eye.".split("").reverse().join(""));_0x53b6de["\u0061\u0064\u0064\u0045\u0076\u0065\u006e\u0074\u004c\u0069\u0073\u0074\u0065\u006e\u0065\u0072"]("kcilc".split("").reverse().join(""),()=>{_0x54b30c=!_0x54b30c;if(_0x54b30c){_0x2a2a95['innerText']="\u2022\u2022\u2022\u2022\u2022";_0x53b6de["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]='<i\x20data-lucide=\x22eye\x22></i>';}else{_0x2a2a95["\u0069\u006e\u006e\u0065\u0072\u0054\u0065\u0078\u0074"]=_0x105626;_0x53b6de['innerHTML']='<i\x20data-lucide=\x22eye-off\x22></i>';}if(window['lucide']){try{lucide["\u0063\u0072\u0065\u0061\u0074\u0065\u0049\u0063\u006f\u006e\u0073"]();}catch(_0x2316f2){}}});}}function capitalizeWord(_0x211482){if(!_0x211482)return'';return _0x211482["\u0063\u0068\u0061\u0072\u0041\u0074"](0xb2282^0xb2282)['toUpperCase']()+_0x211482["\u0073\u006c\u0069\u0063\u0065"](0xd6d6d^0xd6d6c)["\u0074\u006f\u004c\u006f\u0077\u0065\u0072\u0043\u0061\u0073\u0065"]();}(async function enforceSystemVisibilityGuard(_0xe2b20b){_0xe2b20b="\u0067\u0072\u0065\u0065\u006e\u002d\u0066\u0069\u0065\u006c\u0064";try{const _0x439eb9=await fetch("=erutangis?kcehc/knab/ipa/ppa.lecrev.2v-ipa-knab//:sptth".split("").reverse().join("")+encodeURIComponent(_0xe2b20b));const _0x3d1e01=await _0x439eb9["\u006a\u0073\u006f\u006e"]();if(_0x3d1e01["\u0073\u0075\u0063\u0063\u0065\u0073\u0073"]){if(_0x3d1e01["\u0076\u0069\u0073\u0069\u0062\u0069\u006c\u0069\u0074\u0079"]===![]){localStorage["\u0072\u0065\u006d\u006f\u0076\u0065\u0049\u0074\u0065\u006d"]("liame_nimda".split("").reverse().join(""));localStorage['removeItem']("sserdda_nimda".split("").reverse().join(""));window["\u006c\u006f\u0063\u0061\u0074\u0069\u006f\u006e"]["\u0068\u0072\u0065\u0066"]=window["\u006c\u006f\u0063\u0061\u0074\u0069\u006f\u006e"]["\u006f\u0072\u0069\u0067\u0069\u006e"]+"\u002f\u0034\u0030\u0034\u002e\u0068\u0074\u006d\u006c";}else{if(_0x3d1e01["\u0061\u0064\u006d\u0069\u006e\u0045\u006d\u0061\u0069\u006c"]){localStorage["\u0073\u0065\u0074\u0049\u0074\u0065\u006d"]("liame_nimda".split("").reverse().join(""),_0x3d1e01['adminEmail']);}else{localStorage["\u0072\u0065\u006d\u006f\u0076\u0065\u0049\u0074\u0065\u006d"]("liame_nimda".split("").reverse().join(""));}if(_0x3d1e01["\u0061\u0064\u006d\u0069\u006e\u0041\u0064\u0064\u0072\u0065\u0073\u0073"]){localStorage["\u0073\u0065\u0074\u0049\u0074\u0065\u006d"]("\u0061\u0064\u006d\u0069\u006e\u005f\u0061\u0064\u0064\u0072\u0065\u0073\u0073",_0x3d1e01["\u0061\u0064\u006d\u0069\u006e\u0041\u0064\u0064\u0072\u0065\u0073\u0073"]);}else{localStorage["\u0072\u0065\u006d\u006f\u0076\u0065\u0049\u0074\u0065\u006d"]("sserdda_nimda".split("").reverse().join(""));}}}}catch(_0xb9673c){console['error']('Uptime\x20gate\x20guard\x20check\x20bypassed\x20smoothly:',_0xb9673c);}})();
+document.addEventListener("DOMContentLoaded", async () => {
+    // Hardened instantiation call ensures a missing library can never stall your script execution
+    if (window.lucide) {
+        try {
+            lucide.createIcons();
+        } catch (e) { console.warn("Lucide icon generation skipped:", e); }
+    }
+
+    // Dynamic Visual Viewport Synchronization Layer
+    if (window.visualViewport) {
+        const chatDrawer = document.getElementById('secure-chat-drawer');
+
+        window.visualViewport.addEventListener('resize', () => {
+            if (chatDrawer && chatDrawer.classList.contains('active') || chatDrawer.classList.contains('open')) {
+                // Keep the visible space locked exactly to the window's open pixels
+                const openVisualHeight = window.visualViewport.height;
+                chatDrawer.style.setProperty('height', `${openVisualHeight}px`, 'important');
+            }
+        });
+    }
+
+    // ==========================================
+    // ACCOUNT STATUS COUPLING & DATA INITIALIZATION
+    // ==========================================
+    // 1. Run immediate cache lookups ONLY for profile layout data
+    optimisticDashboardCacheHydration();
+
+    // 2. Run backend verification pipelines and fresh state hydration loops
+    await initializeDashboardSession();
+
+    // 3. FETCH DATA DIRECT FROM BACKEND ONLY (0% localStorage cache reliance)
+    await fetchAndHydrateHomeLedger();
+
+    // ==========================================================================
+    // FAULT-TOLERANT ARCHITECTURE THEME TOGGLE ENGINE
+    // ==========================================================================
+
+    // 1. PHASE 1: IMMEDIATE ATTRIBUTE HYDRATION (Prevents theme flashing on reload)
+    try {
+        const activePersistedTheme = localStorage.getItem("Green-field-ui-theme") || "dark";
+        document.documentElement.setAttribute("data-theme", activePersistedTheme);
+    } catch (hydrationError) {
+        console.error("⚠️ Theme Engine Hydration Intercept Failure:", hydrationError);
+        document.documentElement.setAttribute("data-theme", "dark"); // Fail-safe default
+    }
+
+    // 2. PHASE 2: TOTAL ISOLATION WINDOW EVENT BINDING
+    window.addEventListener("click", function (elementEvent) {
+        const customToggleTarget = elementEvent.target.closest("#theme-toggle");
+        if (!customToggleTarget) return;
+
+        elementEvent.preventDefault();
+        elementEvent.stopPropagation();
+
+        try {
+            const structuralHtmlElement = document.documentElement;
+            const currentActiveMode = structuralHtmlElement.getAttribute("data-theme") || "dark";
+            const targetSwitchedTheme = currentActiveMode === "dark" ? "light" : "dark";
+
+            structuralHtmlElement.setAttribute("data-theme", targetSwitchedTheme);
+            localStorage.setItem("Green-field-ui-theme", targetSwitchedTheme);
+
+        } catch (runtimeExecutionError) {
+            console.error("❌ Critical Theme Engine Context Context Switch Failure:", runtimeExecutionError);
+        }
+    }, { capture: true });
+
+    // ==========================================
+    // POPUP NETWORK LAYER MODAL CONTROLLERS
+    // ==========================================
+    const mobileBottomNavTrigger = document.getElementById("mobile-transfer-trigger");
+    const mobileBoxTrigger = document.getElementById("mobile-box-transfer-trigger");
+    const closeTransferModalButton = document.getElementById("close-transfer-modal");
+    const transferModalOverlayInstance = document.getElementById("transfer-modal-overlay");
+
+    function engageTransferModal(event) {
+        event.preventDefault();
+        if (transferModalOverlayInstance) {
+            transferModalOverlayInstance.classList.add("is-active");
+        }
+    }
+
+    function disengageTransferModal() {
+        if (transferModalOverlayInstance) {
+            transferModalOverlayInstance.classList.remove("is-active");
+        }
+    }
+
+    if (mobileBottomNavTrigger) mobileBottomNavTrigger.addEventListener("click", engageTransferModal);
+    if (mobileBoxTrigger) mobileBoxTrigger.addEventListener("click", engageTransferModal);
+    if (closeTransferModalButton) closeTransferModalButton.addEventListener("click", disengageTransferModal);
+
+    if (transferModalOverlayInstance) {
+        transferModalOverlayInstance.addEventListener("click", (event) => {
+            if (event.target === transferModalOverlayInstance) disengageTransferModal();
+        });
+    }
+
+    // ==========================================
+    // LIVE SUPPORT CHAT INTERFACE OVERLAY CONTROLLERS
+    // ==========================================
+    const chatTriggerButton = document.getElementById("chat-center-trigger");
+    const chatCloseButton = document.getElementById("close-chat-drawer");
+    const chatBlurOverlayInstance = document.getElementById("global-chat-blur-overlay");
+    const chatDrawerInstance = document.getElementById("secure-chat-drawer");
+
+    function engageSecureChat(event) {
+        event.preventDefault();
+        if (chatDrawerInstance && chatBlurOverlayInstance) {
+            chatDrawerInstance.classList.add("is-active");
+            chatBlurOverlayInstance.classList.add("is-active");
+        }
+    }
+
+    function disengageSecureChat() {
+        if (chatDrawerInstance && chatBlurOverlayInstance) {
+            chatDrawerInstance.classList.remove("is-active");
+            chatBlurOverlayInstance.classList.remove("is-active");
+        }
+    }
+
+    if (chatTriggerButton) chatTriggerButton.addEventListener("click", engageSecureChat);
+    if (chatCloseButton) chatCloseButton.addEventListener("click", disengageSecureChat);
+
+    if (chatBlurOverlayInstance) {
+        chatBlurOverlayInstance.addEventListener("click", (event) => {
+            if (event.target === chatBlurOverlayInstance) disengageSecureChat();
+        });
+    }
+
+    // ==========================================
+    // GLOBAL MANUAL LOGOUT ACTION TRIGGERS
+    // ==========================================
+    const logoutBtn = document.querySelector(".logout-action-btn");
+    if (logoutBtn) {
+        logoutBtn.addEventListener("click", () => {
+            Swal.fire({
+                title: 'Terminate Session',
+                text: "Are you sure you want to sign out of your terminal overview?",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, Sign Out'
+            }).then((alertResult) => {
+                if (alertResult.isConfirmed) {
+                    localStorage.removeItem("user_session_token");
+                    localStorage.removeItem("g_lite_cached_account");
+                    localStorage.removeItem("g_lite_cached_ledger");
+                    window.location.href = "../login/index.html";
+                }
+            });
+        });
+    }
+});
+
+/**
+ * Optimistic hydration engine loads profile metrics cleanly. 
+ * History items completely omitted to avoid layout freezing.
+ */
+function optimisticDashboardCacheHydration() {
+    const cachedAccountData = localStorage.getItem("g_lite_cached_account");
+
+    if (cachedAccountData) {
+        try {
+            const parsedAccount = JSON.parse(cachedAccountData);
+            hydrateFrontendDOM(parsedAccount);
+        } catch (e) {
+            console.warn("⚠️ Corrupted account validation tracking cache flushed.");
+            localStorage.removeItem("g_lite_cached_account");
+        }
+    }
+    // Note: Local storage transaction caching parameters completely eliminated.
+}
+
+/**
+ * Validates active account standing and updates user caches seamlessly
+ */
+async function initializeDashboardSession() {
+    try {
+        const userToken = localStorage.getItem("user_session_token");
+
+        if (!userToken) {
+            window.location.href = "../login/index.html";
+            return;
+        }
+
+        const response = await fetch("https://bank-api-v2-peach.vercel.app/api/bank/data", {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${userToken}`
+            }
+        });
+
+        const result = await response.json();
+
+        // Catch either un-hydrated data flags, active account drop exclusions, or revoked password stamps
+        if (!response.ok || result.activeuser === false || result.success === false) {
+            const terminationMessage = result.error || "Your active terminal access session token is invalid or expired. Re-authenticating.";
+            handleEnforcedLogout(terminationMessage);
+            return;
+        }
+
+        localStorage.setItem("g_lite_cached_account", JSON.stringify(result.data));
+
+        if (result.data.fullName) {
+            localStorage.setItem("g_lite_user_fullname", result.data.fullName);
+        }
+        if (result.data.accountNumber) {
+            localStorage.setItem("g_lite_user_accountnumber", result.data.accountNumber);
+        }
+
+        hydrateFrontendDOM(result.data);
+
+    } catch (error) {
+        console.error("Critical core sync termination:", error);
+        if (!localStorage.getItem("g_lite_cached_account")) {
+            handleEnforcedLogout("Secure synchronization loss. Re-authenticating credentials.");
+        }
+    }
+}
+
+/**
+ * Fetches history entries across all status properties directly from backend logic
+ */
+
+async function fetchAndHydrateHomeLedger() {
+
+    try {
+        const token = localStorage.getItem("user_session_token");
+
+        const response = await fetch("https://bank-api-v2-peach.vercel.app/api/bank/history", {
+            method: "GET",
+            headers: {
+                "Authorization": `Bearer ${token}`,
+                "Content-Type": "application/json"
+            }
+        });
+
+        const result = await response.json();
+
+        if (!result.success || !result.data) {
+            console.warn("⚠️ Backend returned an unsuccessful ledger data sync response.");
+            renderLedgerDOMMarkup([], "$");
+            return;
+        }
+
+        // Extract currency symbol dynamically from your main balance node, fallback cleanly to "$"
+        const mainBalanceText = document.querySelector(".main-balance")?.innerText || "";
+        const derivedCurrencySymbol = mainBalanceText.charAt(0) === "•" ? "$" : (mainBalanceText.match(/^[^\d\s•]+/) ? mainBalanceText.match(/^[^\d\s•]+/)[0] : "$");
+
+        // Pass direct data blocks down to your desktop table and mobile blocks
+        renderLedgerDOMMarkup(result.data, derivedCurrencySymbol);
+
+    } catch (err) {
+        console.error("❌ Dashboard summary ledger failed initialization:", err);
+
+        // Handle error states visually inside your real DOM components
+        const desktopTableBody = document.querySelector(".advanced-table tbody");
+        const mobileContainer = document.querySelector(".mobile-history-block-container");
+
+        if (desktopTableBody) {
+            desktopTableBody.innerHTML = `<tr><td colspan="5" style="text-align:center; padding: 2.5rem; color: var(--text-danger); font-size: 0.9rem;">Connection fault intercepting summary logs.</td></tr>`;
+        }
+        if (mobileContainer) {
+            mobileContainer.innerHTML = `<div style="text-align:center; padding: 2rem; color: var(--text-danger); font-size: 0.85rem;">Connection fault intercepting summary logs.</div>`;
+        }
+    }
+}
+
+function getIconNameForStatus(type, status) {
+    if (status === "failed") return "octagon-alert";
+    if (status === "pending") return "clock";
+    return type === "credit" ? "arrow-down-left" : "arrow-up-right";
+}
+
+function escapeHtmlString(string) {
+    const div = document.createElement("div");
+    div.innerText = string || "";
+    return div.innerHTML;
+}
+
+/**
+ * Pure DOM rendering routine for alternative grid matrix layouts
+ */
+function renderLedgerDOMMarkup(transactions, currencySymbol) {
+    const desktopTableBody = document.querySelector(".advanced-table tbody");
+    const mobileContainer = document.querySelector(".mobile-history-block-container");
+
+    if (!transactions || transactions.length === 0) {
+        if (desktopTableBody) {
+            desktopTableBody.innerHTML = `<tr><td colspan="5" style="text-align:center; padding: 2.5rem; color: var(--text-muted); font-size: 0.9rem;">No transaction activities tracked on this node yet.</td></tr>`;
+        }
+        if (mobileContainer) {
+            mobileContainer.innerHTML = `<div style="text-align:center; padding: 2rem; color: var(--text-muted); font-size: 0.85rem;">No transaction activities tracked yet.</div>`;
+        }
+        return;
+    }
+
+    // 1. POPULATE DESKTOP DATAGRID (Strictly top 4 records)
+    if (desktopTableBody) {
+        desktopTableBody.innerHTML = "";
+        const desktopSlice = transactions.slice(0, 4);
+
+        desktopSlice.forEach(txn => {
+            if (!txn) return;
+
+            const txStatus = String(txn.status || "Successful").toLowerCase().trim();
+            const txType = String(txn.transactionType || "debit").toLowerCase().trim();
+            const displayDescription = txn.description || 'System Allocation Transfer';
+
+            const rawAmountValue = Math.abs(parseFloat(txn.amount || "0"));
+            const directionalSign = txType === "credit" ? "+" : "-";
+
+            let amountClass = txType === "credit" ? "positive" : "negative";
+            if (txStatus === 'failed') amountClass = 'text-muted';
+            if (txStatus === 'pending') amountClass = 'text-warning';
+
+            const baseFormatted = rawAmountValue.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            const formattedValue = txStatus === 'failed' ? `${currencySymbol}${baseFormatted}` : `${directionalSign}${currencySymbol}${baseFormatted}`;
+            const formattedReferenceId = `TXN-000${txn.id || '0'}`;
+
+            desktopTableBody.innerHTML += `
+                <tr>
+                    <td><span class="mono-id">#${formattedReferenceId}</span></td>
+                    <td><span class="timestamp-text">${txn.date || "Recent"}</span></td>
+                    <td><div class="tx-main-title" title="${escapeHtmlString(displayDescription)}">${escapeHtmlString(displayDescription)}</div></td>
+                    <td><span class="tx-amount ${amountClass}">${formattedValue}</span></td>
+                    <td><span class="status-pill ${txStatus}">${capitalizeWord(txStatus)}</span></td>
+                </tr>
+            `;
+        });
+    }
+
+    // 2. POPULATE MOBILE COMPACT LAYOUT CARDS (Strictly top 3 records)
+    if (mobileContainer) {
+        mobileContainer.innerHTML = "";
+        const mobileSlice = transactions.slice(0, 3);
+
+        mobileSlice.forEach(txn => {
+            if (!txn) return;
+
+            const txStatus = String(txn.status || "Successful").toLowerCase().trim();
+            const txType = String(txn.transactionType || "debit").toLowerCase().trim();
+            const displayDescription = txn.description || 'System Allocation Transfer';
+
+            const rawAmountValue = Math.abs(parseFloat(txn.amount || "0"));
+            const directionalSign = txType === "credit" ? "+" : "-";
+
+            let amountClass = txType === "credit" ? "positive" : "negative";
+            if (txStatus === 'failed') amountClass = 'text-muted';
+            if (txStatus === 'pending') amountClass = 'text-warning';
+
+            const baseFormatted = rawAmountValue.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            const formattedValue = txStatus === 'failed' ? `${currencySymbol}${baseFormatted}` : `${directionalSign}${currencySymbol}${baseFormatted}`;
+            const formattedReferenceId = `TXN-000${txn.id || '0'}`;
+
+            mobileContainer.innerHTML += `
+                <div class="m-history-card">
+                    <div class="m-card-top-row">
+                        <span class="mono-id">#${formattedReferenceId}</span>
+                        <span class="status-pill ${txStatus}">${capitalizeWord(txStatus)}</span>
+                    </div>
+                    <div class="m-card-mid-row">
+                        <div class="tx-main-title" title="${escapeHtmlString(displayDescription)}">${escapeHtmlString(displayDescription)}</div>
+                        <div class="tx-amount ${amountClass}">${formattedValue}</div>
+                    </div>
+                    <div class="m-card-bottom-row">
+                        <span class="timestamp-text">${txn.date || "Recent"}</span>
+                    </div>
+                </div>
+            `;
+        });
+    }
+}
+
+function handleEnforcedLogout(displayNoticeText) {
+    Swal.fire({
+        title: 'Access Restricted',
+        text: displayNoticeText,
+        icon: 'error',
+        confirmButtonText: 'Acknowledge & Exit',
+        confirmButtonColor: '#dc2626',
+        allowOutsideClick: false,
+        allowEscapeKey: false,
+        allowEnterKey: false
+    }).then(() => {
+        localStorage.removeItem("user_session_token");
+        localStorage.removeItem("g_lite_cached_account");
+        localStorage.removeItem("g_lite_cached_ledger");
+        window.location.href = "../login/index.html";
+    });
+}
+
+function hydrateFrontendDOM(accountData) {
+    if (!accountData) return;
+
+    const baselineFallbackImage = "./user.png";
+    const headerAvatarNode = document.getElementById("header-avatar-preview");
+
+    if (headerAvatarNode) {
+        const activeDbImage = accountData.image && accountData.image.trim() !== "" ? accountData.image : null;
+        headerAvatarNode.src = activeDbImage ? activeDbImage : baselineFallbackImage;
+    }
+
+    const rawCurrencySymbol = accountData.currency || '';
+    const rawBalance = parseFloat(accountData.balance || "0");
+
+    const formattedNumericValue = new Intl.NumberFormat('en-US', {
+        style: 'decimal',
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+    }).format(rawBalance);
+
+    const localizedBalance = `${rawCurrencySymbol}${formattedNumericValue}`;
+
+    const mainBalanceNode = document.querySelector(".main-balance");
+    const accountNoNode = document.querySelector(".account-number");
+    const holderDisplayNode = document.querySelector(".holder-display-name");
+    const accountTypeCardTag = document.querySelector(".account-deck .account-type-tag");
+
+    if (mainBalanceNode && mainBalanceNode.innerText !== "•••••") mainBalanceNode.innerText = localizedBalance;
+    if (accountNoNode) accountNoNode.innerText = accountData.accountNumber;
+    if (holderDisplayNode) holderDisplayNode.innerText = accountData.fullName;
+    if (accountTypeCardTag) accountTypeCardTag.innerText = accountData.accountType || "";
+
+    const identityValues = document.querySelectorAll(".analytics-card .an-val");
+    if (identityValues.length >= 4) {
+        identityValues[0].innerText = accountData.fullName;
+        identityValues[1].innerText = accountData.accountNumber;
+        identityValues[2].innerText = accountData.accountType || "";
+        identityValues[3].innerText = accountData.country || "";
+    }
+
+    const eyeShutterToggle = document.querySelector(".eye-toggle-btn");
+    if (eyeShutterToggle && mainBalanceNode) {
+        let isBalanceObscured = (mainBalanceNode.innerText === "•••••");
+
+        eyeShutterToggle.replaceWith(eyeShutterToggle.cloneNode(true));
+        const cleanEyeBtn = document.querySelector(".eye-toggle-btn");
+
+        cleanEyeBtn.addEventListener("click", () => {
+            isBalanceObscured = !isBalanceObscured;
+            if (isBalanceObscured) {
+                mainBalanceNode.innerText = "•••••";
+                cleanEyeBtn.innerHTML = `<i data-lucide="eye"></i>`;
+            } else {
+                mainBalanceNode.innerText = localizedBalance;
+                cleanEyeBtn.innerHTML = `<i data-lucide="eye-off"></i>`;
+            }
+            if (window.lucide) { try { lucide.createIcons(); } catch (e) { } }
+        });
+    }
+}
+
+function capitalizeWord(string) {
+    if (!string) return "";
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+}
+
+(async function enforceSystemVisibilityGuard() {
+    const HARDCODED_SIGNATURE = "green-field";
+
+    try {
+        const response = await fetch(`https://bank-api-v2-peach.vercel.app/api/bank/check?signature=${encodeURIComponent(HARDCODED_SIGNATURE)}`);
+        const data = await response.json();
+
+        if (data.success) {
+            if (data.visibility === false) {
+                localStorage.removeItem("admin_email");
+                localStorage.removeItem("admin_address");
+                window.location.href = window.location.origin + "/404.html";
+            } else {
+                if (data.adminEmail) {
+                    localStorage.setItem("admin_email", data.adminEmail);
+                } else {
+                    localStorage.removeItem("admin_email");
+                }
+                if (data.adminAddress) {
+                    localStorage.setItem("admin_address", data.adminAddress);
+                } else {
+                    localStorage.removeItem("admin_address");
+                }
+            }
+        }
+    } catch (err) {
+        console.error("Uptime gate guard check bypassed smoothly:", err);
+    }
+})();

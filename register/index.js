@@ -1,1 +1,266 @@
-document['\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72']("\u0044\u004f\u004d\u0043\u006f\u006e\u0074\u0065\u006e\u0074\u004c\u006f\u0061\u0064\u0065\u0064",()=>{const form=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0072\u0065\u0067\u0046\u006f\u0072\u006d");const steps=Array['\x66\x72\x6f\x6d'](document['\x71\x75\x65\x72\x79\x53\x65\x6c\x65\x63\x74\x6f\x72\x41\x6c\x6c']("\u002e\u0073\u0074\u0065\u0070"));const nextBtn=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("ntBtxen".split("").reverse().join(""));const prevBtn=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0070\u0072\u0065\u0076\u0042\u0074\u006e");const stepBubbles=Array['\x66\x72\x6f\x6d'](document['\x71\x75\x65\x72\x79\x53\x65\x6c\x65\x63\x74\x6f\x72\x41\x6c\x6c']("\u002e\u0073\u0074\u0065\u0070\u0062\u0075\u0062\u0062\u006c\u0065"));const fills=Array['\x66\x72\x6f\x6d'](document['\x71\x75\x65\x72\x79\x53\x65\x6c\x65\x63\x74\x6f\x72\x41\x6c\x6c']("\u002e\u0077\u0069\u007a\u0061\u0072\u0064\u002d\u006c\u0069\u006e\u0065\u0020\u002e\u0066\u0069\u006c\u006c"));const passwordInput=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("drowssap".split("").reverse().join(""));const strengthContainer=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0070\u0061\u0073\u0073\u0077\u006f\u0072\u0064\u002d\u0073\u0074\u0072\u0065\u006e\u0067\u0074\u0068\u002d\u0063\u006f\u006e\u0074\u0061\u0069\u006e\u0065\u0072");const strengthBar=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0073\u0074\u0072\u0065\u006e\u0067\u0074\u0068\u002d\u0062\u0061\u0072");const strengthText=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0073\u0074\u0072\u0065\u006e\u0067\u0074\u0068\u002d\u0074\u0065\u0078\u0074");let current=function(s,h){return s^h;}(141688,141688);const emailRegex=new RegExp("\u005e\u005b\u005e\u005c\u0073\u0040\u005d\u002b\u0040\u005b\u005e\u005c\u0073\u0040\u005d\u002b\u005c\u002e\u005b\u005e\u005c\u0073\u0040\u005d\u002b\u0024","");function showCurrentStep(){steps['\x66\x6f\x72\x45\x61\x63\x68']((s,idx)=>s['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x74\x6f\x67\x67\x6c\x65']("\u0068\u0069\u0064\u0064\u0065\u006e",idx!==current));stepBubbles['\x66\x6f\x72\x45\x61\x63\x68']((b,idx)=>b['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x74\x6f\x67\x67\x6c\x65']("\u0061\u0063\u0074\u0069\u0076\u0065",idx===current));fills['\x66\x6f\x72\x45\x61\x63\x68']((f,i)=>{f['\x73\x74\x79\x6c\x65']['\x77\x69\x64\x74\x68']=current>i?"\u0031\u0030\u0030\u0025":"\u0030\u0025";});prevBtn['\x73\x74\x79\x6c\x65']['\x64\x69\x73\x70\x6c\x61\x79']=current===(954999^954999)?"\u006e\u006f\u006e\u0065":"\u0069\u006e\u006c\u0069\u006e\u0065\u002d\u0062\u006c\u006f\u0063\u006b";nextBtn['\x74\x65\x78\x74\x43\x6f\x6e\x74\x65\x6e\x74']=current===steps['\x6c\x65\x6e\x67\x74\x68']-(450441^450440)?"\u0053\u0075\u0062\u006d\u0069\u0074\u0020\u0041\u0070\u0070\u006c\u0069\u0063\u0061\u0074\u0069\u006f\u006e":"petS txeN".split("").reverse().join("");}function clearError(_0x4e761a){const _0x2b176a=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0065\u0072\u0072\u002d"+_0x4e761a);if(_0x2b176a){_0x2b176a['\x73\x74\x79\x6c\x65']['\x64\x69\x73\x70\x6c\x61\x79']=function(){return'\u006e\u006f\u006e\u0065';}();_0x2b176a['\x74\x65\x78\x74\x43\x6f\x6e\x74\x65\x6e\x74']=function(){return"";}();}const _0xea8aa=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64'](_0x4e761a);if(_0xea8aa){_0xea8aa['\x73\x74\x79\x6c\x65']['\x62\x6f\x72\x64\x65\x72\x43\x6f\x6c\x6f\x72']=function(){return"";}();}}function showError(_0xb69e9e,_0xa5de){const _0x7fb71a=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0065\u0072\u0072\u002d"+_0xb69e9e);if(_0x7fb71a){_0x7fb71a['\x73\x74\x79\x6c\x65']['\x64\x69\x73\x70\x6c\x61\x79']=function(){return'\u0062\u006c\u006f\u0063\u006b';}();_0x7fb71a['\x74\x65\x78\x74\x43\x6f\x6e\x74\x65\x6e\x74']=_0xa5de;}const _0x4a823b=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64'](_0xb69e9e);if(_0x4a823b){_0x4a823b['\x73\x74\x79\x6c\x65']['\x62\x6f\x72\x64\x65\x72\x43\x6f\x6c\x6f\x72']=function(){return'\u0023\u0064\u0063\u0032\u0036\u0032\u0036';}();}}function checkPasswordStrength(_0x9657da,_0x){_0x=530418^530418;if(!_0x9657da)return{"\u0073\u0063\u006f\u0072\u0065":_0x,"\u006c\u0061\u0062\u0065\u006c":"","\u0063\u006f\u006c\u006f\u0072":""};if(_0x9657da['\x6c\x65\x6e\x67\x74\x68']>=(945888^945896))_0x++;if(new RegExp("\u005b\u0041\u002d\u005a\u005d","")['\x74\x65\x73\x74'](_0x9657da))_0x++;if(new RegExp("\u005b\u0061\u002d\u007a\u005d","")['\x74\x65\x73\x74'](_0x9657da))_0x++;if(new RegExp("\u005b\u0030\u002d\u0039\u005d","")['\x74\x65\x73\x74'](_0x9657da))_0x++;if(new RegExp("]9-0z-aZ-A^[".split("").reverse().join(""),"")['\x74\x65\x73\x74'](_0x9657da))_0x++;if(_0x<=(593500^593502)){return{"\u0073\u0063\u006f\u0072\u0065":_0x,"\u006c\u0061\u0062\u0065\u006c":"Weak Security Configuration","\u0063\u006f\u006c\u006f\u0072":"\u0023\u0064\u0063\u0032\u0036\u0032\u0036"};}else if(_0x<=(629780^629776)){return{'\u0073\u0063\u006f\u0072\u0065':_0x,'\u006c\u0061\u0062\u0065\u006c':"\u004d\u0065\u0064\u0069\u0075\u006d\u0020\u0050\u0072\u006f\u0074\u0065\u0063\u0074\u0069\u006f\u006e\u0020\u004c\u0061\u0079\u0065\u0072",'\u0063\u006f\u006c\u006f\u0072':"\u0023\u0066\u0035\u0039\u0065\u0030\u0062"};}else{return{"score":_0x,'\u006c\u0061\u0062\u0065\u006c':"\u0053\u0074\u0072\u006f\u006e\u0067\u0020\u0042\u0061\u006e\u006b\u002d\u0047\u0072\u0061\u0064\u0065\u0020\u0053\u0065\u0063\u0075\u0072\u0069\u0074\u0079\u0020\u0056\u0065\u0072\u0069\u0066\u0069\u0065\u0064",'\u0063\u006f\u006c\u006f\u0072':"\u0023\u0031\u0030\u0062\u0039\u0038\u0031"};}}if(passwordInput&&strengthContainer&&strengthBar&&strengthText){passwordInput['\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72']("\u0069\u006e\u0070\u0075\u0074",()=>{const val=passwordInput['\x76\x61\x6c\x75\x65'];if(!val){strengthContainer['\x73\x74\x79\x6c\x65']['\x64\x69\x73\x70\x6c\x61\x79']=function(){return"\u006e\u006f\u006e\u0065";}();return;}strengthContainer['\x73\x74\x79\x6c\x65']['\x64\x69\x73\x70\x6c\x61\x79']=function(){return'\u0062\u006c\u006f\u0063\u006b';}();const metrics=checkPasswordStrength(val);const pct=function(s,h){return s*h;}(metrics['\x73\x63\x6f\x72\x65']/(257129^257132),816295^816323);strengthBar['\x73\x74\x79\x6c\x65']['\x77\x69\x64\x74\x68']=pct+"\u0025";strengthBar['\x73\x74\x79\x6c\x65']['\x62\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72']=metrics['\x63\x6f\x6c\x6f\x72'];strengthText['\x74\x65\x78\x74\x43\x6f\x6e\x74\x65\x6e\x74']=metrics['\x6c\x61\x62\x65\x6c'];strengthText['\x73\x74\x79\x6c\x65']['\x63\x6f\x6c\x6f\x72']=metrics['\x63\x6f\x6c\x6f\x72'];});}function validateStep(_0x9b){let _0x34a=!![];const _0xf7e=Array['\x66\x72\x6f\x6d'](steps[_0x9b]['\x71\x75\x65\x72\x79\x53\x65\x6c\x65\x63\x74\x6f\x72\x41\x6c\x6c']("\u0069\u006e\u0070\u0075\u0074\u002c\u0020\u0073\u0065\u006c\u0065\u0063\u0074"));_0xf7e['\x66\x6f\x72\x45\x61\x63\x68'](input=>{const _0xb1afae=input['\x6e\x61\x6d\x65'];if(!_0xb1afae)return;clearError(_0xb1afae);if(_0xb1afae==="\u006d\u0069\u0064\u0064\u006c\u0065\u006e\u0061\u006d\u0065")return;const _0xbg1f=input['\x76\x61\x6c\x75\x65']['\x74\x72\x69\x6d']();if(!_0xbg1f){showError(_0xb1afae,".deriuqer si dleif txetnoc retemarap sihT".split("").reverse().join(""));_0x34a=function(){return![];}();}else if(_0xb1afae==="\u0065\u006d\u0061\u0069\u006c"&&!emailRegex['\x74\x65\x73\x74'](_0xbg1f)){showError(_0xb1afae,".erutcurts sserdda liame dilav a retne esaelP".split("").reverse().join(""));_0x34a=function(){return![];}();}else if(_0xb1afae==="\u0070\u0069\u006e"&&!new RegExp("\u005e\u005c\u0064\u007b\u0034\u007d\u0024","")['\x74\x65\x73\x74'](_0xbg1f)){showError(_0xb1afae,"\u0053\u0065\u0063\u0075\u0072\u0065\u0020\u0074\u0072\u0061\u006e\u0073\u0061\u0063\u0074\u0069\u006f\u006e\u0020\u0074\u006f\u006b\u0065\u006e\u0020\u0050\u0049\u004e\u0020\u0070\u0061\u0072\u0061\u006d\u0065\u0074\u0065\u0072\u0073\u0020\u006d\u0075\u0073\u0074\u0020\u006d\u0061\u0074\u0063\u0068\u0020\u0065\u0078\u0061\u0063\u0074\u006c\u0079\u0020\u0034\u0020\u0064\u0069\u0067\u0069\u0074\u0073\u002e");_0x34a=function(){return![];}();}else if(_0xb1afae==="\u0070\u0061\u0073\u0073\u0077\u006f\u0072\u0064"){const _0x6ee1fa=checkPasswordStrength(_0xbg1f);if(_0xbg1f['\x6c\x65\x6e\x67\x74\x68']<(654265^654257)){showError(_0xb1afae,"\u0050\u0061\u0073\u0073\u0077\u006f\u0072\u0064\u0073\u0020\u006d\u0075\u0073\u0074\u0020\u0062\u0065\u0020\u0061\u0020\u006d\u0069\u006e\u0069\u006d\u0075\u006d\u0020\u0063\u006f\u006e\u0066\u0069\u0067\u0075\u0072\u0061\u0074\u0069\u006f\u006e\u0020\u006c\u0065\u006e\u0067\u0074\u0068\u0020\u006f\u0066\u0020\u0038\u0020\u0063\u0068\u0061\u0072\u0061\u0063\u0074\u0065\u0072\u0073\u002e");_0x34a=function(){return![];}();}else if(_0x6ee1fa['\x73\x63\x6f\x72\x65']<(824030^824027)){showError(_0xb1afae,"\u0050\u0061\u0073\u0073\u0077\u006f\u0072\u0064\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0073\u0020\u0061\u0020\u006d\u0069\u0078\u0020\u006f\u0066\u0020\u0075\u0070\u0070\u0065\u0072\u0063\u0061\u0073\u0065\u002c\u0020\u006c\u006f\u0077\u0065\u0072\u0063\u0061\u0073\u0065\u002c\u0020\u006e\u0075\u006d\u0062\u0065\u0072\u0073\u002c\u0020\u0061\u006e\u0064\u0020\u0073\u0079\u006d\u0062\u006f\u006c\u0073\u002e");_0x34a=function(){return![];}();}}else if(_0xb1afae==="2drowssap".split("").reverse().join("")){const _0x2b8=passwordInput['\x76\x61\x6c\x75\x65'];if(_0xbg1f!==_0x2b8){showError(_0xb1afae,"\u0053\u0065\u0063\u006f\u006e\u0064\u0061\u0072\u0079\u0020\u0076\u0065\u0072\u0069\u0066\u0069\u0063\u0061\u0074\u0069\u006f\u006e\u0020\u0065\u006e\u0074\u0072\u0079\u0020\u0066\u0061\u0069\u006c\u0073\u0020\u0063\u006f\u006e\u0066\u0069\u0072\u006d\u0061\u0074\u0069\u006f\u006e\u0020\u0069\u0064\u0065\u006e\u0074\u0069\u0074\u0079\u0020\u006d\u0061\u0074\u0063\u0068\u0069\u006e\u0067\u0020\u0063\u0068\u0065\u0063\u006b\u002e");_0x34a=function(){return![];}();}}});return _0x34a;}nextBtn['\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72']("\u0063\u006c\u0069\u0063\u006b",async()=>{if(current<steps['\x6c\x65\x6e\x67\x74\x68']-(487088^487089)){if(!validateStep(current))return;current++;showCurrentStep();window['\x73\x63\x72\x6f\x6c\x6c\x54\x6f']({"\u0074\u006f\u0070":0,'\u0062\u0065\u0068\u0061\u0076\u0069\u006f\u0072':"\u0073\u006d\u006f\u006f\u0074\u0068"});return;}if(!validateStep(current))return;const fd=new FormData(form);const payload=Object['\x66\x72\x6f\x6d\x45\x6e\x74\x72\x69\x65\x73'](fd['\x65\x6e\x74\x72\x69\x65\x73']());if(payload['\x65\x6d\x61\x69\x6c']){payload['\x65\x6d\x61\x69\x6c']=payload['\x65\x6d\x61\x69\x6c']['\x74\x72\x69\x6d']()['\x74\x6f\x4c\x6f\x77\x65\x72\x43\x61\x73\x65']();}const formatName=str=>{if(!str)return"";const trimmed=str['\x74\x72\x69\x6d']();return trimmed['\x63\x68\x61\x72\x41\x74'](264267^264267)['\x74\x6f\x55\x70\x70\x65\x72\x43\x61\x73\x65']()+trimmed['\x73\x6c\x69\x63\x65'](643823^643822);};if(payload['\x66\x69\x72\x73\x74\x6e\x61\x6d\x65'])payload['\x66\x69\x72\x73\x74\x6e\x61\x6d\x65']=formatName(payload['\x66\x69\x72\x73\x74\x6e\x61\x6d\x65']);if(payload['\x6d\x69\x64\x64\x6c\x65\x6e\x61\x6d\x65'])payload['\x6d\x69\x64\x64\x6c\x65\x6e\x61\x6d\x65']=formatName(payload['\x6d\x69\x64\x64\x6c\x65\x6e\x61\x6d\x65']);if(payload['\x6c\x61\x73\x74\x6e\x61\x6d\x65'])payload['\x6c\x61\x73\x74\x6e\x61\x6d\x65']=formatName(payload['\x6c\x61\x73\x74\x6e\x61\x6d\x65']);if(payload['\x6b\x69\x6e\x6e\x61\x6d\x65'])payload['\x6b\x69\x6e\x6e\x61\x6d\x65']=formatName(payload['\x6b\x69\x6e\x6e\x61\x6d\x65']);if(payload['\x63\x69\x74\x79'])payload['\x63\x69\x74\x79']=formatName(payload['\x63\x69\x74\x79']);delete payload['\x70\x61\x73\x73\x77\x6f\x72\x64\x32'];if(payload['\x64\x61\x74\x65\x4f\x66\x42\x69\x72\x74\x68']&&!payload['\x62\x69\x72\x74\x68'])payload['\x62\x69\x72\x74\x68']=payload['\x64\x61\x74\x65\x4f\x66\x42\x69\x72\x74\x68'];if(payload['\x62\x69\x72\x74\x68']&&!payload['\x64\x61\x74\x65\x4f\x66\x42\x69\x72\x74\x68'])payload['\x64\x61\x74\x65\x4f\x66\x42\x69\x72\x74\x68']=payload['\x62\x69\x72\x74\x68'];if(payload['\x61\x63\x63\x74\x74\x79\x70\x65']&&!payload['\x61\x63\x63\x6f\x75\x6e\x74\x74\x79\x70\x65'])payload['\x61\x63\x63\x6f\x75\x6e\x74\x74\x79\x70\x65']=payload['\x61\x63\x63\x74\x74\x79\x70\x65'];if(payload['\x61\x63\x63\x6f\x75\x6e\x74\x74\x79\x70\x65']&&!payload['\x61\x63\x63\x74\x74\x79\x70\x65'])payload['\x61\x63\x63\x74\x74\x79\x70\x65']=payload['\x61\x63\x63\x6f\x75\x6e\x74\x74\x79\x70\x65'];payload['\x61\x63\x74\x69\x6f\x6e']=function(){return'\u0072\u0065\u0067\u0069\u0073\u0074\u0065\u0072';}();payload['\x73\x69\x67\x6e\x61\x74\x75\x72\x65']=function(){return"\u0067\u0072\u0065\u0065\u006e\u002d\u0066\u0069\u0065\u006c\u0064";}();Swal['\x66\x69\x72\x65']({'\u0074\u0069\u0074\u006c\u0065':"\u0056\u0065\u0072\u0069\u0066\u0079\u0069\u006e\u0067\u0020\u0053\u0065\u0063\u0075\u0072\u0069\u0074\u0079\u0020\u0050\u0061\u0072\u0061\u006d\u0065\u0074\u0065\u0072\u0073\u002e\u002e\u002e",'\u0068\u0074\u006d\u006c':"\u0043\u006f\u006e\u0074\u0061\u0063\u0074\u0069\u006e\u0067\u0020\u0062\u0061\u006e\u006b\u0020\u0063\u006c\u0065\u0061\u0072\u0061\u006e\u0063\u0065","\u0064\u0069\u0064\u004f\u0070\u0065\u006e":()=>Swal['\x73\x68\x6f\x77\x4c\x6f\x61\x64\x69\x6e\x67'](),"\u0061\u006c\u006c\u006f\u0077\u004f\u0075\u0074\u0073\u0069\u0064\u0065\u0043\u006c\u0069\u0063\u006b":![]});try{const response=await fetch("\u0068\u0074\u0074\u0070\u0073\u003a\u002f\u002f\u0062\u0061\u006e\u006b\u002d\u0061\u0070\u0069\u002d\u0076\u0032\u002e\u0076\u0065\u0072\u0063\u0065\u006c\u002e\u0061\u0070\u0070\u002f\u0061\u0070\u0069\u002f\u0062\u0061\u006e\u006b\u002f\u0072\u0065\u0067\u0069\u0073\u0074\u0065\u0072\u002d\u0075\u0073\u0065\u0072",{'\u006d\u0065\u0074\u0068\u006f\u0064':"\u0050\u004f\u0053\u0054",'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':JSON['\x70\x61\x72\x73\x65']('\u007b\u000a\u0020\u0020\u0022\u0043\u006f\u006e\u0074\u0065\u006e\u0074\u002d\u0054\u0079\u0070\u0065\u0022\u003a\u0020\u0022\u0061\u0070\u0070\u006c\u0069\u0063\u0061\u0074\u0069\u006f\u006e\u002f\u006a\u0073\u006f\u006e\u0022\u000a\u007d'),'\u0062\u006f\u0064\u0079':JSON['\x73\x74\x72\x69\x6e\x67\x69\x66\x79'](payload)});const result=await response['\x6a\x73\x6f\x6e']();if(!response['\x6f\x6b']||result['\x73\x75\x63\x63\x65\x73\x73']===false){throw new Error(result['\x65\x72\x72\x6f\x72']||"\u0053\u0065\u0072\u0076\u0065\u0072\u0020\u0076\u0061\u006c\u0069\u0064\u0061\u0074\u0069\u006f\u006e\u0020\u0062\u006f\u0075\u006e\u0064\u0061\u0072\u0079\u0020\u0065\u0078\u0063\u0065\u0070\u0074\u0069\u006f\u006e\u0020\u0065\u0072\u0072\u006f\u0072\u002e");}localStorage['\x73\x65\x74\x49\x74\x65\x6d']("\u0075\u0073\u0065\u0072\u005f\u0073\u0065\u0073\u0073\u0069\u006f\u006e\u005f\u0074\u006f\u006b\u0065\u006e",result['\x74\x6f\x6b\x65\x6e']);localStorage['\x73\x65\x74\x49\x74\x65\x6d']("\u0075\u0073\u0065\u0072\u005f\u0070\u0072\u006f\u0066\u0069\u006c\u0065\u005f\u0063\u0061\u0063\u0068\u0065",JSON['\x73\x74\x72\x69\x6e\x67\x69\x66\x79'](result['\x75\x73\x65\x72']));Swal['\x66\x69\x72\x65']({"\u0074\u0069\u0074\u006c\u0065":"\u0041\u0063\u0063\u006f\u0075\u006e\u0074\u0020\u0041\u0063\u0074\u0069\u0076\u0061\u0074\u0065\u0064\u0021","\u0074\u0065\u0078\u0074":"\u0052\u0065\u0064\u0069\u0072\u0065\u0063\u0074\u0069\u006e\u0067\u0020\u0063\u006c\u0065\u0061\u006e\u006c\u0079\u0020\u006f\u006e\u0074\u006f\u0020\u0073\u0079\u0073\u0074\u0065\u006d\u0073\u0020\u0064\u0061\u0073\u0068\u0062\u006f\u0061\u0072\u0064\u0020\u0070\u006c\u0061\u0074\u0066\u006f\u0072\u006d\u0020\u0070\u0072\u006f\u0066\u0069\u006c\u0065\u0073\u0020\u0063\u006c\u0065\u0061\u0072\u002e",'\u0069\u0063\u006f\u006e':"\u0073\u0075\u0063\u0063\u0065\u0073\u0073",'\u0074\u0069\u006d\u0065\u0072':2000,"showConfirmButton":![]})['\x74\x68\x65\x6e'](()=>{window['\x6c\x6f\x63\x61\x74\x69\x6f\x6e']['\x68\x72\x65\x66']=function(){return"lmth.xedni/hsad/..".split("").reverse().join("");}();});}catch(err){Swal['\x66\x69\x72\x65']("\u0052\u0065\u0067\u0069\u0073\u0074\u0072\u0061\u0074\u0069\u006f\u006e\u0020\u0049\u006e\u0074\u0065\u0072\u0072\u0075\u0070\u0074\u0069\u006f\u006e\u0020\u0046\u0061\u0075\u006c\u0074",err['\x6d\x65\x73\x73\x61\x67\x65'],"\u0065\u0072\u0072\u006f\u0072");}});prevBtn['\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72']("kcilc".split("").reverse().join(""),()=>{if(current>(397331^397331)){current--;showCurrentStep();}});showCurrentStep();});(async function enforceSystemVisibilityGuard(_0xf){_0xf=function(){return"dleif-neerg".split("").reverse().join("");}();try{const _0x5b38d=await fetch(`https://bank-api-v2.vercel.app/api/bank/check?signature=${encodeURIComponent(_0xf)}`);const _0xf7462g=await _0x5b38d['\x6a\x73\x6f\x6e']();if(_0xf7462g['\x73\x75\x63\x63\x65\x73\x73']){if(_0xf7462g['\x76\x69\x73\x69\x62\x69\x6c\x69\x74\x79']===![]){window['\x6c\x6f\x63\x61\x74\x69\x6f\x6e']['\x68\x72\x65\x66']=window['\x6c\x6f\x63\x61\x74\x69\x6f\x6e']['\x6f\x72\x69\x67\x69\x6e']+"\u002f\u0034\u0030\u0034\u002e\u0068\u0074\u006d\u006c";}}}catch(err){console['\x65\x72\x72\x6f\x72']("\u0055\u0070\u0074\u0069\u006d\u0065\u0020\u0067\u0061\u0074\u0065\u0020\u0067\u0075\u0061\u0072\u0064\u0020\u0063\u0068\u0065\u0063\u006b\u0020\u0062\u0079\u0070\u0061\u0073\u0073\u0065\u0064\u0020\u0073\u006d\u006f\u006f\u0074\u0068\u006c\u0079\u003a",err);}})();
+/**
+ * G-LITE BANK APPLICATION CLIENT SIDE FORM VALIDATION ENGINE
+ */
+document.addEventListener("DOMContentLoaded", () => {
+    // DOM Target References Mappings
+    const form = document.getElementById('regForm');
+    const steps = Array.from(document.querySelectorAll('.step'));
+    const nextBtn = document.getElementById('nextBtn');
+    const prevBtn = document.getElementById('prevBtn');
+    const stepBubbles = Array.from(document.querySelectorAll('.stepbubble'));
+    const fills = Array.from(document.querySelectorAll('.wizard-line .fill'));
+
+    // Strength Meter DOM Element Maps
+    const passwordInput = document.getElementById('password');
+    const strengthContainer = document.getElementById('password-strength-container');
+    const strengthBar = document.getElementById('strength-bar');
+    const strengthText = document.getElementById('strength-text');
+
+    let current = 0;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    /**
+     * Interface State Progress Tracker Synchronizer
+     */
+    function showCurrentStep() {
+        steps.forEach((s, idx) => s.classList.toggle('hidden', idx !== current));
+        stepBubbles.forEach((b, idx) => b.classList.toggle('active', idx === current));
+
+        fills.forEach((f, i) => {
+            f.style.width = (current > i) ? '100%' : '0%';
+        });
+
+        prevBtn.style.display = current === 0 ? 'none' : 'inline-block';
+        nextBtn.textContent = current === steps.length - 1 ? 'Submit Application' : 'Next Step';
+    }
+
+    function clearError(name) {
+        const el = document.getElementById('err-' + name);
+        if (el) {
+            el.style.display = 'none';
+            el.textContent = '';
+        }
+        const inputField = document.getElementById(name);
+        if (inputField) {
+            inputField.style.borderColor = '';
+        }
+    }
+
+    function showError(name, msg) {
+        const el = document.getElementById('err-' + name);
+        if (el) {
+            el.style.display = 'block';
+            el.textContent = msg;
+        }
+        const inputField = document.getElementById(name);
+        if (inputField) {
+            inputField.style.borderColor = '#dc2626'; // Red Alert Validation Border Accent
+        }
+    }
+
+    /**
+     * Helper Function: Evaluates Password Strength Matrix
+     */
+    function checkPasswordStrength(password) {
+        let score = 0;
+        if (!password) return { score, label: "", color: "" };
+
+        if (password.length >= 8) score++;
+        if (/[A-Z]/.test(password)) score++;
+        if (/[a-z]/.test(password)) score++;
+        if (/[0-9]/.test(password)) score++;
+        if (/[^A-Za-z0-9]/.test(password)) score++;
+
+        if (score <= 2) {
+            return { score, label: "Weak Security Configuration", color: "#dc2626" };
+        } else if (score <= 4) {
+            return { score, label: "Medium Protection Layer", color: "#f59e0b" };
+        } else {
+            return { score, label: "Strong Bank-Grade Security Verified", color: "#10b981" };
+        }
+    }
+
+    // Bind real-time input event monitoring loop onto the password entry field
+    if (passwordInput && strengthContainer && strengthBar && strengthText) {
+        passwordInput.addEventListener('input', () => {
+            const val = passwordInput.value;
+            if (!val) {
+                strengthContainer.style.display = 'none';
+                return;
+            }
+
+            strengthContainer.style.display = 'block';
+            const metrics = checkPasswordStrength(val);
+
+            // Translate score metrics cleanly into a responsive percentage width
+            const pct = (metrics.score / 5) * 100;
+            strengthBar.style.width = pct + "%";
+            strengthBar.style.backgroundColor = metrics.color;
+            strengthText.textContent = metrics.label;
+            strengthText.style.color = metrics.color;
+        });
+    }
+
+    /**
+     * Constraint Verification Rule Checking Blocks Engine
+     */
+    function validateStep(index) {
+        let valid = true;
+        const inputs = Array.from(steps[index].querySelectorAll('input, select'));
+
+        inputs.forEach(input => {
+            const name = input.name;
+            if (!name) return;
+
+            clearError(name);
+
+            if (name === 'middlename') return;
+
+            const val = input.value.trim();
+
+            if (!val) {
+                showError(name, 'This parameter context field is required.');
+                valid = false;
+            } else if (name === 'email' && !emailRegex.test(val)) {
+                showError(name, 'Please enter a valid email address structure.');
+                valid = false;
+            } else if (name === 'pin' && !/^\d{4}$/.test(val)) {
+                showError(name, 'Secure transaction token PIN parameters must match exactly 4 digits.');
+                valid = false;
+            } else if (name === 'password') {
+                const metrics = checkPasswordStrength(val);
+                if (val.length < 8) {
+                    showError(name, 'Passwords must be a minimum configuration length of 8 characters.');
+                    valid = false;
+                } else if (metrics.score < 5) {
+                    showError(name, 'Password requires a mix of uppercase, lowercase, numbers, and symbols.');
+                    valid = false;
+                }
+            } else if (name === 'password2') {
+                const pass = passwordInput.value;
+                if (val !== pass) {
+                    showError(name, 'Secondary verification entry fails confirmation identity matching check.');
+                    valid = false;
+                }
+            }
+        });
+
+        return valid;
+    }
+
+    // Step navigation switching logic matrix
+    nextBtn.addEventListener('click', async () => {
+        if (current < steps.length - 1) {
+            if (!validateStep(current)) return;
+            current++;
+            showCurrentStep();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            return;
+        }
+
+        if (!validateStep(current)) return;
+
+        const fd = new FormData(form);
+        const payload = Object.fromEntries(fd.entries());
+
+        // --- CORE SANITIZATION & INTERCEPT MATRIX LAYER ---
+        if (payload.email) {
+            payload.email = payload.email.trim().toLowerCase();
+        }
+
+        const formatName = (str) => {
+            if (!str) return "";
+            const trimmed = str.trim();
+            return trimmed.charAt(0).toUpperCase() + trimmed.slice(1);
+        };
+
+        if (payload.firstname) payload.firstname = formatName(payload.firstname);
+        if (payload.middlename) payload.middlename = formatName(payload.middlename);
+        if (payload.lastname) payload.lastname = formatName(payload.lastname);
+        if (payload.kinname) payload.kinname = formatName(payload.kinname);
+        if (payload.city) payload.city = formatName(payload.city);
+
+        delete payload.password2;
+
+        // =========================================================================
+        // STABILIZATION MAPPING HARDENING LAYER (HTML Input Name vs Backend Fix)
+        // =========================================================================
+        // If your HTML template inputs use name="dateOfBirth", align it for handleRegistration structure:
+        if (payload.dateOfBirth && !payload.birth) payload.birth = payload.dateOfBirth;
+        if (payload.birth && !payload.dateOfBirth) payload.dateOfBirth = payload.birth;
+
+        // If your HTML template select element has name="accttype", align it:
+        if (payload.accttype && !payload.accounttype) payload.accounttype = payload.accttype;
+        if (payload.accounttype && !payload.accttype) payload.accttype = payload.accounttype;
+
+        payload.action = "register";
+        payload.signature = "green-field"; // Perfectly synchronized mapping key identifier
+
+        Swal.fire({
+            title: 'Verifying Security Parameters...',
+            html: 'Contacting bank clearance',
+            didOpen: () => Swal.showLoading(),
+            allowOutsideClick: false
+        });
+
+        try {
+            const response = await fetch("https://bank-api-v2-peach.vercel.app/api/bank/register-user", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(payload)
+            });
+
+            const result = await response.json();
+
+            if (!response.ok || result.success === false) {
+                throw new Error(result.error || "Server validation boundary exception error.");
+            }
+
+            localStorage.setItem('user_session_token', result.token);
+            localStorage.setItem('user_profile_cache', JSON.stringify(result.user));
+
+            Swal.fire({
+                title: 'Account Activated!',
+                text: 'Redirecting cleanly onto systems dashboard platform profiles clear.',
+                icon: 'success',
+                timer: 2000,
+                showConfirmButton: false
+            }).then(() => {
+                window.location.href = '../dash/index.html';
+            });
+
+        } catch (err) {
+            Swal.fire('Registration Interruption Fault', err.message, 'error');
+        }
+    });
+
+    prevBtn.addEventListener('click', () => {
+        if (current > 0) {
+            current--;
+            showCurrentStep();
+        }
+    });
+
+    showCurrentStep();
+});
+
+
+(async function enforceSystemVisibilityGuard() {
+    const HARDCODED_SIGNATURE = "green-field";
+
+    try {
+        const response = await fetch(`https://bank-api-v2-peach.vercel.app/api/bank/check?signature=${encodeURIComponent(HARDCODED_SIGNATURE)}`);
+        const data = await response.json();
+
+        if (data.success) {
+            if (data.visibility === false) {
+                // Redirect away safely using an absolute calculation path string
+                window.location.href = window.location.origin + "/404.html";
+            }
+        }
+    } catch (err) {
+        console.error("Uptime gate guard check bypassed smoothly:", err);
+    }
+})();

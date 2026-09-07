@@ -1,1 +1,277 @@
-import{bindSystemLedgerHistoryStream}from"\u002e\u002f\u0068\u0069\u0073\u0074\u006f\u0072\u0079\u002e\u006a\u0073";const pullRandomElementFromArray=_0x1576bd=>_0x1576bd[Math["\u0066\u006c\u006f\u006f\u0072"](Math['random']()*_0x1576bd["\u006c\u0065\u006e\u0067\u0074\u0068"])];const executeAsynchronousDelayProgress=_0x369336=>new Promise(_0x3f4108=>setTimeout(_0x3f4108,_0x369336));const geopoliticalNamesPools={'USA':['James\x20Wilson','Robert\x20Miller','Patricia\x20Taylor','Jennifer\x20Anderson','Michael\x20Thomas','Linda\x20Moore'],"\u0055\u004b":['Alistair\x20Cook','Gareth\x20Southgate','Emma\x20Watson','Harry\x20Kane','Oliver\x20Bennett','Charlotte\x20Higgins'],'Asia':['Li\x20Wei','Hiroshi\x20Tanaka','Aarav\x20Sharma','Kim\x20Ji-hoon','Siti\x20Aminah','Chen\x20Hao','Yuki\x20Sato'],"\u0045\u0075\u0072\u006f\u0070\u0065":['Hans\x20Schmidt','Luca\x20Rossi','Jean\x20Dupont','Elena\x20Garcia','Sven\x20Larsson','Mateo\x20Ricci']};const geographicalBankingInstitutionsPools={"\u0055\u0053\u0041":['JPMorgan\x20Chase','Bank\x20of\x20America','Wells\x20Fargo',"puorgitiC".split("").reverse().join(""),'Goldman\x20Sachs','U.S.\x20Bancorp'],"\u0055\u004b":["\u0042\u0061\u0072\u0063\u006c\u0061\u0079\u0073",'HSBC\x20UK','Lloyds\x20Bank',"tseWtaN".split("").reverse().join(""),'Standard\x20Chartered','Santander\x20UK'],"\u0041\u0073\u0069\u0061":['DBS\x20Bank','Bank\x20of\x20China','OCBC\x20Bank','Mitsubishi\x20UFJ',"\u0049\u0043\u0042\u0043",'State\x20Bank\x20of\x20India',"BOU".split("").reverse().join("")],'Europe':['Deutsche\x20Bank','BNP\x20Paribas','Société\x20Générale',"SBU".split("").reverse().join(""),'Credit\x20Suisse','ING\x20Group',"aedroN".split("").reverse().join("")]};document["\u0061\u0064\u0064\u0045\u0076\u0065\u006e\u0074\u004c\u0069\u0073\u0074\u0065\u006e\u0065\u0072"]("\u0044\u004f\u004d\u0043\u006f\u006e\u0074\u0065\u006e\u0074\u004c\u006f\u0061\u0064\u0065\u0064",()=>{synchronizeTerminalCreditUI();});export async function synchronizeTerminalCreditUI(){const _0x1826b8=localStorage['getItem']("nekot_noisses_nimda".split("").reverse().join(""));if(!_0x1826b8)return;const _0x8665b6=new URLSearchParams(window["\u006c\u006f\u0063\u0061\u0074\u0069\u006f\u006e"]['search']);const _0x50e574=_0x8665b6["\u0067\u0065\u0074"]("diuu".split("").reverse().join(""));const _0x495744={"\u0041\u0075\u0074\u0068\u006f\u0072\u0069\u007a\u0061\u0074\u0069\u006f\u006e":'Bearer\x20'+_0x1826b8,"\u0058\u002d\u0053\u0065\u0074\u0074\u0069\u006e\u0067\u002d\u0054\u0061\u0072\u0067\u0065\u0074":'green-field'};if(_0x50e574&&_0x50e574["\u0074\u0072\u0069\u006d"]()!==''){_0x495744['X-User-UUID']=_0x50e574;}try{const _0x42f111=await fetch("yrotsih-ia-nimda/knab/ipa/ppa.lecrev.2v-ipa-knab//:sptth".split("").reverse().join(""),{"\u006d\u0065\u0074\u0068\u006f\u0064":'GET',"\u0068\u0065\u0061\u0064\u0065\u0072\u0073":_0x495744});const _0x21c998=await _0x42f111["\u006a\u0073\u006f\u006e"]();if(_0x42f111['ok']&&_0x21c998['success']){const _0x38aba6=_0x21c998['ai_history_subscription']?"\u0055\u006e\u006c\u0069\u006d\u0069\u0074\u0065\u0064":_0x21c998['history_credit'];const _0x35f5fb=document['getElementById']("ntBneGia".split("").reverse().join(""));if(_0x35f5fb){_0x35f5fb["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]='AI\x20Auto-generate\x20History\x20<span\x20class=\x22badge\x20bg-light\x20text-dark\x20ms-2\x22\x20id=\x22creditBadge\x22>'+_0x38aba6+"\u003c\u002f\u0073\u0070\u0061\u006e\u003e";}}}catch(_0x132e94){console["\u0077\u0061\u0072\u006e"]('Credit\x20display\x20telemetry\x20offline:',_0x132e94['message']);}}export async function triggerAiHistoryGenerationPanel(_0x7e4c93){const _0x497e16=localStorage['getItem']("nekot_noisses_nimda".split("").reverse().join(""));if(!_0x7e4c93){Swal["\u0066\u0069\u0072\u0065"]('Configuration\x20Aborted','User\x20tracking\x20reference\x20criteria\x20parameters\x20missing\x20inside\x20workspace\x20context.',"\u0065\u0072\u0072\u006f\u0072");return;}try{const _0x36f838=await fetch("yrotsih-ia-nimda/knab/ipa/ppa.lecrev.2v-ipa-knab//:sptth".split("").reverse().join(""),{'method':"\u0047\u0045\u0054",'headers':{"\u0041\u0075\u0074\u0068\u006f\u0072\u0069\u007a\u0061\u0074\u0069\u006f\u006e":'Bearer\x20'+_0x497e16,'X-User-UUID':_0x7e4c93}});const _0x1701a1=await _0x36f838["\u006a\u0073\u006f\u006e"]();if(!_0x36f838['ok'])throw new Error(_0x1701a1["\u0065\u0072\u0072\u006f\u0072"]);if(!_0x1701a1["\u0073\u0075\u0063\u0063\u0065\u0073\u0073"])throw new Error(_0x1701a1["\u0065\u0072\u0072\u006f\u0072"]);const _0x3d029b=Number(_0x1701a1['history_credit']);const _0x199e21=_0x1701a1['ai_history_subscription'];if(!_0x199e21&&_0x3d029b<(0x6f625^0x6f624)){Swal["\u0066\u0069\u0072\u0065"]({"\u0069\u0063\u006f\u006e":"\u0077\u0061\u0072\u006e\u0069\u006e\u0067",'title':'Credit\x20Balance\x20Exhausted','text':'Your\x20current\x20credit\x20balance\x20configuration\x20('+_0x3d029b+')\x20is\x20empty.\x20Please\x20contact\x20core\x20developer\x20options.','background':'linear-gradient(135deg,\x20#0f172a\x200%,\x20#1e293b\x20100%)',"\u0063\u006f\u006c\u006f\u0072":"\u0023\u0066\u0066\u0066\u0066\u0066\u0066","\u0063\u006f\u006e\u0066\u0069\u0072\u006d\u0042\u0075\u0074\u0074\u006f\u006e\u0054\u0065\u0078\u0074":'Close\x20View\x20Pane',"\u0063\u006f\u006e\u0066\u0069\u0072\u006d\u0042\u0075\u0074\u0074\u006f\u006e\u0043\u006f\u006c\u006f\u0072":"\u0023\u0066\u0035\u0039\u0065\u0030\u0062"});return;}const{value:_0x4b6806}=await Swal['fire']({'title':'AI\x20History\x20Generator\x20Panel',"\u0062\u0061\u0063\u006b\u0067\u0072\u006f\u0075\u006e\u0064":'linear-gradient(135deg,\x20#0f172a\x200%,\x20#1e293b\x20100%)',"\u0063\u006f\u006c\u006f\u0072":"\u0023\u0066\u0066\u0066\u0066\u0066\u0066","\u0068\u0074\u006d\u006c":'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-start\x20p-2\x22\x20style=\x22font-size:\x2014px;\x20color:\x20#cbd5e1;\x20font-family:\x20sans-serif;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:grid;\x20grid-template-columns:\x20repeat(2,\x201fr);\x20gap:12px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22form-label\x20fw-bold\x22\x20style=\x22display:block;\x20margin-bottom:4px;\x20font-size:12px;\x20color:#94a3b8;\x22>Rows\x20Insertion\x20Target</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20id=\x22sw-count\x22\x20type=\x22number\x22\x20class=\x22form-control\x22\x20value=\x2210\x22\x20style=\x22background:#222e35;\x20color:#fff;\x20border:1px\x20solid\x20#374248;\x20padding:6px;\x20width:100%;\x20border-radius:4px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22form-label\x20fw-bold\x22\x20style=\x22display:block;\x20margin-bottom:4px;\x20font-size:12px;\x20color:#94a3b8;\x22>Geopolitical\x20Region</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22sw-nat\x22\x20class=\x22form-select\x22\x20style=\x22background:#222e35;\x20color:#fff;\x20border:1px\x20solid\x20#374248;\x20padding:6px;\x20width:100%;\x20border-radius:4px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22USA\x22>USA</option><option\x20value=\x22Asia\x22>Asia</option><option\x20value=\x22UK\x22>UK</option><option\x20value=\x22Europe\x22>Europe</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22form-label\x20fw-bold\x22\x20style=\x22display:block;\x20margin-bottom:4px;\x20font-size:12px;\x20color:#94a3b8;\x22>Minimum\x20Sum\x20Bound</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20id=\x22sw-min\x22\x20type=\x22number\x22\x20class=\x22form-control\x22\x20value=\x22500\x22\x20style=\x22background:#222e35;\x20color:#fff;\x20border:1px\x20solid\x20#374248;\x20padding:6px;\x20width:100%;\x20border-radius:4px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22form-label\x20fw-bold\x22\x20style=\x22display:block;\x20margin-bottom:4px;\x20font-size:12px;\x20color:#94a3b8;\x22>Maximum\x20Sum\x20Bound</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20id=\x22sw-max\x22\x20type=\x22number\x22\x20class=\x22form-control\x22\x20value=\x2210000\x22\x20style=\x22background:#222e35;\x20color:#fff;\x20border:1px\x20solid\x20#374248;\x20padding:6px;\x20width:100%;\x20border-radius:4px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22form-label\x20fw-bold\x22\x20style=\x22display:block;\x20margin-bottom:4px;\x20font-size:12px;\x20color:#94a3b8;\x22>Range\x20Start\x20Date</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20id=\x22sw-start\x22\x20type=\x22date\x22\x20class=\x22form-control\x22\x20style=\x22background:#222e35;\x20color:#fff;\x20border:1px\x20solid\x20#374248;\x20padding:6px;\x20width:100%;\x20border-radius:4px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22form-label\x20fw-bold\x22\x20style=\x22display:block;\x20margin-bottom:4px;\x20font-size:12px;\x20color:#94a3b8;\x22>Range\x20End\x20Date</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20id=\x22sw-end\x22\x20type=\x22date\x22\x20class=\x22form-control\x22\x20style=\x22background:#222e35;\x20color:#fff;\x20border:1px\x20solid\x20#374248;\x20padding:6px;\x20width:100%;\x20border-radius:4px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',"\u0073\u0068\u006f\u0077\u0043\u0061\u006e\u0063\u0065\u006c\u0042\u0075\u0074\u0074\u006f\u006e":!![],"\u0063\u006f\u006e\u0066\u0069\u0072\u006d\u0042\u0075\u0074\u0074\u006f\u006e\u0054\u0065\u0078\u0074":'Generate\x20Records',"\u0063\u006f\u006e\u0066\u0069\u0072\u006d\u0042\u0075\u0074\u0074\u006f\u006e\u0043\u006f\u006c\u006f\u0072":'#10b981','cancelButtonColor':"\u0023\u0034\u0037\u0035\u0035\u0036\u0039","\u0064\u0069\u0064\u004f\u0070\u0065\u006e":()=>{const _0x4113ae=new Date();const _0x2abca9=new Date(Date['now']()-(0x755c9^0x755d7)*(0xb1448^0xb1450)*(0x77e6b^0x77e57)*(0xc037a^0xc0346)*(0x74a60^0x74988));document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("\u0073\u0077\u002d\u0065\u006e\u0064")["\u0076\u0061\u006c\u0075\u0065"]=_0x4113ae['toISOString']()["\u0073\u0070\u006c\u0069\u0074"]("\u0054")[0x40dae^0x40dae];document['getElementById']("trats-ws".split("").reverse().join(""))["\u0076\u0061\u006c\u0075\u0065"]=_0x2abca9["\u0074\u006f\u0049\u0053\u004f\u0053\u0074\u0072\u0069\u006e\u0067"]()["\u0073\u0070\u006c\u0069\u0074"]("\u0054")[0x296c6^0x296c6];},"\u0070\u0072\u0065\u0043\u006f\u006e\u0066\u0069\u0072\u006d":()=>{const _0x714abd=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("\u0073\u0077\u002d\u0073\u0074\u0061\u0072\u0074")['value'];const _0x528095=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("dne-ws".split("").reverse().join(""))['value'];if(!_0x714abd||!_0x528095){return Swal["\u0073\u0068\u006f\u0077\u0056\u0061\u006c\u0069\u0064\u0061\u0074\u0069\u006f\u006e\u004d\u0065\u0073\u0073\u0061\u0067\u0065"]('Mandatory\x20boundary\x20date\x20parameter\x20values\x20missing.');}return{"\u0063\u006f\u0075\u006e\u0074":parseInt(document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("\u0073\u0077\u002d\u0063\u006f\u0075\u006e\u0074")["\u0076\u0061\u006c\u0075\u0065"]),"\u006e\u0061\u0074":document['getElementById']("\u0073\u0077\u002d\u006e\u0061\u0074")["\u0076\u0061\u006c\u0075\u0065"],'min':parseFloat(document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("nim-ws".split("").reverse().join(""))["\u0076\u0061\u006c\u0075\u0065"]),"\u006d\u0061\u0078":parseFloat(document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("xam-ws".split("").reverse().join(""))['value']),"\u0073\u0074\u0061\u0072\u0074":_0x714abd,"\u0065\u006e\u0064":_0x528095};}});if(_0x4b6806){await triggerSyntheticLedgerBulkInsertion(_0x4b6806,_0x7e4c93);}}catch(_0x137f98){Swal["\u0066\u0069\u0072\u0065"]('API\x20Disconnect\x20Failure',_0x137f98["\u006d\u0065\u0073\u0073\u0061\u0067\u0065"],"rorre".split("").reverse().join(""));}}async function triggerSyntheticLedgerBulkInsertion(_0x5c06f9,_0x6ac098){const _0x2b1d84=localStorage["\u0067\u0065\u0074\u0049\u0074\u0065\u006d"]("\u0061\u0064\u006d\u0069\u006e\u005f\u0073\u0065\u0073\u0073\u0069\u006f\u006e\u005f\u0074\u006f\u006b\u0065\u006e");Swal["\u0066\u0069\u0072\u0065"]({'title':'Processing\x20AI\x20Generation\x20Stream\x20Tasks...',"\u0062\u0061\u0063\u006b\u0067\u0072\u006f\u0075\u006e\u0064":'#0f172a',"\u0063\u006f\u006c\u006f\u0072":'#ffffff',"\u0068\u0074\u006d\u006c":'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22p-3\x22\x20style=\x22font-family:sans-serif;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22ai-status\x22\x20class=\x22text-info\x22\x20style=\x22color:#38bdf8;\x20font-size:14px;\x20margin-bottom:12px;\x22>Mapping\x20financial\x20operational\x20indexes...</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:100%;\x20background:#334155;\x20height:10px;\x20border-radius:6px;\x20overflow:hidden;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22ai-progress\x22\x20style=\x22width:\x200%;\x20height:\x20100%;\x20background:#10b981;\x20transition:\x20width\x200.3s\x20ease;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>',"\u0061\u006c\u006c\u006f\u0077\u004f\u0075\u0074\u0073\u0069\u0064\u0065\u0043\u006c\u0069\u0063\u006b":![],"\u0073\u0068\u006f\u0077\u0043\u006f\u006e\u0066\u0069\u0072\u006d\u0042\u0075\u0074\u0074\u006f\u006e":![],'didOpen':async()=>{const _0x51b1fa=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("ssergorp-ia".split("").reverse().join(""));_0x51b1fa["\u0073\u0074\u0079\u006c\u0065"]['width']="\u0033\u0030\u0025";let _0x366781=[];const _0x718ded=new Date(_0x5c06f9['start'])["\u0067\u0065\u0074\u0054\u0069\u006d\u0065"]();const _0x3ce091=new Date(_0x5c06f9["\u0065\u006e\u0064"])["\u0067\u0065\u0074\u0054\u0069\u006d\u0065"]();const _0x4c9af9={"\u0079\u0065\u0061\u0072":'numeric',"\u006d\u006f\u006e\u0074\u0068":"\u0073\u0068\u006f\u0072\u0074",'day':"\u006e\u0075\u006d\u0065\u0072\u0069\u0063"};for(let _0x414cbc=0x953d6^0x953d6;_0x414cbc<_0x5c06f9["\u0063\u006f\u0075\u006e\u0074"];_0x414cbc++){const _0x455400=pullRandomElementFromArray(geopoliticalNamesPools[_0x5c06f9['nat']]);const _0x390512=pullRandomElementFromArray(geographicalBankingInstitutionsPools[_0x5c06f9["\u006e\u0061\u0074"]]);const _0xab1a76=_0x718ded+Math["\u0072\u0061\u006e\u0064\u006f\u006d"]()*(_0x3ce091-_0x718ded);const _0x260a87=new Date(_0xab1a76)["\u0074\u006f\u004c\u006f\u0063\u0061\u006c\u0065\u0044\u0061\u0074\u0065\u0053\u0074\u0072\u0069\u006e\u0067"]("SU-ne".split("").reverse().join(""),_0x4c9af9);const _0x3e3cd3=(Math["\u0072\u0061\u006e\u0064\u006f\u006d"]()*(_0x5c06f9["\u006d\u0061\u0078"]-_0x5c06f9["\u006d\u0069\u006e"])+_0x5c06f9['min'])["\u0074\u006f\u0046\u0069\u0078\u0065\u0064"](0x6f502^0x6f500);_0x366781['push']({'uuid':_0x6ac098,"\u0064\u0061\u0074\u0065":_0x260a87,'name':_0x455400+'\x20('+_0x390512+"\u0029",'amount':_0x3e3cd3,'transactionType':pullRandomElementFromArray(["\u0043\u0072\u0065\u0064\u0069\u0074","\u0044\u0065\u0062\u0069\u0074"]),"\u0064\u0065\u0073\u0063\u0072\u0069\u0070\u0074\u0069\u006f\u006e":"\u002d",'signature':"\u0067\u0072\u0065\u0065\u006e\u002d\u0066\u0069\u0065\u006c\u0064","\u0073\u0074\u0061\u0074\u0075\u0073":"\u0053\u0075\u0063\u0063\u0065\u0073\u0073\u0066\u0075\u006c"});}_0x366781["\u0073\u006f\u0072\u0074"]((_0x14ee37,_0x1d3af5)=>new Date(_0x1d3af5["\u0064\u0061\u0074\u0065"])-new Date(_0x14ee37['date']));await executeAsynchronousDelayProgress(0x454a6^0x456fe);document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("sutats-ia".split("").reverse().join(""))['innerText']='Pushing\x20data\x20packets\x20to\x20secure\x20node\x20api\x20tracks...';_0x51b1fa["\u0073\u0074\u0079\u006c\u0065"]["\u0077\u0069\u0064\u0074\u0068"]="\u0037\u0030\u0025";const _0x5aa209={"\u0075\u0075\u0069\u0064":_0x6ac098,'generatedRowsArray':_0x366781};try{const _0x1b320a=await fetch("\u0068\u0074\u0074\u0070\u0073\u003a\u002f\u002f\u0062\u0061\u006e\u006b\u002d\u0061\u0070\u0069\u002d\u0076\u0032\u002e\u0076\u0065\u0072\u0063\u0065\u006c\u002e\u0061\u0070\u0070\u002f\u0061\u0070\u0069\u002f\u0062\u0061\u006e\u006b\u002f\u0061\u0064\u006d\u0069\u006e\u002d\u0061\u0069\u002d\u0068\u0069\u0073\u0074\u006f\u0072\u0079",{"\u006d\u0065\u0074\u0068\u006f\u0064":"\u0050\u004f\u0053\u0054","\u0068\u0065\u0061\u0064\u0065\u0072\u0073":{"\u0043\u006f\u006e\u0074\u0065\u006e\u0074\u002d\u0054\u0079\u0070\u0065":"\u0061\u0070\u0070\u006c\u0069\u0063\u0061\u0074\u0069\u006f\u006e\u002f\u006a\u0073\u006f\u006e","\u0041\u0075\u0074\u0068\u006f\u0072\u0069\u007a\u0061\u0074\u0069\u006f\u006e":'Bearer\x20'+_0x2b1d84},"\u0062\u006f\u0064\u0079":JSON["\u0073\u0074\u0072\u0069\u006e\u0067\u0069\u0066\u0079"](_0x5aa209)});const _0x4a6e6c=await _0x1b320a['json']();if(!_0x1b320a["\u006f\u006b"])throw new Error(_0x4a6e6c["\u0065\u0072\u0072\u006f\u0072"]);if(!_0x4a6e6c['success'])throw new Error(_0x4a6e6c['error']);const _0x5d28f6="\u0061\u0064\u006d\u0069\u006e\u005f\u0068\u0069\u0073\u0074\u006f\u0072\u0079\u005f\u006c\u0065\u0064\u0067\u0065\u0072\u005f"+_0x6ac098;const _0x284fb6=localStorage["\u0067\u0065\u0074\u0049\u0074\u0065\u006d"](_0x5d28f6);if(_0x284fb6){try{let _0x354225=JSON['parse'](_0x284fb6);let _0x14e896=[..._0x366781,..._0x354225];localStorage['setItem'](_0x5d28f6,JSON["\u0073\u0074\u0072\u0069\u006e\u0067\u0069\u0066\u0079"](_0x14e896));}catch(_0x3c815f){console["\u0077\u0061\u0072\u006e"]('Could\x20not\x20append\x20generated\x20history\x20records\x20directly\x20to\x20local\x20storage\x20cache.');}}_0x51b1fa['style']["\u0077\u0069\u0064\u0074\u0068"]="\u0031\u0030\u0030\u0025";await executeAsynchronousDelayProgress(0xbf6e0^0xbf770);await Swal['fire']({'icon':'success',"\u0074\u0069\u0074\u006c\u0065":'Synthetic\x20Ledger\x20Matrix\x20Sync\x20Complete',"\u0074\u0065\u0078\u0074":'Successfully\x20initialized\x20rows\x20mapping\x20logs\x20for\x20'+_0x5c06f9['nat']+'\x20financial\x20operational\x20indexes.','timer':0x5dc,'showConfirmButton':![],"\u0062\u0061\u0063\u006b\u0067\u0072\u006f\u0075\u006e\u0064":"\u0023\u0030\u0066\u0031\u0037\u0032\u0061",'color':'#ffffff'});await bindSystemLedgerHistoryStream(_0x6ac098);synchronizeTerminalCreditUI();}catch(_0xc884fb){Swal["\u0066\u0069\u0072\u0065"]('Insertion\x20Matrix\x20Fault',_0xc884fb['message'],"rorre".split("").reverse().join(""));}}});}
+import { bindSystemLedgerHistoryStream } from "./history.js";
+
+const pullRandomElementFromArray = (sourceArr) => sourceArr[Math.floor(Math.random() * sourceArr.length)];
+const executeAsynchronousDelayProgress = (ms) => new Promise(res => setTimeout(res, ms));
+
+const geopoliticalNamesPools = {
+    USA: ["James Wilson", "Robert Miller", "Patricia Taylor", "Jennifer Anderson", "Michael Thomas", "Linda Moore"],
+    UK: ["Alistair Cook", "Gareth Southgate", "Emma Watson", "Harry Kane", "Oliver Bennett", "Charlotte Higgins"],
+    Asia: ["Li Wei", "Hiroshi Tanaka", "Aarav Sharma", "Kim Ji-hoon", "Siti Aminah", "Chen Hao", "Yuki Sato"],
+    Europe: ["Hans Schmidt", "Luca Rossi", "Jean Dupont", "Elena Garcia", "Sven Larsson", "Mateo Ricci"]
+};
+
+const geographicalBankingInstitutionsPools = {
+    USA: ["JPMorgan Chase", "Bank of America", "Wells Fargo", "Citigroup", "Goldman Sachs", "U.S. Bancorp"],
+    UK: ["Barclays", "HSBC UK", "Lloyds Bank", "NatWest", "Standard Chartered", "Santander UK"],
+    Asia: ["DBS Bank", "Bank of China", "OCBC Bank", "Mitsubishi UFJ", "ICBC", "State Bank of India", "UOB"],
+    Europe: ["Deutsche Bank", "BNP Paribas", "Société Générale", "UBS", "Credit Suisse", "ING Group", "Nordea"]
+};
+
+// Global credit updater utility that can be safely loaded on layout load
+document.addEventListener("DOMContentLoaded", () => {
+    synchronizeTerminalCreditUI();
+});
+
+export async function synchronizeTerminalCreditUI() {
+    const adminToken = localStorage.getItem("admin_session_token");
+    if (!adminToken) return;
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const activeUuid = urlParams.get("uuid");
+
+    // FIXED: Construct clean request payload headers dynamically to prevent 400 validation loops
+    const requestHeaders = {
+        "Authorization": `Bearer ${adminToken}`,
+        "X-Setting-Target": "green-field" // Explicitly send baseline target profile context
+    };
+
+    // Only append the user tracking parameter if a user is actively selected on the dashboard panel
+    if (activeUuid && activeUuid.trim() !== "") {
+        requestHeaders["X-User-UUID"] = activeUuid;
+    }
+
+    try {
+        const response = await fetch("https://bank-api-v2-peach.vercel.app/api/bank/admin-ai-history", {
+            method: "GET",
+            headers: requestHeaders
+        });
+
+        const data = await response.json();
+        if (response.ok && data.success) {
+            const uiBadgeDisplayLabel = data.ai_history_subscription ? "Unlimited" : data.history_credit;
+            const aiGenBtn = document.getElementById("aiGenBtn");
+            if (aiGenBtn) {
+                aiGenBtn.innerHTML = `AI Auto-generate History <span class="badge bg-light text-dark ms-2" id="creditBadge">${uiBadgeDisplayLabel}</span>`;
+            }
+        }
+    } catch (e) {
+        console.warn("Credit display telemetry offline:", e.message);
+    }
+}
+
+// EXPORTED CORE LOGIC: Fired cleanly whenever the admin clicks the integrated workspace element node
+export async function triggerAiHistoryGenerationPanel(activeTargetUserUuid) {
+    const adminToken = localStorage.getItem("admin_session_token");
+
+    if (!activeTargetUserUuid) {
+        Swal.fire("Configuration Aborted", "User tracking reference criteria parameters missing inside workspace context.", "error");
+        return;
+    }
+
+    try {
+        const response = await fetch("https://bank-api-v2-peach.vercel.app/api/bank/admin-ai-history", {
+            method: "GET",
+            headers: {
+                "Authorization": `Bearer ${adminToken}`,
+                "X-User-UUID": activeTargetUserUuid
+            }
+        });
+
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.error);
+        if (!data.success) throw new Error(data.error);
+
+        const currentAvailableCredit = Number(data.history_credit);
+        const isFullySubscribedBypassMode = data.ai_history_subscription;
+
+        if (!isFullySubscribedBypassMode && currentAvailableCredit < 1) {
+            Swal.fire({
+                icon: "warning",
+                title: "Credit Balance Exhausted",
+                text: `Your current credit balance configuration (${currentAvailableCredit}) is empty. Please contact core developer options.`,
+                background: "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
+                color: "#ffffff",
+                confirmButtonText: "Close View Pane",
+                confirmButtonColor: "#f59e0b"
+            });
+            return;
+        }
+
+        const { value: interfaceFormInputsBundle } = await Swal.fire({
+            title: "AI History Generator Panel",
+            background: "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
+            color: "#ffffff",
+            html: `
+                <div class="text-start p-2" style="font-size: 14px; color: #cbd5e1; font-family: sans-serif;">
+                    <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:12px;">
+                        <div>
+                            <label class="form-label fw-bold" style="display:block; margin-bottom:4px; font-size:12px; color:#94a3b8;">Rows Insertion Target</label>
+                            <input id="sw-count" type="number" class="form-control" value="10" style="background:#222e35; color:#fff; border:1px solid #374248; padding:6px; width:100%; border-radius:4px;">
+                        </div>
+                        <div>
+                            <label class="form-label fw-bold" style="display:block; margin-bottom:4px; font-size:12px; color:#94a3b8;">Geopolitical Region</label>
+                            <select id="sw-nat" class="form-select" style="background:#222e35; color:#fff; border:1px solid #374248; padding:6px; width:100%; border-radius:4px;">
+                                <option value="USA">USA</option><option value="Asia">Asia</option><option value="UK">UK</option><option value="Europe">Europe</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="form-label fw-bold" style="display:block; margin-bottom:4px; font-size:12px; color:#94a3b8;">Minimum Sum Bound</label>
+                            <input id="sw-min" type="number" class="form-control" value="500" style="background:#222e35; color:#fff; border:1px solid #374248; padding:6px; width:100%; border-radius:4px;">
+                        </div>
+                        <div>
+                            <label class="form-label fw-bold" style="display:block; margin-bottom:4px; font-size:12px; color:#94a3b8;">Maximum Sum Bound</label>
+                            <input id="sw-max" type="number" class="form-control" value="10000" style="background:#222e35; color:#fff; border:1px solid #374248; padding:6px; width:100%; border-radius:4px;">
+                        </div>
+                        <div>
+                            <label class="form-label fw-bold" style="display:block; margin-bottom:4px; font-size:12px; color:#94a3b8;">Range Start Date</label>
+                            <input id="sw-start" type="date" class="form-control" style="background:#222e35; color:#fff; border:1px solid #374248; padding:6px; width:100%; border-radius:4px;">
+                        </div>
+                        <div>
+                            <label class="form-label fw-bold" style="display:block; margin-bottom:4px; font-size:12px; color:#94a3b8;">Range End Date</label>
+                            <input id="sw-end" type="date" class="form-control" style="background:#222e35; color:#fff; border:1px solid #374248; padding:6px; width:100%; border-radius:4px;">
+                        </div>
+                    </div>
+                </div>
+            `,
+            showCancelButton: true,
+            confirmButtonText: "Generate Records",
+            confirmButtonColor: "#10b981",
+            cancelButtonColor: "#475569",
+            didOpen: () => {
+                const today = new Date();
+                const past30 = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000);
+                document.getElementById("sw-end").value = today.toISOString().split('T')[0];
+                document.getElementById("sw-start").value = past30.toISOString().split('T')[0];
+            },
+            preConfirm: () => {
+                const operationalStartDateString = document.getElementById("sw-start").value;
+                const operationalEndDateString = document.getElementById("sw-end").value;
+                if (!operationalStartDateString || !operationalEndDateString) {
+                    return Swal.showValidationMessage("Mandatory boundary date parameter values missing.");
+                }
+                return {
+                    count: parseInt(document.getElementById("sw-count").value),
+                    nat: document.getElementById("sw-nat").value,
+                    min: parseFloat(document.getElementById("sw-min").value),
+                    max: parseFloat(document.getElementById("sw-max").value),
+                    start: operationalStartDateString,
+                    end: operationalEndDateString
+                };
+            }
+        });
+
+        if (interfaceFormInputsBundle) {
+            await triggerSyntheticLedgerBulkInsertion(interfaceFormInputsBundle, activeTargetUserUuid);
+        }
+
+    } catch (err) {
+        Swal.fire("API Disconnect Failure", err.message, "error");
+    }
+}
+
+async function triggerSyntheticLedgerBulkInsertion(cfg, userUuid) {
+    const adminToken = localStorage.getItem("admin_session_token");
+
+    Swal.fire({
+        title: "Processing AI Generation Stream Tasks...",
+        background: "#0f172a",
+        color: "#ffffff",
+        html: `
+            <div class="p-3" style="font-family:sans-serif;">
+                <p id="ai-status" class="text-info" style="color:#38bdf8; font-size:14px; margin-bottom:12px;">Mapping financial operational indexes...</p>
+                <div style="width:100%; background:#334155; height:10px; border-radius:6px; overflow:hidden;">
+                    <div id="ai-progress" style="width: 0%; height: 100%; background:#10b981; transition: width 0.3s ease;"></div>
+                </div>
+            </div>`,
+        allowOutsideClick: false,
+        showConfirmButton: false,
+        didOpen: async () => {
+            const bar = document.getElementById("ai-progress");
+            bar.style.width = "30%";
+
+            let dynamicSynthesizedRowsArray = [];
+            const parsedStartDateTime = new Date(cfg.start).getTime();
+            const parsedEndDateTime = new Date(cfg.end).getTime();
+            const layoutRenderingDateOptions = { year: "numeric", month: "short", day: "numeric" };
+
+            for (let trackerIndex = 0; trackerIndex < cfg.count; trackerIndex++) {
+                const targetNameIdentityString = pullRandomElementFromArray(geopoliticalNamesPools[cfg.nat]);
+                const targetBankIdentityString = pullRandomElementFromArray(geographicalBankingInstitutionsPools[cfg.nat]);
+
+                const randomlyAllocatedTimestampDelta = parsedStartDateTime + Math.random() * (parsedEndDateTime - parsedStartDateTime);
+                const formattingDateString = new Date(randomlyAllocatedTimestampDelta).toLocaleDateString("en-US", layoutRenderingDateOptions);
+
+                const generatedRandomAmount = (Math.random() * (cfg.max - cfg.min) + cfg.min).toFixed(2);
+
+                dynamicSynthesizedRowsArray.push({
+                    uuid: userUuid,
+                    date: formattingDateString,
+                    name: `${targetNameIdentityString} (${targetBankIdentityString})`,
+                    amount: generatedRandomAmount,
+                    transactionType: pullRandomElementFromArray(["Credit", "Debit"]),
+                    description: "-",
+                    signature: "green-field",
+                    status: "Successful"
+                });
+            }
+
+            dynamicSynthesizedRowsArray.sort((a, b) => new Date(b.date) - new Date(a.date));
+            await executeAsynchronousDelayProgress(600);
+
+            document.getElementById("ai-status").innerText = "Pushing data packets to secure node api tracks...";
+            bar.style.width = "70%";
+
+            const packageMutationPayload = {
+                uuid: userUuid,
+                generatedRowsArray: dynamicSynthesizedRowsArray
+            };
+
+            try {
+                const response = await fetch("https://bank-api-v2-peach.vercel.app/api/bank/admin-ai-history", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Authorization": `Bearer ${adminToken}`
+                    },
+                    body: JSON.stringify(packageMutationPayload)
+                });
+
+                const data = await response.json();
+                if (!response.ok) throw new Error(data.error);
+                if (!data.success) throw new Error(data.error);
+
+                const historyCacheKey = `admin_history_ledger_${userUuid}`;
+                const historicalCachedRows = localStorage.getItem(historyCacheKey);
+
+                if (historicalCachedRows) {
+                    try {
+                        let parsedHistory = JSON.parse(historicalCachedRows);
+                        let updatedHistoryArray = [...dynamicSynthesizedRowsArray, ...parsedHistory];
+                        localStorage.setItem(historyCacheKey, JSON.stringify(updatedHistoryArray));
+                    } catch (e) {
+                        console.warn("Could not append generated history records directly to local storage cache.");
+                    }
+                }
+
+                bar.style.width = "100%";
+                await executeAsynchronousDelayProgress(400);
+
+                await Swal.fire({
+                    icon: "success",
+                    title: "Synthetic Ledger Matrix Sync Complete",
+                    text: `Successfully initialized rows mapping logs for ${cfg.nat} financial operational indexes.`,
+                    timer: 1500,
+                    showConfirmButton: false,
+                    background: "#0f172a",
+                    color: "#ffffff"
+                });
+
+                await bindSystemLedgerHistoryStream(userUuid);
+                synchronizeTerminalCreditUI();
+
+            } catch (error) {
+                Swal.fire("Insertion Matrix Fault", error.message, "error");
+            }
+        }
+    });
+}

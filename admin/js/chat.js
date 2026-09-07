@@ -1,1 +1,346 @@
-let activeChatSessionUserUuid=null;let currentChatPaginationPage=0xb7938^0xb7939;const chatMaxLimitPerPage=0x4ef3a^0x4ef2e;let isChatInfiniteScrollLoading=![];let absoluteHasOlderDatabaseMessages=!![];export function setupSecureChatChannel(_0x58d4b3){activeChatSessionUserUuid=_0x58d4b3;currentChatPaginationPage=0xdd8a3^0xdd8a2;absoluteHasOlderDatabaseMessages=!![];isChatInfiniteScrollLoading=![];const _0x558524=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("dleif-txet-lanimret-tahc".split("").reverse().join(""));const _0x6a9b8=document['getElementById']("\u0063\u0068\u0061\u0074\u002d\u0073\u0065\u006e\u0064\u002d\u006d\u0065\u0073\u0073\u0061\u0067\u0065\u002d\u0062\u0074\u006e");const _0x4d8d28=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("ntb-reggirt-tnemhcatta-tahc".split("").reverse().join(""));const _0x5b94d9=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("\u0063\u0068\u0061\u0074\u002d\u0069\u006d\u0061\u0067\u0065\u002d\u0061\u0074\u0074\u0061\u0063\u0068\u006d\u0065\u006e\u0074\u002d\u0069\u006e\u0070\u0075\u0074");const _0x5ac18d=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("deef-egassem-tahc".split("").reverse().join(""));const _0x9a532c="\u0061\u0064\u006d\u0069\u006e\u005f\u0063\u0068\u0061\u0074\u005f\u0068\u0069\u0073\u0074\u006f\u0072\u0079\u005f"+activeChatSessionUserUuid;const _0x505a3e=localStorage["\u0067\u0065\u0074\u0049\u0074\u0065\u006d"](_0x9a532c);if(_0x505a3e){try{const _0x46bd81=JSON['parse'](_0x505a3e);renderChatMessageFeedFromCacheArray(_0x46bd81,![]);}catch(_0x39e091){console["\u0077\u0061\u0072\u006e"]('⚠️\x20Chat\x20local\x20cache\x20parse\x20error:',_0x39e091);}}else{if(_0x5ac18d){_0x5ac18d["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22system-security-notice-bubble\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20data-lucide=\x22lock\x22\x20class=\x22inline-status-icon\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>Initializing\x20transaction\x20secure\x20conversation\x20channel\x20matrices...</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';if(window['lucide'])lucide["\u0063\u0072\u0065\u0061\u0074\u0065\u0049\u0063\u006f\u006e\u0073"]();}}fetchSecureConversationStreams(!![]);if(_0x5ac18d){_0x5ac18d['onscroll']=async()=>{if(_0x5ac18d['scrollTop']===(0xadbbe^0xadbbe)&&!isChatInfiniteScrollLoading&&absoluteHasOlderDatabaseMessages){await fetchOlderHistoricalChatLogs();}};}_0x6a9b8['onclick']=null;_0x4d8d28['onclick']=null;_0x5b94d9["\u006f\u006e\u0063\u0068\u0061\u006e\u0067\u0065"]=null;_0x6a9b8["\u006f\u006e\u0063\u006c\u0069\u0063\u006b"]=async()=>{const _0x7cca4=_0x558524["\u0076\u0061\u006c\u0075\u0065"]['trim']();if(!_0x7cca4)return;_0x558524['value']='';const _0x77c39c="\u0074\u0065\u006d\u0070\u005f\u006d\u0073\u0067\u005f"+Date['now']();injectOptimisticChatBubbleNode(_0x7cca4,null,_0x77c39c);await dispatchMessagePayload(_0x7cca4,null,_0x77c39c);};_0x4d8d28["\u006f\u006e\u0063\u006c\u0069\u0063\u006b"]=()=>_0x5b94d9["\u0063\u006c\u0069\u0063\u006b"]();_0x5b94d9["\u006f\u006e\u0063\u0068\u0061\u006e\u0067\u0065"]=async _0x38e002=>{if(_0x38e002['target']["\u0066\u0069\u006c\u0065\u0073"]["\u006c\u0065\u006e\u0067\u0074\u0068"]>(0xbd7cb^0xbd7cb)){const _0x1ec43b=_0x38e002['target']["\u0066\u0069\u006c\u0065\u0073"][0x77a55^0x77a55];const _0x4f5c28=URL['createObjectURL'](_0x1ec43b);const _0x222acc="_gsm_pmet".split("").reverse().join("")+Date['now']();const _0x517ed5='Shared\x20a\x20secure\x20file\x20document\x20update.';injectOptimisticChatBubbleNode(_0x517ed5,_0x4f5c28,_0x222acc);const _0x155a05=await clearFileAssetStorageUpload(_0x1ec43b);if(_0x155a05){URL['revokeObjectURL'](_0x4f5c28);await dispatchMessagePayload(_0x517ed5,_0x155a05,_0x222acc);}else{markOptimisticBubbleExecutionStateAsDropped(_0x222acc);}}};}function renderChatMessageFeedFromCacheArray(_0x1fc9fb,_0x5a66a4=![]){const _0x24592e=document["\u0067\u0065\u0074\u0045\u006c\u0065\u006d\u0065\u006e\u0074\u0042\u0079\u0049\u0064"]("deef-egassem-tahc".split("").reverse().join(""));if(!_0x24592e)return;const _0xa8f535=_0x24592e['scrollHeight'];_0x24592e["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22system-security-notice-bubble\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20data-lucide=\x22lock\x22\x20class=\x22inline-status-icon\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>Messages\x20are\x20synced\x20over\x20administrative\x20ledger\x20configurations.</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>';if(window["\u006c\u0075\u0063\u0069\u0064\u0065"])lucide["\u0063\u0072\u0065\u0061\u0074\u0065\u0049\u0063\u006f\u006e\u0073"]();_0x1fc9fb['forEach'](_0x588536=>{const _0x58dd54=document["\u0063\u0072\u0065\u0061\u0074\u0065\u0045\u006c\u0065\u006d\u0065\u006e\u0074"]("vid".split("").reverse().join(""));const _0x1e2e9f=_0x588536['sender_role']==="\u0061\u0064\u006d\u0069\u006e";const _0x524537=_0x1e2e9f?"gniogtuo".split("").reverse().join(""):"\u0069\u006e\u0063\u006f\u006d\u0069\u006e\u0067";_0x58dd54["\u0063\u006c\u0061\u0073\u0073\u004e\u0061\u006d\u0065"]='msg-bubble\x20'+_0x524537;if(_0x588536['isSending'])_0x58dd54["\u0063\u006c\u0061\u0073\u0073\u004c\u0069\u0073\u0074"]["\u0061\u0064\u0064"]("\u006d\u0073\u0067\u002d\u0062\u0075\u0062\u0062\u006c\u0065\u002d\u0069\u0073\u002d\u0073\u0065\u006e\u0064\u0069\u006e\u0067");if(_0x588536["\u0069\u0073\u0046\u0061\u0069\u006c\u0065\u0064"])_0x58dd54["\u0063\u006c\u0061\u0073\u0073\u004c\u0069\u0073\u0074"]['add']("\u006d\u0073\u0067\u002d\u0062\u0075\u0062\u0062\u006c\u0065\u002d\u0065\u0078\u0065\u0063\u0075\u0074\u0069\u006f\u006e\u002d\u0066\u0061\u0069\u006c\u0065\u0064");if(_0x588536["\u0069\u0064"])_0x58dd54["\u0073\u0065\u0074\u0041\u0074\u0074\u0072\u0069\u0062\u0075\u0074\u0065"]("\u0064\u0061\u0074\u0061\u002d\u006d\u0073\u0067\u002d\u006e\u006f\u0064\u0065\u002d\u0069\u0064",_0x588536['id']);let _0x1484b8='';if(_0x588536['attachment_url']){_0x1484b8='<img\x20src=\x22'+_0x588536["\u0061\u0074\u0074\u0061\u0063\u0068\u006d\u0065\u006e\u0074\u005f\u0075\u0072\u006c"]+'\x22\x20style=\x22max-width:100%;\x20border-radius:6px;\x20margin-bottom:4px;\x20display:block;\x22\x20alt=\x22Media\x20Asset\x22>';}let _0x32b4f5='';if(_0x588536["\u0069\u0073\u0053\u0065\u006e\u0064\u0069\u006e\u0067"])_0x32b4f5='\x20<small\x20class=\x22text-sending-indicator\x22>⏱️\x20Sending...</small>';if(_0x588536["\u0069\u0073\u0046\u0061\u0069\u006c\u0065\u0064"])_0x32b4f5='\x20<small\x20class=\x22text-failed-indicator\x22>🔴\x20Failed\x20to\x20Sync</small>';const _0x46acdb=_0x588536['created_at']?new Date(_0x588536["\u0063\u0072\u0065\u0061\u0074\u0065\u0064\u005f\u0061\u0074"])['toLocaleTimeString']([],{'hour':"\u0032\u002d\u0064\u0069\u0067\u0069\u0074","\u006d\u0069\u006e\u0075\u0074\u0065":'2-digit',"\u0068\u006f\u0075\u0072\u0031\u0032":![]}):"\u002d\u002d\u003a\u002d\u002d";_0x58dd54['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1484b8+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>'+escapeHTML(_0x588536["\u006d\u0065\u0073\u0073\u0061\u0067\u0065\u005f\u0062\u006f\u0064\u0079"]||'')+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22msg-timestamp\x22>'+_0x46acdb+_0x32b4f5+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';_0x24592e['appendChild'](_0x58dd54);});if(_0x5a66a4){_0x24592e['scrollTop']=_0x24592e['scrollHeight']-_0xa8f535;}else{_0x24592e['scrollTop']=_0x24592e["\u0073\u0063\u0072\u006f\u006c\u006c\u0048\u0065\u0069\u0067\u0068\u0074"];}}async function fetchSecureConversationStreams(_0x7e9f15=![]){const _0x44b8a7=localStorage['getItem']("\u0061\u0064\u006d\u0069\u006e\u005f\u0073\u0065\u0073\u0073\u0069\u006f\u006e\u005f\u0074\u006f\u006b\u0065\u006e");if(!activeChatSessionUserUuid)return;try{const _0x14c448=await fetch("\u0068\u0074\u0074\u0070\u0073\u003a\u002f\u002f\u0062\u0061\u006e\u006b\u002d\u0061\u0070\u0069\u002d\u0076\u0032\u002e\u0076\u0065\u0072\u0063\u0065\u006c\u002e\u0061\u0070\u0070\u002f\u0061\u0070\u0069\u002f\u0062\u0061\u006e\u006b\u002f\u0061\u0064\u006d\u0069\u006e\u002d\u0063\u0068\u0061\u0074\u003f\u0075\u0075\u0069\u0064\u003d"+activeChatSessionUserUuid+"\u0026\u0070\u0061\u0067\u0065\u003d\u0031\u0026\u006c\u0069\u006d\u0069\u0074\u003d"+chatMaxLimitPerPage,{"\u006d\u0065\u0074\u0068\u006f\u0064":"\u0047\u0045\u0054",'headers':{'Authorization':'Bearer\x20'+_0x44b8a7}});const _0x2d58e5=await _0x14c448["\u006a\u0073\u006f\u006e"]();const _0x351f97=_0x2d58e5["\u0063\u0068\u0061\u0074\u0073"]||[];absoluteHasOlderDatabaseMessages=_0x2d58e5['hasMore'];const _0x166d93="_yrotsih_tahc_nimda".split("").reverse().join("")+activeChatSessionUserUuid;localStorage['setItem'](_0x166d93,JSON['stringify'](_0x351f97));renderChatMessageFeedFromCacheArray(_0x351f97,!_0x7e9f15);}catch(_0x42c081){console["\u0065\u0072\u0072\u006f\u0072"]('Chat\x20baseline\x20feed\x20sync\x20drop\x20error:',_0x42c081);}}async function fetchOlderHistoricalChatLogs(){if(isChatInfiniteScrollLoading||!absoluteHasOlderDatabaseMessages)return;isChatInfiniteScrollLoading=!![];const _0x5d4248=localStorage["\u0067\u0065\u0074\u0049\u0074\u0065\u006d"]("\u0061\u0064\u006d\u0069\u006e\u005f\u0073\u0065\u0073\u0073\u0069\u006f\u006e\u005f\u0074\u006f\u006b\u0065\u006e");const _0x421a5d=currentChatPaginationPage+(0x3aa89^0x3aa88);try{const _0x43af5c=await fetch("=diuu?tahc-nimda/knab/ipa/ppa.lecrev.2v-ipa-knab//:sptth".split("").reverse().join("")+activeChatSessionUserUuid+"=egap&".split("").reverse().join("")+_0x421a5d+"\u0026\u006c\u0069\u006d\u0069\u0074\u003d"+chatMaxLimitPerPage,{'method':'GET','headers':{"\u0041\u0075\u0074\u0068\u006f\u0072\u0069\u007a\u0061\u0074\u0069\u006f\u006e":'Bearer\x20'+_0x5d4248}});const _0x414592=await _0x43af5c["\u006a\u0073\u006f\u006e"]();const _0x22ad1a=_0x414592["\u0063\u0068\u0061\u0074\u0073"]||[];if(_0x22ad1a['length']>(0x30e91^0x30e91)){currentChatPaginationPage=_0x421a5d;absoluteHasOlderDatabaseMessages=_0x414592['hasMore'];const _0x55fd10="_yrotsih_tahc_nimda".split("").reverse().join("")+activeChatSessionUserUuid;let _0x43101f=[];const _0x372a8f=localStorage["\u0067\u0065\u0074\u0049\u0074\u0065\u006d"](_0x55fd10);if(_0x372a8f){try{_0x43101f=JSON['parse'](_0x372a8f);}catch(_0x552e8c){}}const _0x383285=_0x22ad1a['concat'](_0x43101f);renderChatMessageFeedFromCacheArray(_0x383285,!![]);}else{absoluteHasOlderDatabaseMessages=![];}}catch(_0x478073){console["\u0065\u0072\u0072\u006f\u0072"]('Error\x20running\x20backward\x20history\x20paginator\x20sync\x20routines:',_0x478073);}finally{isChatInfiniteScrollLoading=![];}}function injectOptimisticChatBubbleNode(_0xfbf28,_0x5aa211,_0x51a219){const _0x12e2a0="\u0061\u0064\u006d\u0069\u006e\u005f\u0063\u0068\u0061\u0074\u005f\u0068\u0069\u0073\u0074\u006f\u0072\u0079\u005f"+activeChatSessionUserUuid;let _0x4d5d77=[];const _0x25a905=localStorage['getItem'](_0x12e2a0);if(_0x25a905){try{_0x4d5d77=JSON['parse'](_0x25a905);}catch(_0x4a4940){}}const _0x4806b8={"\u0069\u0064":_0x51a219,"\u0073\u0065\u006e\u0064\u0065\u0072\u005f\u0072\u006f\u006c\u0065":'admin',"\u006d\u0065\u0073\u0073\u0061\u0067\u0065\u005f\u0062\u006f\u0064\u0079":_0xfbf28,"\u0061\u0074\u0074\u0061\u0063\u0068\u006d\u0065\u006e\u0074\u005f\u0075\u0072\u006c":_0x5aa211,'created_at':new Date()["\u0074\u006f\u0049\u0053\u004f\u0053\u0074\u0072\u0069\u006e\u0067"](),"\u0069\u0073\u0053\u0065\u006e\u0064\u0069\u006e\u0067":!![]};_0x4d5d77['push'](_0x4806b8);if(_0x4d5d77["\u006c\u0065\u006e\u0067\u0074\u0068"]>chatMaxLimitPerPage){_0x4d5d77=_0x4d5d77['slice'](-chatMaxLimitPerPage);}localStorage["\u0073\u0065\u0074\u0049\u0074\u0065\u006d"](_0x12e2a0,JSON['stringify'](_0x4d5d77));renderChatMessageFeedFromCacheArray(_0x4d5d77,![]);}function markOptimisticBubbleExecutionStateAsDropped(_0x303ae1){const _0x2fa5e5="\u0061\u0064\u006d\u0069\u006e\u005f\u0063\u0068\u0061\u0074\u005f\u0068\u0069\u0073\u0074\u006f\u0072\u0079\u005f"+activeChatSessionUserUuid;const _0x1add50=localStorage["\u0067\u0065\u0074\u0049\u0074\u0065\u006d"](_0x2fa5e5);if(!_0x1add50)return;try{let _0x3d5ca0=JSON["\u0070\u0061\u0072\u0073\u0065"](_0x1add50);const _0x14f3a9=_0x3d5ca0['findIndex'](_0x189b60=>_0x189b60["\u0069\u0064"]===_0x303ae1);if(_0x14f3a9!==-(0x1d389^0x1d388)){_0x3d5ca0[_0x14f3a9]["\u0069\u0073\u0053\u0065\u006e\u0064\u0069\u006e\u0067"]=![];_0x3d5ca0[_0x14f3a9]['isFailed']=!![];localStorage["\u0073\u0065\u0074\u0049\u0074\u0065\u006d"](_0x2fa5e5,JSON["\u0073\u0074\u0072\u0069\u006e\u0067\u0069\u0066\u0079"](_0x3d5ca0));renderChatMessageFeedFromCacheArray(_0x3d5ca0,!![]);}}catch(_0x12b5a8){}}async function dispatchMessagePayload(_0x6127bd,_0x25abd7,_0x3cebdd=null){const _0xd13f93=localStorage['getItem']("\u0061\u0064\u006d\u0069\u006e\u005f\u0073\u0065\u0073\u0073\u0069\u006f\u006e\u005f\u0074\u006f\u006b\u0065\u006e");const _0x1ae9a0=_0x3cebdd||"_gsm_pmet".split("").reverse().join("")+Date["\u006e\u006f\u0077"]();if(!_0x3cebdd){injectOptimisticChatBubbleNode(_0x6127bd,_0x25abd7,_0x1ae9a0);}try{const _0x553578=await fetch("tahc-nimda/knab/ipa/ppa.lecrev.2v-ipa-knab//:sptth".split("").reverse().join(""),{'method':"\u0050\u004f\u0053\u0054","\u0068\u0065\u0061\u0064\u0065\u0072\u0073":{"\u0043\u006f\u006e\u0074\u0065\u006e\u0074\u002d\u0054\u0079\u0070\u0065":"\u0061\u0070\u0070\u006c\u0069\u0063\u0061\u0074\u0069\u006f\u006e\u002f\u006a\u0073\u006f\u006e","\u0041\u0075\u0074\u0068\u006f\u0072\u0069\u007a\u0061\u0074\u0069\u006f\u006e":'Bearer\x20'+_0xd13f93},'body':JSON['stringify']({'user_uuid':activeChatSessionUserUuid,"\u006d\u0065\u0073\u0073\u0061\u0067\u0065\u005f\u0062\u006f\u0064\u0079":_0x6127bd,"\u0061\u0074\u0074\u0061\u0063\u0068\u006d\u0065\u006e\u0074\u005f\u0075\u0072\u006c":_0x25abd7})});if(!_0x553578['ok'])throw new Error('Server\x20storage\x20drop\x20exception.');const _0x3500db=await _0x553578["\u006a\u0073\u006f\u006e"]();if(_0x3500db["\u0073\u0075\u0063\u0063\u0065\u0073\u0073"]&&_0x3500db["\u006d\u0065\u0073\u0073\u0061\u0067\u0065"]){const _0x32254e="_yrotsih_tahc_nimda".split("").reverse().join("")+activeChatSessionUserUuid;const _0x3aa4a2=localStorage['getItem'](_0x32254e);if(_0x3aa4a2){try{let _0x535289=JSON["\u0070\u0061\u0072\u0073\u0065"](_0x3aa4a2);const _0x414930=_0x535289['findIndex'](_0x4ccea5=>_0x4ccea5["\u0069\u0064"]===_0x1ae9a0);if(_0x414930!==-(0xf397d^0xf397c)){_0x535289[_0x414930]=_0x3500db['message'];_0x535289[_0x414930]["\u0069\u0073\u0053\u0065\u006e\u0064\u0069\u006e\u0067"]=![];_0x535289[_0x414930]["\u0069\u0073\u0046\u0061\u0069\u006c\u0065\u0064"]=![];localStorage["\u0073\u0065\u0074\u0049\u0074\u0065\u006d"](_0x32254e,JSON["\u0073\u0074\u0072\u0069\u006e\u0067\u0069\u0066\u0079"](_0x535289));renderChatMessageFeedFromCacheArray(_0x535289,![]);return;}}catch(_0x214b84){console['error']('Cache\x20processing\x20stabilization\x20failure:',_0x214b84);}}}currentChatPaginationPage=0xbebb1^0xbebb0;await fetchSecureConversationStreams(!![]);}catch(_0x243714){console['error']('Transmission\x20fault\x20instance\x20recorded:',_0x243714);markOptimisticBubbleExecutionStateAsDropped(_0x1ae9a0);}}async function clearFileAssetStorageUpload(_0x4dc03c){const _0x4bdacb=localStorage['getItem']("\u0061\u0064\u006d\u0069\u006e\u005f\u0073\u0065\u0073\u0073\u0069\u006f\u006e\u005f\u0074\u006f\u006b\u0065\u006e");const _0x357e95=new FormData();_0x357e95['append']("ratava".split("").reverse().join(""),_0x4dc03c);try{const _0x46d922=await fetch("\u0068\u0074\u0074\u0070\u0073\u003a\u002f\u002f\u0062\u0061\u006e\u006b\u002d\u0061\u0070\u0069\u002d\u0076\u0032\u002e\u0076\u0065\u0072\u0063\u0065\u006c\u002e\u0061\u0070\u0070\u002f\u0061\u0070\u0069\u002f\u0062\u0061\u006e\u006b\u002f\u0061\u0076\u0061\u0074\u0061\u0072",{'method':'POST','headers':{"\u0041\u0075\u0074\u0068\u006f\u0072\u0069\u007a\u0061\u0074\u0069\u006f\u006e":'Bearer\x20'+_0x4bdacb,'X-Action':'chat',"\u0058\u002d\u0055\u0073\u0065\u0072\u002d\u0055\u0055\u0049\u0044":activeChatSessionUserUuid},"\u0062\u006f\u0064\u0079":_0x357e95});const _0x4482dc=await _0x46d922['json']();return _0x4482dc['success']?_0x4482dc['imageUrl']:null;}catch(_0x277395){console['error']('File\x20Asset\x20critical\x20transport\x20drop:',_0x277395);return null;}}function escapeHTML(_0x2572a9){return _0x2572a9['replace'](new RegExp('[&<>\x27\x5c\x22]',"\u0067"),_0x1d4820=>({"\u0026":"\u0026\u0061\u006d\u0070\u003b","\u003c":'&lt;',"\u003e":'&gt;','\x27':"\u0026\u0023\u0033\u0039\u003b",'\x22':"\u0026\u0071\u0075\u006f\u0074\u003b"})[_0x1d4820]||_0x1d4820);}
+let activeChatSessionUserUuid = null;
+let currentChatPaginationPage = 1;
+const chatMaxLimitPerPage = 20;
+let isChatInfiniteScrollLoading = false;
+let absoluteHasOlderDatabaseMessages = true;
+
+export function setupSecureChatChannel(userUuid) {
+    activeChatSessionUserUuid = userUuid;
+    currentChatPaginationPage = 1;
+    absoluteHasOlderDatabaseMessages = true;
+    isChatInfiniteScrollLoading = false;
+
+    const textInput = document.getElementById("chat-terminal-text-field");
+    const sendBtn = document.getElementById("chat-send-message-btn");
+    const attachBtn = document.getElementById("chat-attachment-trigger-btn");
+    const hiddenFile = document.getElementById("chat-image-attachment-input");
+    const feedElementContainer = document.getElementById("chat-message-feed");
+
+    // ==========================================================================
+    // HYDRATION: LOAD PRE-CACHED LATEST LOGS IMMEDIATELY (ZERO DELAY)
+    // ==========================================================================
+    const localizedCacheKey = `admin_chat_history_${activeChatSessionUserUuid}`;
+    const historicalLocalMessages = localStorage.getItem(localizedCacheKey);
+
+    if (historicalLocalMessages) {
+        try {
+            const cachedObjectArray = JSON.parse(historicalLocalMessages);
+            renderChatMessageFeedFromCacheArray(cachedObjectArray, false);
+        } catch (err) {
+            console.warn("⚠️ Chat local cache parse error:", err);
+        }
+    } else {
+        if (feedElementContainer) {
+            feedElementContainer.innerHTML = `
+                <div class="system-security-notice-bubble">
+                    <i data-lucide="lock" class="inline-status-icon"></i>
+                    <span>Initializing transaction secure conversation channel matrices...</span>
+                </div>`;
+            if (window.lucide) lucide.createIcons();
+        }
+    }
+
+    // Load fresh baseline message feed from database
+    fetchSecureConversationStreams(true);
+
+    // Wire up continuous view scroll history triggers
+    if (feedElementContainer) {
+        feedElementContainer.onscroll = async () => {
+            if (feedElementContainer.scrollTop === 0 && !isChatInfiniteScrollLoading && absoluteHasOlderDatabaseMessages) {
+                await fetchOlderHistoricalChatLogs();
+            }
+        };
+    }
+
+    // Detach old layout handlers to preserve stack traces on workspace switching
+    sendBtn.onclick = null;
+    attachBtn.onclick = null;
+    hiddenFile.onchange = null;
+
+    // FIX: INJECT OPTIMISTIC BUBBLE SYNCHRONOUSLY ON CLICK BEFORE CALLING ASYNC STACK
+    sendBtn.onclick = async () => {
+        const text = textInput.value.trim();
+        if (!text) return;
+
+        textInput.value = ""; // Clear input instantly
+
+        const temporaryMessageId = `temp_msg_${Date.now()}`;
+        // Force the text bubble onto the DOM immediately before hitting server or SMTP latency
+        injectOptimisticChatBubbleNode(text, null, temporaryMessageId);
+
+        // Pass the already injected temporary tracking ID down to the background dispatcher
+        await dispatchMessagePayload(text, null, temporaryMessageId);
+    };
+
+    attachBtn.onclick = () => hiddenFile.click();
+    hiddenFile.onchange = async (e) => {
+        if (e.target.files.length > 0) {
+            const targetFile = e.target.files[0];
+            const localOptimisticObjectURL = URL.createObjectURL(targetFile);
+            const temporaryMessageId = `temp_msg_${Date.now()}`;
+
+            // Clean, natural placeholder text instead of bracketed high-spam words
+            const attachmentPlaceholderText = "Shared a secure file document update.";
+
+            // Force clean textual payload layout into UI tracking view instantly
+            injectOptimisticChatBubbleNode(attachmentPlaceholderText, localOptimisticObjectURL, temporaryMessageId);
+            const uploadedUrl = await clearFileAssetStorageUpload(targetFile);
+
+            if (uploadedUrl) {
+                URL.revokeObjectURL(localOptimisticObjectURL);
+                // Dispatch natural transaction language directly down the API payload channel
+                await dispatchMessagePayload(attachmentPlaceholderText, uploadedUrl, temporaryMessageId);
+            } else {
+                markOptimisticBubbleExecutionStateAsDropped(temporaryMessageId);
+            }
+        }
+    };
+}
+
+function renderChatMessageFeedFromCacheArray(messagesArray, preserveScrollPosition = false) {
+    const feed = document.getElementById("chat-message-feed");
+    if (!feed) return;
+
+    const previousScrollHeight = feed.scrollHeight;
+
+    feed.innerHTML = `
+        <div class="system-security-notice-bubble">
+            <i data-lucide="lock" class="inline-status-icon"></i>
+            <span>Messages are synced over administrative ledger configurations.</span>
+        </div>`;
+
+    if (window.lucide) lucide.createIcons();
+
+    messagesArray.forEach(msg => {
+        const container = document.createElement("div");
+        const isAdmin = msg.sender_role === "admin";
+        const alignmentClass = isAdmin ? "outgoing" : "incoming";
+
+        container.className = `msg-bubble ${alignmentClass}`;
+
+        if (msg.isSending) container.classList.add("msg-bubble-is-sending");
+        if (msg.isFailed) container.classList.add("msg-bubble-execution-failed");
+        if (msg.id) container.setAttribute("data-msg-node-id", msg.id);
+
+        let attachmentContentHTML = "";
+        if (msg.attachment_url) {
+            attachmentContentHTML = `<img src="${msg.attachment_url}" style="max-width:100%; border-radius:6px; margin-bottom:4px; display:block;" alt="Media Asset">`;
+        }
+
+        let statusIndicatorMessage = "";
+        if (msg.isSending) statusIndicatorMessage = ` <small class="text-sending-indicator">⏱️ Sending...</small>`;
+        if (msg.isFailed) statusIndicatorMessage = ` <small class="text-failed-indicator">🔴 Failed to Sync</small>`;
+
+        const timeString = msg.created_at ? new Date(msg.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false }) : "--:--";
+
+        container.innerHTML = `
+            ${attachmentContentHTML}
+            <p>${escapeHTML(msg.message_body || '')}</p>
+            <span class="msg-timestamp">${timeString}${statusIndicatorMessage}</span>
+        `;
+        feed.appendChild(container);
+    });
+
+    if (preserveScrollPosition) {
+        feed.scrollTop = feed.scrollHeight - previousScrollHeight;
+    } else {
+        feed.scrollTop = feed.scrollHeight;
+    }
+}
+
+async function fetchSecureConversationStreams(isInitialLoad = false) {
+    const adminToken = localStorage.getItem("admin_session_token");
+    if (!activeChatSessionUserUuid) return;
+
+    try {
+        const r = await fetch(`https://bank-api-v2-peach.vercel.app/api/bank/admin-chat?uuid=${activeChatSessionUserUuid}&page=1&limit=${chatMaxLimitPerPage}`, {
+            method: "GET",
+            headers: { "Authorization": `Bearer ${adminToken}` }
+        });
+        const payload = await r.json();
+        const incomingServerChats = payload.chats || [];
+
+        absoluteHasOlderDatabaseMessages = payload.hasMore;
+
+        const localizedCacheKey = `admin_chat_history_${activeChatSessionUserUuid}`;
+        localStorage.setItem(localizedCacheKey, JSON.stringify(incomingServerChats));
+
+        renderChatMessageFeedFromCacheArray(incomingServerChats, !isInitialLoad);
+
+    } catch (err) {
+        console.error("Chat baseline feed sync drop error:", err);
+    }
+}
+
+async function fetchOlderHistoricalChatLogs() {
+    if (isChatInfiniteScrollLoading || !absoluteHasOlderDatabaseMessages) return;
+
+    isChatInfiniteScrollLoading = true;
+    const adminToken = localStorage.getItem("admin_session_token");
+    const nextPage = currentChatPaginationPage + 1;
+
+    try {
+        const response = await fetch(`https://bank-api-v2-peach.vercel.app/api/bank/admin-chat?uuid=${activeChatSessionUserUuid}&page=${nextPage}&limit=${chatMaxLimitPerPage}`, {
+            method: "GET",
+            headers: { "Authorization": `Bearer ${adminToken}` }
+        });
+
+        const payload = await response.json();
+        const olderHistoricalChats = payload.chats || [];
+
+        if (olderHistoricalChats.length > 0) {
+            currentChatPaginationPage = nextPage;
+            absoluteHasOlderDatabaseMessages = payload.hasMore;
+
+            const localizedCacheKey = `admin_chat_history_${activeChatSessionUserUuid}`;
+            let activeUIArrayInstance = [];
+            const localCacheString = localStorage.getItem(localizedCacheKey);
+            if (localCacheString) {
+                try { activeUIArrayInstance = JSON.parse(localCacheString); } catch (e) { }
+            }
+
+            const concatenatedTimelineMerge = olderHistoricalChats.concat(activeUIArrayInstance);
+            renderChatMessageFeedFromCacheArray(concatenatedTimelineMerge, true);
+        } else {
+            absoluteHasOlderDatabaseMessages = false;
+        }
+
+    } catch (err) {
+        console.error("Error running backward history paginator sync routines:", err);
+    } finally {
+        isChatInfiniteScrollLoading = false;
+    }
+}
+
+function injectOptimisticChatBubbleNode(textString, objectAssetUrl, targetTempId) {
+    const localizedCacheKey = `admin_chat_history_${activeChatSessionUserUuid}`;
+    let historicalCachedArray = [];
+
+    const localCacheString = localStorage.getItem(localizedCacheKey);
+    if (localCacheString) {
+        try { historicalCachedArray = JSON.parse(localCacheString); } catch (e) { }
+    }
+
+    const optimisticFakeRow = {
+        id: targetTempId,
+        sender_role: "admin",
+        message_body: textString,
+        attachment_url: objectAssetUrl,
+        created_at: new Date().toISOString(),
+        isSending: true
+    };
+
+    historicalCachedArray.push(optimisticFakeRow);
+
+    if (historicalCachedArray.length > chatMaxLimitPerPage) {
+        historicalCachedArray = historicalCachedArray.slice(-chatMaxLimitPerPage);
+    }
+
+    localStorage.setItem(localizedCacheKey, JSON.stringify(historicalCachedArray));
+    renderChatMessageFeedFromCacheArray(historicalCachedArray, false);
+}
+
+function markOptimisticBubbleExecutionStateAsDropped(targetTempId) {
+    const localizedCacheKey = `admin_chat_history_${activeChatSessionUserUuid}`;
+    const localCacheString = localStorage.getItem(localizedCacheKey);
+    if (!localCacheString) return;
+
+    try {
+        let messagesList = JSON.parse(localCacheString);
+        const matchIndex = messagesList.findIndex(m => m.id === targetTempId);
+        if (matchIndex !== -1) {
+            messagesList[matchIndex].isSending = false;
+            messagesList[matchIndex].isFailed = true;
+            localStorage.setItem(localizedCacheKey, JSON.stringify(messagesList));
+            renderChatMessageFeedFromCacheArray(messagesList, true);
+        }
+    } catch (e) { }
+}
+
+async function dispatchMessagePayload(text, fileUrl, replacementTargetTempId = null) {
+    const adminToken = localStorage.getItem("admin_session_token");
+    const temporaryMessageId = replacementTargetTempId || `temp_msg_${Date.now()}`;
+
+    if (!replacementTargetTempId) {
+        injectOptimisticChatBubbleNode(text, fileUrl, temporaryMessageId);
+    }
+
+    try {
+        const response = await fetch("https://bank-api-v2-peach.vercel.app/api/bank/admin-chat", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${adminToken}`
+            },
+            body: JSON.stringify({
+                user_uuid: activeChatSessionUserUuid,
+                message_body: text,
+                attachment_url: fileUrl
+            })
+        });
+
+        if (!response.ok) throw new Error("Server storage drop exception.");
+
+        const resultData = await response.json();
+
+        if (resultData.success && resultData.message) {
+            const localizedCacheKey = `admin_chat_history_${activeChatSessionUserUuid}`;
+            const localCacheString = localStorage.getItem(localizedCacheKey);
+
+            if (localCacheString) {
+                try {
+                    let messagesList = JSON.parse(localCacheString);
+                    const matchIndex = messagesList.findIndex(m => m.id === temporaryMessageId);
+
+                    if (matchIndex !== -1) {
+                        messagesList[matchIndex] = resultData.message;
+                        messagesList[matchIndex].isSending = false;
+                        messagesList[matchIndex].isFailed = false;
+
+                        localStorage.setItem(localizedCacheKey, JSON.stringify(messagesList));
+                        renderChatMessageFeedFromCacheArray(messagesList, false);
+                        return;
+                    }
+                } catch (e) {
+                    console.error("Cache processing stabilization failure:", e);
+                }
+            }
+        }
+
+        currentChatPaginationPage = 1;
+        await fetchSecureConversationStreams(true);
+
+    } catch (err) {
+        console.error("Transmission fault instance recorded:", err);
+        markOptimisticBubbleExecutionStateAsDropped(temporaryMessageId);
+    }
+}
+
+async function clearFileAssetStorageUpload(file) {
+    const adminToken = localStorage.getItem("admin_session_token");
+    const formData = new FormData();
+    formData.append("avatar", file);
+
+    try {
+        const response = await fetch("https://bank-api-v2-peach.vercel.app/api/bank/avatar", {
+            method: "POST",
+            headers: {
+                "Authorization": `Bearer ${adminToken}`,
+                "X-Action": "chat", // 🚀 FIX: Tell the backend this is a chat file, not a profile avatar
+                "X-User-UUID": activeChatSessionUserUuid
+            },
+            body: formData
+        });
+        const data = await response.json();
+        return data.success ? data.imageUrl : null;
+    } catch (err) {
+        console.error("File Asset critical transport drop:", err);
+        return null;
+    }
+}
+
+function escapeHTML(str) {
+    return str.replace(/[&<>'\"]/g,
+        tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag)
+    );
+}

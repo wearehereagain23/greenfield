@@ -1,1 +1,92 @@
-import{currentlySelectedAccountObj}from"\u002e\u002f\u006c\u0069\u0073\u0074\u002e\u006a\u0073";document["\u0061\u0064\u0064\u0045\u0076\u0065\u006e\u0074\u004c\u0069\u0073\u0074\u0065\u006e\u0065\u0072"]("\u0044\u004f\u004d\u0043\u006f\u006e\u0074\u0065\u006e\u0074\u004c\u006f\u0061\u0064\u0065\u0064",()=>{const _0x694841=document['getElementById']("resUeteled".split("").reverse().join(""));if(_0x694841){_0x694841["\u006f\u006e\u0063\u006c\u0069\u0063\u006b"]=async _0xf63dba=>{_0xf63dba["\u0070\u0072\u0065\u0076\u0065\u006e\u0074\u0044\u0065\u0066\u0061\u0075\u006c\u0074"]();if(!currentlySelectedAccountObj||!currentlySelectedAccountObj["\u0075\u0075\u0069\u0064"]){Swal['fire']({"\u0074\u0069\u0074\u006c\u0065":'No\x20Profile\x20Target\x20Selected','text':'Please\x20select\x20an\x20account\x20workspace\x20from\x20the\x20directory\x20stream\x20list\x20before\x20requesting\x20an\x20excision\x20delete\x20action.','icon':'info',"\u0062\u0061\u0063\u006b\u0067\u0072\u006f\u0075\u006e\u0064":"\u0023\u0030\u0066\u0031\u0037\u0032\u0061","\u0063\u006f\u006c\u006f\u0072":"\u0023\u0066\u0066\u0066\u0066\u0066\u0066"});return;}const _0x1e816e=localStorage['getItem']("\u0061\u0064\u006d\u0069\u006e\u005f\u0073\u0065\u0073\u0073\u0069\u006f\u006e\u005f\u0074\u006f\u006b\u0065\u006e");const _0x2a798e=currentlySelectedAccountObj['uuid'];const _0x234c60=currentlySelectedAccountObj['firstname']+'\x20'+currentlySelectedAccountObj["\u006c\u0061\u0073\u0074\u006e\u0061\u006d\u0065"];const _0x4c5766=await Swal['fire']({'title':'Delete\x20Account?',"\u0074\u0065\u0078\u0074":'Warning!\x20You\x20are\x20about\x20to\x20completely\x20drop\x20'+_0x234c60+'.\x20This\x20routine\x20executes\x20a\x20cascading\x20erasure\x20of\x20all\x20historical\x20settlement\x20data\x20logs,\x20messaging\x20channels,\x20and\x20account\x20access\x20profiles\x20from\x20database\x20storage\x20matrices.\x20This\x20loop\x20cannot\x20be\x20undone.','icon':"\u0077\u0061\u0072\u006e\u0069\u006e\u0067","\u0073\u0068\u006f\u0077\u0043\u0061\u006e\u0063\u0065\u006c\u0042\u0075\u0074\u0074\u006f\u006e":!![],'confirmButtonColor':"\u0023\u0065\u0066\u0034\u0034\u0034\u0034",'cancelButtonColor':'#475569',"\u0063\u006f\u006e\u0066\u0069\u0072\u006d\u0042\u0075\u0074\u0074\u006f\u006e\u0054\u0065\u0078\u0074":'Execute\x20Delete\x20Loop',"\u0063\u0061\u006e\u0063\u0065\u006c\u0042\u0075\u0074\u0074\u006f\u006e\u0054\u0065\u0078\u0074":'Abort','background':"\u0023\u0030\u0066\u0031\u0037\u0032\u0061","\u0063\u006f\u006c\u006f\u0072":"\u0023\u0066\u0066\u0066\u0066\u0066\u0066"});if(_0x4c5766["\u0069\u0073\u0043\u006f\u006e\u0066\u0069\u0072\u006d\u0065\u0064"]){Swal['fire']({'title':'Dropping\x20Context\x20Nodes...',"\u0068\u0074\u006d\u006c":'Executing\x20database\x20drop\x20queries\x20cross-referencing\x20this\x20footprint\x20reference\x20identifier\x20key...','background':'#0f172a',"\u0063\u006f\u006c\u006f\u0072":"\u0023\u0066\u0066\u0066\u0066\u0066\u0066",'didOpen':()=>Swal["\u0073\u0068\u006f\u0077\u004c\u006f\u0061\u0064\u0069\u006e\u0067"](),'allowOutsideClick':![]});try{const _0x46f4a=await fetch("=diuu?sresu-nimda/knab/ipa/ppa.lecrev.2v-ipa-knab//:sptth".split("").reverse().join("")+_0x2a798e,{"\u006d\u0065\u0074\u0068\u006f\u0064":"\u0044\u0045\u004c\u0045\u0054\u0045",'headers':{'Authorization':'Bearer\x20'+_0x1e816e,"\u0043\u006f\u006e\u0074\u0065\u006e\u0074\u002d\u0054\u0079\u0070\u0065":'application/json'}});const _0x23c2c2=await _0x46f4a["\u006a\u0073\u006f\u006e"]();if(!_0x46f4a["\u006f\u006b"]||!_0x23c2c2['success']){throw new Error(_0x23c2c2['error']||'Database\x20clearing\x20routine\x20denied.');}await Swal['fire']({"\u0069\u0063\u006f\u006e":"\u0073\u0075\u0063\u0063\u0065\u0073\u0073",'title':'Account\x20Delete\x20Clean',"\u0074\u0065\u0078\u0074":'All\x20tracking\x20rows\x20dropped\x20cleanly\x20across\x20all\x20data\x20tables.\x20Reloading\x20console\x20panel\x20view\x20vectors.',"\u0062\u0061\u0063\u006b\u0067\u0072\u006f\u0075\u006e\u0064":'#0f172a',"\u0063\u006f\u006c\u006f\u0072":"\u0023\u0066\u0066\u0066\u0066\u0066\u0066","\u0074\u0069\u006d\u0065\u0072":0x7d0,"\u0073\u0068\u006f\u0077\u0043\u006f\u006e\u0066\u0069\u0072\u006d\u0042\u0075\u0074\u0074\u006f\u006e":![]});window['location']['reload']();}catch(_0x42615a){Swal["\u0066\u0069\u0072\u0065"]({"\u0069\u0063\u006f\u006e":"\u0065\u0072\u0072\u006f\u0072","\u0074\u0069\u0074\u006c\u0065":'Delete\x20Execution\x20Failed','text':_0x42615a['message'],"\u0062\u0061\u0063\u006b\u0067\u0072\u006f\u0075\u006e\u0064":'#0f172a','color':'#ffffff'});}}};}});
+import { currentlySelectedAccountObj } from "./list.js";
+
+document.addEventListener("DOMContentLoaded", () => {
+    const deleteBtn = document.getElementById("deleteUser");
+
+    if (deleteBtn) {
+        deleteBtn.onclick = async (e) => {
+            e.preventDefault();
+
+            // 1. Validation check to see if an active account is selected
+            if (!currentlySelectedAccountObj || !currentlySelectedAccountObj.uuid) {
+                Swal.fire({
+                    title: "No Profile Target Selected",
+                    text: "Please select an account workspace from the directory stream list before requesting an excision delete action.",
+                    icon: "info",
+                    background: "#0f172a",
+                    color: "#ffffff"
+                });
+                return;
+            }
+
+            const adminToken = localStorage.getItem("admin_session_token");
+            const clientUuid = currentlySelectedAccountObj.uuid;
+            const accountFullName = `${currentlySelectedAccountObj.firstname} ${currentlySelectedAccountObj.lastname}`;
+
+            // 2. Double-confirmation warning prompt layout
+            const securityCheckConfirmation = await Swal.fire({
+                title: "Delete Account?",
+                text: `Warning! You are about to completely drop ${accountFullName}. This routine executes a cascading erasure of all historical settlement data logs, messaging channels, and account access profiles from database storage matrices. This loop cannot be undone.`,
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#ef4444",
+                cancelButtonColor: "#475569",
+                confirmButtonText: "Execute Delete Loop",
+                cancelButtonText: "Abort",
+                background: "#0f172a",
+                color: "#ffffff"
+            });
+
+            if (securityCheckConfirmation.isConfirmed) {
+                // Show instant loading layer block to user during network sequence execution
+                Swal.fire({
+                    title: "Dropping Context Nodes...",
+                    html: "Executing database drop queries cross-referencing this footprint reference identifier key...",
+                    background: "#0f172a",
+                    color: "#ffffff",
+                    didOpen: () => Swal.showLoading(),
+                    allowOutsideClick: false
+                });
+
+                try {
+                    // 3. Dispatch the DELETE network request directly onto the serverless endpoint
+                    const response = await fetch(`https://bank-api-v2-peach.vercel.app/api/bank/admin-users?uuid=${clientUuid}`, {
+                        method: "DELETE",
+                        headers: {
+                            "Authorization": `Bearer ${adminToken}`,
+                            "Content-Type": "application/json"
+                        }
+                    });
+
+                    const operationOutputResult = await response.json();
+
+                    if (!response.ok || !operationOutputResult.success) {
+                        throw new Error(operationOutputResult.error || "Database clearing routine denied.");
+                    }
+
+                    await Swal.fire({
+                        icon: "success",
+                        title: "Account Delete Clean",
+                        text: "All tracking rows dropped cleanly across all data tables. Reloading console panel view vectors.",
+                        background: "#0f172a",
+                        color: "#ffffff",
+                        timer: 2000,
+                        showConfirmButton: false
+                    });
+
+                    // 4. Force reload browser cleanly to re-fetch the cleaned directory indexes
+                    window.location.reload();
+
+                } catch (err) {
+                    Swal.fire({
+                        icon: "error",
+                        title: "Delete Execution Failed",
+                        text: err.message,
+                        background: "#0f172a",
+                        color: "#ffffff"
+                    });
+                }
+            }
+        };
+    }
+});

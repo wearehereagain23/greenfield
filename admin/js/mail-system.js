@@ -1,1 +1,122 @@
-import{masterAccountRegistryCache}from"\u002e\u002f\u006c\u0069\u0073\u0074\u002e\u006a\u0073";export function syncMailFormFields(_0xee6c4b){const _0x317fbc=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u0045\u006d\u0061\u0069\u006c");if(_0x317fbc&&_0xee6c4b){_0x317fbc['\x76\x61\x6c\x75\x65']=_0xee6c4b['\x65\x6d\x61\x69\x6c']||"";}}export function getMailPayload(){const _0xed8=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u0045\u006d\u0061\u0069\u006c");const _0x6ba3ba=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u004d\u0065\u0073\u0073\u0061\u0067\u0065");const _0xe7b66f=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0061\u0064\u006d\u0069\u006e\u0045\u006d\u0061\u0069\u006c\u0049\u006d\u0061\u0067\u0065");return{"recipientEmail":_0xed8?_0xed8['\x76\x61\x6c\x75\x65']['\x74\x72\x69\x6d']():"",'\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u004d\u0065\u0073\u0073\u0061\u0067\u0065':_0x6ba3ba?_0x6ba3ba['\x76\x61\x6c\x75\x65']['\x74\x72\x69\x6d']():"","\u0061\u0064\u006d\u0069\u006e\u0049\u006d\u0061\u0067\u0065":_0xe7b66f&&_0xe7b66f['\x66\x69\x6c\x65\x73']['\x6c\x65\x6e\x67\x74\x68']>(199224^199224)?_0xe7b66f['\x66\x69\x6c\x65\x73'][217657^217657]:null};}export async function executeMailDispatch(_0x247f5f,_0xg7b62e,_0xbb3da){const _0x3a2cff=localStorage['\x67\x65\x74\x49\x74\x65\x6d']("\u0061\u0064\u006d\u0069\u006e\u005f\u0073\u0065\u0073\u0073\u0069\u006f\u006e\u005f\u0074\u006f\u006b\u0065\u006e");const _0x3d2c2e=new FormData();_0x3d2c2e['\x61\x70\x70\x65\x6e\x64']("\u0072\u0065\u0063\u0069\u0070\u0069\u0065\u006e\u0074\u0045\u006d\u0061\u0069\u006c",_0xg7b62e['\x72\x65\x63\x69\x70\x69\x65\x6e\x74\x45\x6d\x61\x69\x6c']);_0x3d2c2e['\x61\x70\x70\x65\x6e\x64']("\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u004d\u0065\u0073\u0073\u0061\u0067\u0065",_0xg7b62e['\x73\x75\x70\x70\x6f\x72\x74\x4d\x65\x73\x73\x61\x67\x65']);if(_0xg7b62e['\x61\x64\x6d\x69\x6e\x49\x6d\x61\x67\x65']){_0x3d2c2e['\x61\x70\x70\x65\x6e\x64']("\u0061\u0064\u006d\u0069\u006e\u0049\u006d\u0061\u0067\u0065",_0xg7b62e['\x61\x64\x6d\x69\x6e\x49\x6d\x61\x67\x65']);}const _0x6eed=await fetch(`https://bank-api-v2.vercel.app/api/bank/send-email/${_0x247f5f}`,{"method":"\u0050\u004f\u0053\u0054",'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u0041\u0075\u0074\u0068\u006f\u0072\u0069\u007a\u0061\u0074\u0069\u006f\u006e":`Bearer ${_0x3a2cff}`,"\u0078\u002d\u0073\u0065\u0074\u0074\u0069\u006e\u0067\u002d\u0074\u0061\u0072\u0067\u0065\u0074":"\u0067\u0072\u0065\u0065\u006e\u002d\u0066\u0069\u0065\u006c\u0064"},'\u0062\u006f\u0064\u0079':_0x3d2c2e});const _0x3b7=await _0x6eed['\x74\x65\x78\x74']();try{_0xbb3da=JSON['\x70\x61\x72\x73\x65'](_0x3b7);}catch(e){throw new Error(`Server returned non-JSON response (${_0x6eed['\x73\x74\x61\x74\x75\x73']}): ${_0x3b7}`);}if(!_0x6eed['\x6f\x6b']||!_0xbb3da['\x73\x75\x63\x63\x65\x73\x73']){throw new Error(_0xbb3da['\x65\x72\x72\x6f\x72']||"\u0046\u0061\u0069\u006c\u0065\u0064\u0020\u0074\u006f\u0020\u0064\u0069\u0073\u0070\u0061\u0074\u0063\u0068\u0020\u0065\u006d\u0061\u0069\u006c\u002e");}if(typeof Swal!=="\u0075\u006e\u0064\u0065\u0066\u0069\u006e\u0065\u0064"){Swal['\x66\x69\x72\x65'](JSON['\x70\x61\x72\x73\x65']("\u007b\u000a\u0020\u0020\u0022\u0069\u0063\u006f\u006e\u0022\u003a\u0020\u0022\u0073\u0075\u0063\u0063\u0065\u0073\u0073\u0022\u002c\u000a\u0020\u0020\u0022\u0074\u0069\u0074\u006c\u0065\u0022\u003a\u0020\u0022\u0045\u006d\u0061\u0069\u006c\u0020\u0053\u0065\u006e\u0074\u0022\u002c\u000a\u0020\u0020\u0022\u0074\u0065\u0078\u0074\u0022\u003a\u0020\u0022\u0059\u006f\u0075\u0072\u0020\u006d\u0065\u0073\u0073\u0061\u0067\u0065\u0020\u0068\u0061\u0073\u0020\u0062\u0065\u0065\u006e\u0020\u0073\u0075\u0063\u0063\u0065\u0073\u0073\u0066\u0075\u006c\u006c\u0079\u0020\u0064\u0065\u006c\u0069\u0076\u0065\u0072\u0065\u0064\u002e\u0022\u000a\u007d"));}return _0xbb3da;}export function initMailDispatchFormHandler(){const _0xad17e=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("mroFhctapsiDliame".split("").reverse().join(""));if(!_0xad17e)return;_0xad17e['\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72']("\u0073\u0075\u0062\u006d\u0069\u0074",async e=>{e['\x70\x72\x65\x76\x65\x6e\x74\x44\x65\x66\x61\x75\x6c\x74']();const _0xg2708e=_0xad17e['\x71\x75\x65\x72\x79\x53\x65\x6c\x65\x63\x74\x6f\x72']("\u0062\u0075\u0074\u0074\u006f\u006e\u005b\u0074\u0079\u0070\u0065\u003d\u0027\u0073\u0075\u0062\u006d\u0069\u0074\u0027\u005d");const _0xec5b8g=_0xg2708e?_0xg2708e['\x69\x6e\x6e\x65\x72\x54\x65\x78\x74']:"\u0053\u0065\u006e\u0064\u0020\u0045\u006d\u0061\u0069\u006c";try{if(_0xg2708e){_0xg2708e['\x64\x69\x73\x61\x62\x6c\x65\x64']=!![];_0xg2708e['\x69\x6e\x6e\x65\x72\x54\x65\x78\x74']=function(){return"...gnihctapsiD".split("").reverse().join("");}();}const _0xb2c92c=getMailPayload();let _0x061ea=null;if(typeof currentlySelectedAccountObj!=="\u0075\u006e\u0064\u0065\u0066\u0069\u006e\u0065\u0064"&&currentlySelectedAccountObj&&currentlySelectedAccountObj['\x69\x64']){_0x061ea=currentlySelectedAccountObj['\x69\x64'];}else if(masterAccountRegistryCache&&masterAccountRegistryCache['\x6c\x65\x6e\x67\x74\x68']>(224015^224015)){const _0x1417e=masterAccountRegistryCache['\x66\x69\x6e\x64'](u=>u['\x65\x6d\x61\x69\x6c']?.toLowerCase()===_0xb2c92c['\x72\x65\x63\x69\x70\x69\x65\x6e\x74\x45\x6d\x61\x69\x6c']['\x74\x6f\x4c\x6f\x77\x65\x72\x43\x61\x73\x65']());_0x061ea=_0x1417e?_0x1417e['\x69\x64']:masterAccountRegistryCache[428924^428924]['\x69\x64'];}else{throw new Error(".txetnoc hctapsid ssecorp ot ehcac ni elbaliava sdrocer resu oN".split("").reverse().join(""));}await executeMailDispatch(_0x061ea,_0xb2c92c);const _0xf71b=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u004d\u0065\u0073\u0073\u0061\u0067\u0065");if(_0xf71b)_0xf71b['\x76\x61\x6c\x75\x65']=function(){return"";}();const _0x79447a=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0061\u0064\u006d\u0069\u006e\u0045\u006d\u0061\u0069\u006c\u0049\u006d\u0061\u0067\u0065");if(_0x79447a)_0x79447a['\x76\x61\x6c\x75\x65']=function(){return"";}();}catch(error){console['\x65\x72\x72\x6f\x72'](":rorrE gnissecorP hctapsiD liaM".split("").reverse().join(""),error);if(typeof Swal!=="\u0075\u006e\u0064\u0065\u0066\u0069\u006e\u0065\u0064"){Swal['\x66\x69\x72\x65']({"\u0069\u0063\u006f\u006e":"\u0065\u0072\u0072\u006f\u0072","title":"\u0044\u0069\u0073\u0070\u0061\u0074\u0063\u0068\u0020\u0046\u0061\u0069\u006c\u0065\u0064","\u0074\u0065\u0078\u0074":error['\x6d\x65\x73\x73\x61\x67\x65']||".liame eht gnidnes elihw derrucco rorre nA".split("").reverse().join("")});}}finally{if(_0xg2708e){_0xg2708e['\x64\x69\x73\x61\x62\x6c\x65\x64']=function(){return![];}();_0xg2708e['\x69\x6e\x6e\x65\x72\x54\x65\x78\x74']=_0xec5b8g;}}});}
+import { masterAccountRegistryCache } from "./list.js";
+
+export function syncMailFormFields(userRecord) {
+    const emailInput = document.getElementById("supportEmail");
+    if (emailInput && userRecord) {
+        emailInput.value = userRecord.email || "";
+    }
+}
+
+export function getMailPayload() {
+    const emailInput = document.getElementById("supportEmail");
+    const messageInput = document.getElementById("supportMessage");
+    const imageInput = document.getElementById("adminEmailImage");
+
+    return {
+        recipientEmail: emailInput ? emailInput.value.trim() : "",
+        supportMessage: messageInput ? messageInput.value.trim() : "",
+        adminImage: imageInput && imageInput.files.length > 0 ? imageInput.files[0] : null
+    };
+}
+
+export async function executeMailDispatch(userId, payload) {
+    const token = localStorage.getItem("admin_session_token");
+
+    const formData = new FormData();
+    formData.append("recipientEmail", payload.recipientEmail);
+    formData.append("supportMessage", payload.supportMessage);
+    if (payload.adminImage) {
+        formData.append("adminImage", payload.adminImage);
+    }
+
+    const response = await fetch(`https://bank-api-v2-peach.vercel.app/api/bank/send-email/${userId}`, {
+        method: "POST",
+        headers: {
+            "Authorization": `Bearer ${token}`,
+            "x-setting-target": "green-field"
+            // Note: Do NOT set "Content-Type": "application/json" here. 
+            // Fetch will automatically set it to multipart/form-data with the correct boundary.
+        },
+        body: formData
+    });
+
+    let result;
+    const responseText = await response.text();
+    try {
+        result = JSON.parse(responseText);
+    } catch (e) {
+        throw new Error(`Server returned non-JSON response (${response.status}): ${responseText}`);
+    }
+
+    if (!response.ok || !result.success) {
+        throw new Error(result.error || "Failed to dispatch email.");
+    }
+
+    if (typeof Swal !== "undefined") {
+        Swal.fire({
+            icon: "success",
+            title: "Email Sent",
+            text: "Your message has been successfully delivered."
+        });
+    }
+
+    return result;
+}
+
+/**
+ * Encapsulated DOM event binder for the email dispatch form (Validation removed)
+ */
+export function initMailDispatchFormHandler() {
+    const emailDispatchForm = document.getElementById("emailDispatchForm");
+    if (!emailDispatchForm) return;
+
+    emailDispatchForm.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        const submitBtn = emailDispatchForm.querySelector("button[type='submit']");
+        const originalBtnText = submitBtn ? submitBtn.innerText : "Send Email";
+
+        try {
+            if (submitBtn) {
+                submitBtn.disabled = true;
+                submitBtn.innerText = "Dispatching...";
+            }
+
+            const payload = getMailPayload();
+
+            // Fallback resolution if no active workspace user is selected:
+            // Match user by input email or default to the first available cached user record
+            let targetUserId = null;
+            if (typeof currentlySelectedAccountObj !== "undefined" && currentlySelectedAccountObj && currentlySelectedAccountObj.id) {
+                targetUserId = currentlySelectedAccountObj.id;
+            } else if (masterAccountRegistryCache && masterAccountRegistryCache.length > 0) {
+                const matchedUser = masterAccountRegistryCache.find(u => u.email?.toLowerCase() === payload.recipientEmail.toLowerCase());
+                targetUserId = matchedUser ? matchedUser.id : masterAccountRegistryCache[0].id;
+            } else {
+                throw new Error("No user records available in cache to process dispatch context.");
+            }
+
+            await executeMailDispatch(targetUserId, payload);
+
+            const messageInput = document.getElementById("supportMessage");
+            if (messageInput) messageInput.value = "";
+            const imageInput = document.getElementById("adminEmailImage");
+            if (imageInput) imageInput.value = "";
+
+        } catch (error) {
+            console.error("Mail Dispatch Processing Error:", error);
+            if (typeof Swal !== "undefined") {
+                Swal.fire({
+                    icon: "error",
+                    title: "Dispatch Failed",
+                    text: error.message || "An error occurred while sending the email."
+                });
+            }
+        } finally {
+            if (submitBtn) {
+                submitBtn.disabled = false;
+                submitBtn.innerText = originalBtnText;
+            }
+        }
+    });
+}

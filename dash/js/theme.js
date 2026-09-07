@@ -1,1 +1,38 @@
-(function(){try{const _0x2d34b=localStorage['\x67\x65\x74\x49\x74\x65\x6d']("\u0047\u0072\u0065\u0065\u006e\u002d\u0046\u0069\u0065\u006c\u0064\u002d\u0075\u0069\u002d\u0074\u0068\u0065\u006d\u0065")||localStorage['\x67\x65\x74\x49\x74\x65\x6d']("\u0067\u005f\u006c\u0069\u0074\u0065\u005f\u0074\u0068\u0065\u006d\u0065")||"\u0064\u0061\u0072\u006b";document['\x64\x6f\x63\x75\x6d\x65\x6e\x74\x45\x6c\x65\x6d\x65\x6e\x74']['\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65']("\u0064\u0061\u0074\u0061\u002d\u0074\u0068\u0065\u006d\u0065",_0x2d34b);}catch(e){document['\x64\x6f\x63\x75\x6d\x65\x6e\x74\x45\x6c\x65\x6d\x65\x6e\x74']['\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65']("emeht-atad".split("").reverse().join(""),"\u0064\u0061\u0072\u006b");}})();document['\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72']("\u0044\u004f\u004d\u0043\u006f\u006e\u0074\u0065\u006e\u0074\u004c\u006f\u0061\u0064\u0065\u0064",()=>{const themeToggleElement=document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0074\u0068\u0065\u006d\u0065\u002d\u0074\u006f\u0067\u0067\u006c\u0065");if(themeToggleElement){themeToggleElement['\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72']("\u0063\u006c\u0069\u0063\u006b",function(_0x29c28e){_0x29c28e['\x70\x72\x65\x76\x65\x6e\x74\x44\x65\x66\x61\x75\x6c\x74']();_0x29c28e['\x73\x74\x6f\x70\x50\x72\x6f\x70\x61\x67\x61\x74\x69\x6f\x6e']();const _0x280c7d=document['\x64\x6f\x63\x75\x6d\x65\x6e\x74\x45\x6c\x65\x6d\x65\x6e\x74'];const _0x6fb=_0x280c7d['\x67\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65']("\u0064\u0061\u0074\u0061\u002d\u0074\u0068\u0065\u006d\u0065")||"\u0064\u0061\u0072\u006b";const _0xa7d=_0x6fb==="krad".split("").reverse().join("")?"\u006c\u0069\u0067\u0068\u0074":"\u0064\u0061\u0072\u006b";_0x280c7d['\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65']("\u0064\u0061\u0074\u0061\u002d\u0074\u0068\u0065\u006d\u0065",_0xa7d);localStorage['\x73\x65\x74\x49\x74\x65\x6d']("\u0047\u0072\u0065\u0065\u006e\u002d\u0046\u0069\u0065\u006c\u0064\u002d\u0075\u0069\u002d\u0074\u0068\u0065\u006d\u0065",_0xa7d);localStorage['\x73\x65\x74\x49\x74\x65\x6d']("\u0067\u005f\u006c\u0069\u0074\u0065\u005f\u0074\u0068\u0065\u006d\u0065",_0xa7d);});}});
+// ==========================================================================
+// UNIFIED ENGINE THEME CONTROL SYSTEM (theme.js)
+// ==========================================================================
+
+// 1. RUNS IMMEDIATELY: Applies theme on raw page load before layout rendering finishes
+(function () {
+    try {
+        // Unify storage lookup keys to resolve cross-file validation conflicts
+        const savedTheme = localStorage.getItem("Green-field-ui-theme") || localStorage.getItem("g_lite_theme") || "dark";
+        document.documentElement.setAttribute("data-theme", savedTheme);
+    } catch (e) {
+        document.documentElement.setAttribute("data-theme", "dark");
+    }
+})();
+
+// 2. DOM CONTENT DRIVER: Standardized singular binding engine matrix
+document.addEventListener("DOMContentLoaded", () => {
+    const themeToggleElement = document.getElementById("theme-toggle");
+
+    if (themeToggleElement) {
+        themeToggleElement.addEventListener("click", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            const rootElement = document.documentElement;
+            const currentActiveMode = rootElement.getAttribute("data-theme") || "dark";
+            const calculatedNextMode = currentActiveMode === "dark" ? "light" : "dark";
+
+            // Update DOM configuration maps
+            rootElement.setAttribute("data-theme", calculatedNextMode);
+
+            // Set both naming style metrics properties to prevent cross-file sync drops
+            localStorage.setItem("Green-field-ui-theme", calculatedNextMode);
+            localStorage.setItem("g_lite_theme", calculatedNextMode);
+
+        });
+    }
+});
