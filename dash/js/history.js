@@ -1,5 +1,5 @@
 /**
- * Green-field - CORE LIVE INTERACTIVE TRANSACTION HISTORY MANAGER
+ * Green-Field - CORE LIVE INTERACTIVE TRANSACTION HISTORY MANAGER
  * Dual Engine Output Generation (Desktop Data Table Matrix + Mobile Touch Responsive Cards Vector)
  * Added: Precise Database Status Parsing + Next/Previous Client-Side Pagination Engines
  */
@@ -160,9 +160,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         records.forEach(record => {
             const rawAmountValue = parseFloat(record.amount || "0");
-            const isDebit = rawAmountValue < 0;
+
+            // 🛠️ FIXED TRANSACTION DIRECTION ENGINE: Reads transactionType explicitly or checks negative sign
+            const rawTxType = String(record.transactionType || record.type || '').toLowerCase().trim();
+            const isDebit = rawAmountValue < 0 || rawTxType === 'debit';
+
             const amountClass = isDebit ? 'negative' : 'positive';
-            const signSymbol = !isDebit ? '+' : '';
+            const signSymbol = isDebit ? '-' : '+';
 
             const formattedReferenceId = record.is_optimistic ? `TXN-PENDING` : `TXN-000${record.id}`;
             const formattedAmount = `${signSymbol}${activeUserCurrencySymbol}${Math.abs(rawAmountValue).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
@@ -172,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let calculatedStatus = 'success';
             if (record.status) {
                 const standardizedDbStatus = String(record.status).toLowerCase().trim();
-                if (standardizedDbStatus === 'failed' || standardizedDbStatus === 'failed') calculatedStatus = 'failed';
+                if (standardizedDbStatus === 'failed') calculatedStatus = 'failed';
                 else if (standardizedDbStatus === 'pending' || standardizedDbStatus === 'waiting') calculatedStatus = 'pending';
             }
 
@@ -286,9 +290,13 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!record) return;
 
         const rawAmountValue = parseFloat(record.amount || "0");
-        const isDebit = rawAmountValue < 0;
+
+        // 🛠️ FIXED TRANSACTION DIRECTION ENGINE FOR MODAL RECEIPT
+        const rawTxType = String(record.transactionType || record.type || '').toLowerCase().trim();
+        const isDebit = rawAmountValue < 0 || rawTxType === 'debit';
+
         const amountClass = isDebit ? 'receipt-val negative' : 'receipt-val positive';
-        const signSymbol = !isDebit ? '+' : '';
+        const signSymbol = isDebit ? '-' : '+';
         const formattedAmount = `${signSymbol}${activeUserCurrencySymbol}${Math.abs(rawAmountValue).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 
         const formattedReferenceId = record.is_optimistic ? `TXN-PENDING` : `TXN-000${record.id}`;
@@ -307,7 +315,7 @@ document.addEventListener('DOMContentLoaded', () => {
             html: `
                 <div class="receipt-capture-zone" id="exportable-receipt-node">
                     <div class="receipt-brand-header">
-                        <h4>Green-field BANKING</h4>
+                        <h4>Green-Field BANKING</h4>
                         <p>Official Transaction Record</p>
                     </div>
                     <div class="receipt-grid-rows">
@@ -362,7 +370,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `,
             showConfirmButton: false,
-            customClass: { popup: 'Green-field-swal-modal-container' },
+            customClass: { popup: 'Green-Field-swal-modal-container' },
             didOpen: () => {
                 if (window.lucide) lucide.createIcons();
                 document.getElementById('swal-close-btn').addEventListener('click', () => Swal.close());
@@ -388,7 +396,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const imageURL = canvas.toDataURL('image/png');
             const hiddenDownloadAnchor = document.createElement('a');
             hiddenDownloadAnchor.href = imageURL;
-            hiddenDownloadAnchor.download = `Green-field-RECEIPT-${referenceID}.png`;
+            hiddenDownloadAnchor.download = `Green-Field-RECEIPT-${referenceID}.png`;
             document.body.appendChild(hiddenDownloadAnchor);
             hiddenDownloadAnchor.click();
             document.body.removeChild(hiddenDownloadAnchor);
